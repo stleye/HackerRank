@@ -1,0 +1,118 @@
+# Xcode
+.DS_Store
+xcuserdata/
+
+# Swift
+.build/
+
+# CocoaPods
+Pods/
+*.lock
+DerivedData/
+
+# Carthage
+Carthage/Checkouts
+Carthage/Build
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+Package.pins
+
+# IDE files
+*.swp
+*~.nib
+*.xcodeproj/xcuserdata/
+
+# User-specific files
+*.xcuserdatad/
+
+# App icons
+*.appiconset/
+
+# Compiled source
+*.dylib
+*.so
+*.dll
+*.exe
+
+# Generated files
+*.o
+*.pyc
+*.swp
+*.class
+
+# Archive files
+*.zip
+*.gz
+*.tar
+
+# Localizations
+*.lproj/
+
+# Logs and databases
+*.log
+*.sqlite
+*.coredata
+*.xccheckout
+
+# Obj-C/Swift specific
+*.hmap
+*.swiftmodule
+*.xcframework
+
+# AppCode
+.idea/
+*.iml
+
+# Code coverage
+*.xcresult/
+*.xccovarchive/
+*.xccovreport/
+
+# Pods generated files and Xcode configuration
+Pods/
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# Xcode
+xcuserdata/
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+.build/
+DerivedData/
+
+# CocoaPods
+Pods/
+*.xcworkspace/
+*.xcuserdatad/
+
+# Carthage
+Carthage/Checkouts
+Carthage/Build
+
+# Xcode breakpoints
+*.xcuserstate
