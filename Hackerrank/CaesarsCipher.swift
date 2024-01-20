@@ -28,22 +28,11 @@ struct CaesarsCipher {
             c = Character(c.lowercased())
         }
         let alphabet = "abcdefghijklmnopqrstuvwxyz"
-        if let firstIndex = alphabet.firstIndex(of: c) {
-            let index = alphabet.distance(from: alphabet.startIndex, to: firstIndex)
+        if let index = alphabet.firstIndex(of: c) {
             let newIndex = (index + k) % 26
-
             return isUppercase ? Character(alphabet[newIndex].uppercased()) : alphabet[newIndex]
         }
         return c
-    }
-
-}
-
-extension String {
-    
-    subscript(index: Int) -> Character {
-        let charIndex = self.index(startIndex, offsetBy: index)
-        return self[charIndex]
     }
 
 }
