@@ -1,3 +1,5 @@
+#https://www.hackerrank.com/challenges/zig-zag-sequence/problem
+
 def findZigZagSequence(a, n):
     a.sort()
     mid = int((n + 1)/2)-1
