@@ -7,16 +7,94 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8F281070-AF31-43AF-AE5D-5E68428C37DE"
+            uuid = "89CED589-7095-45BE-ABE2-9C258AB00820"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Hackerrank/PalindromeIndex.swift"
+            filePath = "Hackerrank/GridChallenge.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "solve()"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "gridChallenge(grid:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "89CED589-7095-45BE-ABE2-9C258AB00820 - 6e04754c5d8b531e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackerrank.GridChallenge.gridChallenge(grid: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  moduleName = "Hackerrank"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastian/Developer/Learning/Hackerrank/Hackerrank/GridChallenge.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1772">
+               </Location>
+               <Location
+                  uuid = "89CED589-7095-45BE-ABE2-9C258AB00820 - 6e04754c5d8b54fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackerrank.GridChallenge.gridChallenge(grid: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  moduleName = "Hackerrank"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastian/Developer/Learning/Hackerrank/Hackerrank/GridChallenge.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1856">
+               </Location>
+               <Location
+                  uuid = "89CED589-7095-45BE-ABE2-9C258AB00820 - 6e04754c5d8b54fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackerrank.GridChallenge.gridChallenge(grid: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  moduleName = "Hackerrank"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastian/Developer/Learning/Hackerrank/Hackerrank/GridChallenge.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1876">
+               </Location>
+               <Location
+                  uuid = "89CED589-7095-45BE-ABE2-9C258AB00820 - 6e04754c5d8b54fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackerrank.GridChallenge.gridChallenge(grid: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  moduleName = "Hackerrank"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastian/Developer/Learning/Hackerrank/Hackerrank/GridChallenge.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1888">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "741F54A2-86F6-4CA5-A178-4FFCD8DAE8C9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackerrank/GridChallenge.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "gridChallenge(grid:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
