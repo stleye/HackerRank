@@ -7,6 +7,8 @@
 
 import Foundation
 
+//https://www.hackerrank.com/challenges/grid-challenge/problem
+
 struct GridChallenge {
     
     func solve() {
