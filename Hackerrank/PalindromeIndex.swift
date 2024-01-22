@@ -7,6 +7,8 @@
 
 import Foundation
 
+//https://www.hackerrank.com/challenges/palindrome-index/problem
+
 struct PalindromeIndex {
     
     func solve() {
