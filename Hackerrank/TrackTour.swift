@@ -7,10 +7,13 @@
 
 import Foundation
 
+//https://www.hackerrank.com/challenges/truck-tour/problem
+
 struct TrackTour {
     
     func solve() {
         print(truckTour(petrolpumps: [[1, 5], [10, 3], [3, 4]]))
+        [1, 2, 3, 4].reduce(0, +)
     }
 
     func truckTour(petrolpumps: [[Int]]) -> Int {
