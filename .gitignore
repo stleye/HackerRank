@@ -1,6 +1,11 @@
 # Xcode
 .DS_Store
 xcuserdata/
+*.xcbkptlist
+*.xcuserdatad
+xcuserdata
+UserInterfaceState.xcuserstate
+project.xcworkspace/xcuserdata/sebastian.xcuserdatad/UserInterfaceState.xcuserstate
 
 # Swift
 .build/
