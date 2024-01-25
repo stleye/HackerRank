@@ -20,6 +20,7 @@
 		9E64B50D2B5C22EF004A062A /* TowerBreakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64B50C2B5C22EF004A062A /* TowerBreakers.swift */; };
 		9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64B50E2B5C7063004A062A /* PalindromeIndex.swift */; };
 		9E663BF02B62F2F300B9ACC5 /* GradingStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E663BEF2B62F2F300B9ACC5 /* GradingStudents.swift */; };
+		9E663BF22B6302F300B9ACC5 /* DynamicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E663BF12B6302F300B9ACC5 /* DynamicArray.swift */; };
 		9E7890832B61A08B001F9FD6 /* TrackTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7890822B61A08B001F9FD6 /* TrackTour.swift */; };
 		9E7890852B61A925001F9FD6 /* AVeryBigSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7890842B61A925001F9FD6 /* AVeryBigSum.swift */; };
 		9E7890872B61AA64001F9FD6 /* CompareTheTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7890862B61AA64001F9FD6 /* CompareTheTriplets.swift */; };
@@ -48,6 +49,7 @@
 		9E64B50C2B5C22EF004A062A /* TowerBreakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerBreakers.swift; sourceTree = "<group>"; };
 		9E64B50E2B5C7063004A062A /* PalindromeIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeIndex.swift; sourceTree = "<group>"; };
 		9E663BEF2B62F2F300B9ACC5 /* GradingStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradingStudents.swift; sourceTree = "<group>"; };
+		9E663BF12B6302F300B9ACC5 /* DynamicArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicArray.swift; sourceTree = "<group>"; };
 		9E7890822B61A08B001F9FD6 /* TrackTour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTour.swift; sourceTree = "<group>"; };
 		9E7890842B61A925001F9FD6 /* AVeryBigSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVeryBigSum.swift; sourceTree = "<group>"; };
 		9E7890862B61AA64001F9FD6 /* CompareTheTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareTheTriplets.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				9E7890842B61A925001F9FD6 /* AVeryBigSum.swift */,
 				9E7890862B61AA64001F9FD6 /* CompareTheTriplets.swift */,
 				9E10050E2B5980120001F776 /* ViewController.swift */,
+				9E663BF12B6302F300B9ACC5 /* DynamicArray.swift */,
 				9E10051E2B59804D0001F776 /* FlippingTheMatrix.swift */,
 				9E1005202B59C0A70001F776 /* CaesarsCipher.swift */,
 				9E1005902B5BE4F20001F776 /* String+Extension.swift */,
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E663BF22B6302F300B9ACC5 /* DynamicArray.swift in Sources */,
 				9E7890872B61AA64001F9FD6 /* CompareTheTriplets.swift in Sources */,
 				9E10050F2B5980120001F776 /* ViewController.swift in Sources */,
 				9E64B50D2B5C22EF004A062A /* TowerBreakers.swift in Sources */,

@@ -10,11 +10,11 @@ import Foundation
 //https://www.hackerrank.com/challenges/grading/problem
 
 struct GradingStudents {
-    
+
     func solve() {
         print(gradingStudents(grades: [73, 67, 38, 33]))
     }
-    
+
     func gradingStudents(grades: [Int]) -> [Int] {
         var result: [Int] = []
         for grade in grades {
