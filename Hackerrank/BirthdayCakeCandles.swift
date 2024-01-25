@@ -7,6 +7,8 @@
 
 import Foundation
 
+//https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+
 struct BirthdayCakeCandles {
     
     func solve() {
