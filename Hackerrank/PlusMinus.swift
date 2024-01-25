@@ -17,7 +17,7 @@ struct PlusMinus {
         var positives = 0.0
         var negatives = 0.0
         var zeros = 0.0
-        var n = Double(arr.count)
+        let n = Double(arr.count)
         
         for elem in arr {
             if elem > 0 {

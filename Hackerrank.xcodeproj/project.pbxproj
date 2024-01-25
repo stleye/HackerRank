@@ -23,6 +23,7 @@
 		9E7890852B61A925001F9FD6 /* AVeryBigSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7890842B61A925001F9FD6 /* AVeryBigSum.swift */; };
 		9E7890872B61AA64001F9FD6 /* CompareTheTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7890862B61AA64001F9FD6 /* CompareTheTriplets.swift */; };
 		9E7890892B61AB52001F9FD6 /* PlusMinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7890882B61AB52001F9FD6 /* PlusMinus.swift */; };
+		9E78908B2B61EA8C001F9FD6 /* Staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78908A2B61EA8C001F9FD6 /* Staircase.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
 		9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		9E7890842B61A925001F9FD6 /* AVeryBigSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVeryBigSum.swift; sourceTree = "<group>"; };
 		9E7890862B61AA64001F9FD6 /* CompareTheTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareTheTriplets.swift; sourceTree = "<group>"; };
 		9E7890882B61AB52001F9FD6 /* PlusMinus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusMinus.swift; sourceTree = "<group>"; };
+		9E78908A2B61EA8C001F9FD6 /* Staircase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staircase.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
 		9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDigitSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 				9E309CF22B602F7A00527807 /* NewYearChaos.swift */,
 				9E7890822B61A08B001F9FD6 /* TrackTour.swift */,
 				9E7890882B61AB52001F9FD6 /* PlusMinus.swift */,
+				9E78908A2B61EA8C001F9FD6 /* Staircase.swift */,
 				9E7890842B61A925001F9FD6 /* AVeryBigSum.swift */,
 				9E7890862B61AA64001F9FD6 /* CompareTheTriplets.swift */,
 				9E10050E2B5980120001F776 /* ViewController.swift */,
@@ -183,6 +186,7 @@
 				9E7890852B61A925001F9FD6 /* AVeryBigSum.swift in Sources */,
 				9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */,
 				9E309CF32B602F7A00527807 /* NewYearChaos.swift in Sources */,
+				9E78908B2B61EA8C001F9FD6 /* Staircase.swift in Sources */,
 				9E1005212B59C0A70001F776 /* CaesarsCipher.swift in Sources */,
 				9E10051F2B59804D0001F776 /* FlippingTheMatrix.swift in Sources */,
 				9E10050B2B5980120001F776 /* AppDelegate.swift in Sources */,
