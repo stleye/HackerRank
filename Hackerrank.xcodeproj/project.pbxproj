@@ -26,6 +26,7 @@
 		9E78908B2B61EA8C001F9FD6 /* Staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78908A2B61EA8C001F9FD6 /* Staircase.swift */; };
 		9E78908D2B61EC7C001F9FD6 /* MiniMaxSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78908C2B61EC7C001F9FD6 /* MiniMaxSum.swift */; };
 		9E78908F2B61EDCD001F9FD6 /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78908E2B61EDCD001F9FD6 /* TimeConversion.swift */; };
+		9E7890912B61EE57001F9FD6 /* BirthdayCakeCandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7890902B61EE57001F9FD6 /* BirthdayCakeCandles.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
 		9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		9E78908A2B61EA8C001F9FD6 /* Staircase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staircase.swift; sourceTree = "<group>"; };
 		9E78908C2B61EC7C001F9FD6 /* MiniMaxSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMaxSum.swift; sourceTree = "<group>"; };
 		9E78908E2B61EDCD001F9FD6 /* TimeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
+		9E7890902B61EE57001F9FD6 /* BirthdayCakeCandles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCakeCandles.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
 		9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDigitSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 				9E7890882B61AB52001F9FD6 /* PlusMinus.swift */,
 				9E78908C2B61EC7C001F9FD6 /* MiniMaxSum.swift */,
 				9E78908E2B61EDCD001F9FD6 /* TimeConversion.swift */,
+				9E7890902B61EE57001F9FD6 /* BirthdayCakeCandles.swift */,
 				9E78908A2B61EA8C001F9FD6 /* Staircase.swift */,
 				9E7890842B61A925001F9FD6 /* AVeryBigSum.swift */,
 				9E7890862B61AA64001F9FD6 /* CompareTheTriplets.swift */,
@@ -194,6 +197,7 @@
 				9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */,
 				9E309CF32B602F7A00527807 /* NewYearChaos.swift in Sources */,
 				9E78908B2B61EA8C001F9FD6 /* Staircase.swift in Sources */,
+				9E7890912B61EE57001F9FD6 /* BirthdayCakeCandles.swift in Sources */,
 				9E1005212B59C0A70001F776 /* CaesarsCipher.swift in Sources */,
 				9E10051F2B59804D0001F776 /* FlippingTheMatrix.swift in Sources */,
 				9E10050B2B5980120001F776 /* AppDelegate.swift in Sources */,
