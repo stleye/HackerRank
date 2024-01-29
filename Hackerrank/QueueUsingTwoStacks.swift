@@ -12,20 +12,12 @@ struct QueueUsingTwoStacks {
 
     func solve() {
         var q = Queue<Int>()
-        q.enqueue(42)
-        q.dequeue()
-        q.enqueue(14)
-        print(q.front()!)
-        q.enqueue(28)
-        print(q.front()!)
-        q.enqueue(60)
-        q.enqueue(78)
-        q.dequeue()
-        q.dequeue()
+        q.enqueue(1)
+        print(q.front())
     }
 
 //HackerRank does not provide a parser in this case so I have to implemented myself
-    
+
 //let stdout = ProcessInfo.processInfo.environment["OUTPUT_PATH"]!
 //FileManager.default.createFile(atPath: stdout, contents: nil, attributes: nil)
 //let fileHandle = FileHandle(forWritingAtPath: stdout)!
@@ -58,42 +50,45 @@ struct QueueUsingTwoStacks {
 struct Queue<T> {
     var stack1 = Stack<T>()
     var stack2 = Stack<T>()
-    
+
     mutating func enqueue(_ t: T) {
+        moveAllToFirstStack()
         stack1.push(t)
     }
-    
+
+    @discardableResult
     mutating func dequeue() -> T? {
-        self.moveAllToSecondStack()
-        var res = stack2.pop()
-        self.moveAllToFirstStack()
-        return res
+        moveAllToSecondStack()
+        return stack2.pop()
     }
 
     mutating func front() -> T? {
-        self.moveAllToSecondStack()
-        var res = stack2.front()
-        self.moveAllToFirstStack()
-        return res
+        moveAllToSecondStack()
+        return stack2.front()
+    }
+
+    mutating private func moveAllToFirstStack() {
+        while stack2.isNotEmpty {
+            stack1.push(stack2.pop()!)
+        }
     }
 
     mutating private func moveAllToSecondStack() {
-        while !stack1.isEmpty {
+        while stack1.isNotEmpty {
             stack2.push(stack1.pop()!)
         }
     }
 
-    mutating private func moveAllToFirstStack() {
-        while !stack2.isEmpty {
-            stack1.push(stack2.pop()!)
-        }
-    }
 
 }
 
 struct Stack<T> {
 
     private var elements: [T] = []
+    
+    var count: Int {
+        elements.count
+    }
 
     mutating func push(_ t: T) {
         elements.append(t)
@@ -109,6 +104,10 @@ struct Stack<T> {
 
     var isEmpty: Bool {
         return elements.isEmpty
+    }
+
+    var isNotEmpty: Bool {
+        return !self.isEmpty
     }
 
 }
