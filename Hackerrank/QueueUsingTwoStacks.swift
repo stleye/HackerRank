@@ -12,7 +12,21 @@ struct QueueUsingTwoStacks {
 
     func solve() {
         var q = Queue<Int>()
+
         q.enqueue(1)
+        q.enqueue(2)
+        q.enqueue(3)
+        q.enqueue(4)
+        q.enqueue(5)
+
+        print(q.dequeue())
+        print(q.dequeue())
+        print(q.dequeue())
+
+        q.enqueue(6)
+        q.enqueue(7)
+        q.enqueue(8)
+
         print(q.front())
     }
 
@@ -52,7 +66,6 @@ struct Queue<T> {
     var stack2 = Stack<T>()
 
     mutating func enqueue(_ t: T) {
-        moveAllToFirstStack()
         stack1.push(t)
     }
 
@@ -67,15 +80,11 @@ struct Queue<T> {
         return stack2.front()
     }
 
-    mutating private func moveAllToFirstStack() {
-        while stack2.isNotEmpty {
-            stack1.push(stack2.pop()!)
-        }
-    }
-
     mutating private func moveAllToSecondStack() {
-        while stack1.isNotEmpty {
-            stack2.push(stack1.pop()!)
+        if stack2.count == 0 {
+            while stack1.isNotEmpty {
+                stack2.push(stack1.pop()!)
+            }
         }
     }
 
@@ -111,3 +120,4 @@ struct Stack<T> {
     }
 
 }
+
