@@ -16,6 +16,7 @@
 		9E10051F2B59804D0001F776 /* FlippingTheMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10051E2B59804D0001F776 /* FlippingTheMatrix.swift */; };
 		9E1005212B59C0A70001F776 /* CaesarsCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1005202B59C0A70001F776 /* CaesarsCipher.swift */; };
 		9E1005912B5BE4F20001F776 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1005902B5BE4F20001F776 /* String+Extension.swift */; };
+		9E2B7D812B688C89005C84C7 /* AppleAndOrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2B7D802B688C89005C84C7 /* AppleAndOrange.swift */; };
 		9E309CF32B602F7A00527807 /* NewYearChaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E309CF22B602F7A00527807 /* NewYearChaos.swift */; };
 		9E64B50D2B5C22EF004A062A /* TowerBreakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64B50C2B5C22EF004A062A /* TowerBreakers.swift */; };
 		9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64B50E2B5C7063004A062A /* PalindromeIndex.swift */; };
@@ -49,6 +50,7 @@
 		9E10051E2B59804D0001F776 /* FlippingTheMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippingTheMatrix.swift; sourceTree = "<group>"; };
 		9E1005202B59C0A70001F776 /* CaesarsCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarsCipher.swift; sourceTree = "<group>"; };
 		9E1005902B5BE4F20001F776 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		9E2B7D802B688C89005C84C7 /* AppleAndOrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAndOrange.swift; sourceTree = "<group>"; };
 		9E309CF22B602F7A00527807 /* NewYearChaos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearChaos.swift; sourceTree = "<group>"; };
 		9E64B50C2B5C22EF004A062A /* TowerBreakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerBreakers.swift; sourceTree = "<group>"; };
 		9E64B50E2B5C7063004A062A /* PalindromeIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeIndex.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				9E663BF12B6302F300B9ACC5 /* DynamicArray.swift */,
 				9E663BF32B632A3400B9ACC5 /* LeftRotation.swift */,
 				9E663BF52B64188100B9ACC5 /* QueueUsingTwoStacks.swift */,
+				9E2B7D802B688C89005C84C7 /* AppleAndOrange.swift */,
 				9E663BF92B648FB300B9ACC5 /* BreakingRecords.swift */,
 				9E10051E2B59804D0001F776 /* FlippingTheMatrix.swift */,
 				9E1005202B59C0A70001F776 /* CaesarsCipher.swift */,
@@ -226,6 +229,7 @@
 				9E663BF62B64188100B9ACC5 /* QueueUsingTwoStacks.swift in Sources */,
 				9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */,
 				9E10050D2B5980120001F776 /* SceneDelegate.swift in Sources */,
+				9E2B7D812B688C89005C84C7 /* AppleAndOrange.swift in Sources */,
 				9E78908D2B61EC7C001F9FD6 /* MiniMaxSum.swift in Sources */,
 				9E7890832B61A08B001F9FD6 /* TrackTour.swift in Sources */,
 				9E7890892B61AB52001F9FD6 /* PlusMinus.swift in Sources */,
