@@ -18,6 +18,7 @@
 		9E1005912B5BE4F20001F776 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1005902B5BE4F20001F776 /* String+Extension.swift */; };
 		9E2B7D812B688C89005C84C7 /* AppleAndOrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2B7D802B688C89005C84C7 /* AppleAndOrange.swift */; };
 		9E2B7D832B691DCB005C84C7 /* ElectronicsShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2B7D822B691DCB005C84C7 /* ElectronicsShop.swift */; };
+		9E2B7D8B2B692028005C84C7 /* HackerrankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2B7D8A2B692028005C84C7 /* HackerrankTests.swift */; };
 		9E309CF32B602F7A00527807 /* NewYearChaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E309CF22B602F7A00527807 /* NewYearChaos.swift */; };
 		9E64B50D2B5C22EF004A062A /* TowerBreakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64B50C2B5C22EF004A062A /* TowerBreakers.swift */; };
 		9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64B50E2B5C7063004A062A /* PalindromeIndex.swift */; };
@@ -34,10 +35,21 @@
 		9E78908D2B61EC7C001F9FD6 /* MiniMaxSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78908C2B61EC7C001F9FD6 /* MiniMaxSum.swift */; };
 		9E78908F2B61EDCD001F9FD6 /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78908E2B61EDCD001F9FD6 /* TimeConversion.swift */; };
 		9E7890912B61EE57001F9FD6 /* BirthdayCakeCandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7890902B61EE57001F9FD6 /* BirthdayCakeCandles.swift */; };
+		9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
 		9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E2B7D8C2B692028005C84C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E1004FF2B5980120001F776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E1005062B5980120001F776;
+			remoteInfo = Hackerrank;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9E1005072B5980120001F776 /* Hackerrank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackerrank.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +65,8 @@
 		9E1005902B5BE4F20001F776 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		9E2B7D802B688C89005C84C7 /* AppleAndOrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAndOrange.swift; sourceTree = "<group>"; };
 		9E2B7D822B691DCB005C84C7 /* ElectronicsShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsShop.swift; sourceTree = "<group>"; };
+		9E2B7D882B692028005C84C7 /* HackerrankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerrankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2B7D8A2B692028005C84C7 /* HackerrankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerrankTests.swift; sourceTree = "<group>"; };
 		9E309CF22B602F7A00527807 /* NewYearChaos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearChaos.swift; sourceTree = "<group>"; };
 		9E64B50C2B5C22EF004A062A /* TowerBreakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerBreakers.swift; sourceTree = "<group>"; };
 		9E64B50E2B5C7063004A062A /* PalindromeIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeIndex.swift; sourceTree = "<group>"; };
@@ -69,6 +83,7 @@
 		9E78908C2B61EC7C001F9FD6 /* MiniMaxSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMaxSum.swift; sourceTree = "<group>"; };
 		9E78908E2B61EDCD001F9FD6 /* TimeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
 		9E7890902B61EE57001F9FD6 /* BirthdayCakeCandles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCakeCandles.swift; sourceTree = "<group>"; };
+		9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
 		9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDigitSum.swift; sourceTree = "<group>"; };
@@ -82,6 +97,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E2B7D852B692028005C84C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				9E1005092B5980120001F776 /* Hackerrank */,
+				9E2B7D892B692028005C84C7 /* HackerrankTests */,
 				9E1005082B5980120001F776 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				9E1005072B5980120001F776 /* Hackerrank.app */,
+				9E2B7D882B692028005C84C7 /* HackerrankTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */,
+				9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */,
 				9E10050A2B5980120001F776 /* AppDelegate.swift */,
 				9E10050C2B5980120001F776 /* SceneDelegate.swift */,
 				9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */,
@@ -139,6 +164,14 @@
 			path = Hackerrank;
 			sourceTree = "<group>";
 		};
+		9E2B7D892B692028005C84C7 /* HackerrankTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E2B7D8A2B692028005C84C7 /* HackerrankTests.swift */,
+			);
+			path = HackerrankTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,6 +192,24 @@
 			productReference = 9E1005072B5980120001F776 /* Hackerrank.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9E2B7D872B692028005C84C7 /* HackerrankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2B7D8E2B692028005C84C7 /* Build configuration list for PBXNativeTarget "HackerrankTests" */;
+			buildPhases = (
+				9E2B7D842B692028005C84C7 /* Sources */,
+				9E2B7D852B692028005C84C7 /* Frameworks */,
+				9E2B7D862B692028005C84C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E2B7D8D2B692028005C84C7 /* PBXTargetDependency */,
+			);
+			name = HackerrankTests;
+			productName = HackerrankTests;
+			productReference = 9E2B7D882B692028005C84C7 /* HackerrankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -171,6 +222,10 @@
 				TargetAttributes = {
 					9E1005062B5980120001F776 = {
 						CreatedOnToolsVersion = 15.2;
+					};
+					9E2B7D872B692028005C84C7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 9E1005062B5980120001F776;
 					};
 				};
 			};
@@ -188,6 +243,7 @@
 			projectRoot = "";
 			targets = (
 				9E1005062B5980120001F776 /* Hackerrank */,
+				9E2B7D872B692028005C84C7 /* HackerrankTests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,6 +256,13 @@
 				9E1005172B5980130001F776 /* LaunchScreen.storyboard in Resources */,
 				9E1005142B5980130001F776 /* Assets.xcassets in Resources */,
 				9E1005122B5980120001F776 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2B7D862B692028005C84C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,13 +297,30 @@
 				9E10050D2B5980120001F776 /* SceneDelegate.swift in Sources */,
 				9E2B7D812B688C89005C84C7 /* AppleAndOrange.swift in Sources */,
 				9E78908D2B61EC7C001F9FD6 /* MiniMaxSum.swift in Sources */,
+				9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */,
 				9E7890832B61A08B001F9FD6 /* TrackTour.swift in Sources */,
 				9E7890892B61AB52001F9FD6 /* PlusMinus.swift in Sources */,
 				9E2B7D832B691DCB005C84C7 /* ElectronicsShop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E2B7D842B692028005C84C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2B7D8B2B692028005C84C7 /* HackerrankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E2B7D8D2B692028005C84C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E1005062B5980120001F776 /* Hackerrank */;
+			targetProxy = 9E2B7D8C2B692028005C84C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9E1005102B5980120001F776 /* Main.storyboard */ = {
@@ -437,6 +517,42 @@
 			};
 			name = Release;
 		};
+		9E2B7D8F2B692028005C84C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3AS2PM2F4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.humileants.HackerrankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hackerrank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hackerrank";
+			};
+			name = Debug;
+		};
+		9E2B7D902B692028005C84C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3AS2PM2F4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.humileants.HackerrankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hackerrank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hackerrank";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -454,6 +570,15 @@
 			buildConfigurations = (
 				9E10051C2B5980130001F776 /* Debug */,
 				9E10051D2B5980130001F776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2B7D8E2B692028005C84C7 /* Build configuration list for PBXNativeTarget "HackerrankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2B7D8F2B692028005C84C7 /* Debug */,
+				9E2B7D902B692028005C84C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
