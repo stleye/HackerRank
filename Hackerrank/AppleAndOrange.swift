@@ -7,6 +7,8 @@
 
 import Foundation
 
+//https://www.hackerrank.com/challenges/apple-and-orange/problem
+
 struct AppleAndOrange {
     
     func solve() {

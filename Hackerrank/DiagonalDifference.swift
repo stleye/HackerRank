@@ -7,6 +7,8 @@
 
 import Foundation
 
+//https://www.hackerrank.com/challenges/diagonal-difference/problem
+
 struct DiagonalDifference {
     
     func solve() {

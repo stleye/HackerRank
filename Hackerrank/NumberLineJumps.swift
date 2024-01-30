@@ -7,6 +7,8 @@
 
 import Foundation
 
+//https://www.hackerrank.com/challenges/kangaroo/problem
+
 struct NumberLineJumps {
     
     func solve() {

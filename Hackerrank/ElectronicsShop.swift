@@ -7,6 +7,8 @@
 
 import Foundation
 
+//https://www.hackerrank.com/challenges/electronics-shop/problem
+
 struct ElectronicsShop {
 
     func solve() {
