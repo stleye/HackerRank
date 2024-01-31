@@ -40,6 +40,8 @@
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
 		9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */; };
+		9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */; };
+		9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C632B6AB33400B69E9E /* Array+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
 		9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDigitSum.swift; sourceTree = "<group>"; };
+		9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
+		9EE31C632B6AB33400B69E9E /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 		9E1005092B5980120001F776 /* Hackerrank */ = {
 			isa = PBXGroup;
 			children = (
+				9EE31C622B6AB31D00B69E9E /* Extensions */,
 				9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */,
 				9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */,
 				9E10050A2B5980120001F776 /* AppDelegate.swift */,
@@ -154,11 +159,11 @@
 				9E663BF92B648FB300B9ACC5 /* BreakingRecords.swift */,
 				9E10051E2B59804D0001F776 /* FlippingTheMatrix.swift */,
 				9E1005202B59C0A70001F776 /* CaesarsCipher.swift */,
-				9E1005902B5BE4F20001F776 /* String+Extension.swift */,
 				9E64B50C2B5C22EF004A062A /* TowerBreakers.swift */,
 				9E64B50E2B5C7063004A062A /* PalindromeIndex.swift */,
 				9E663BEF2B62F2F300B9ACC5 /* GradingStudents.swift */,
 				9E772DC42B69743A00074446 /* MinimumAbsoluteDifference.swift */,
+				9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */,
 				9E1005102B5980120001F776 /* Main.storyboard */,
 				9E1005132B5980130001F776 /* Assets.xcassets */,
 				9E1005152B5980130001F776 /* LaunchScreen.storyboard */,
@@ -173,6 +178,15 @@
 				9E2B7D8A2B692028005C84C7 /* HackerrankTests.swift */,
 			);
 			path = HackerrankTests;
+			sourceTree = "<group>";
+		};
+		9EE31C622B6AB31D00B69E9E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9E1005902B5BE4F20001F776 /* String+Extension.swift */,
+				9EE31C632B6AB33400B69E9E /* Array+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +299,7 @@
 				9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */,
 				9E663BF42B632A3400B9ACC5 /* LeftRotation.swift in Sources */,
 				9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */,
+				9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */,
 				9E78908F2B61EDCD001F9FD6 /* TimeConversion.swift in Sources */,
 				9E7890852B61A925001F9FD6 /* AVeryBigSum.swift in Sources */,
 				9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */,
@@ -302,6 +317,7 @@
 				9E78908D2B61EC7C001F9FD6 /* MiniMaxSum.swift in Sources */,
 				9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */,
 				9E772DC52B69743A00074446 /* MinimumAbsoluteDifference.swift in Sources */,
+				9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */,
 				9E7890832B61A08B001F9FD6 /* TrackTour.swift in Sources */,
 				9E7890892B61AB52001F9FD6 /* PlusMinus.swift in Sources */,
 				9E2B7D832B691DCB005C84C7 /* ElectronicsShop.swift in Sources */,
