@@ -52,5 +52,18 @@ final class HackerrankTests: XCTestCase {
         result = numberLineJumps.kangaroo(x1: 0, v1: 2, x2: 5, v2: 3)
         XCTAssertEqual(result, "NO")
     }
+    
+    func testBetweenTwoSets() {
+        let betweenToSets = BetweenTwoSets()
+        
+        var result = betweenToSets.getTotalX(a: [2], b: [1])
+        XCTAssertEqual(result, 0)
+        
+        result = betweenToSets.getTotalX(a: [1], b: [2])
+        XCTAssertEqual(result, 2)
+        
+        result = betweenToSets.getTotalX(a: [2, 4], b: [16, 32, 96])
+        XCTAssertEqual(result, 3)
+    }
 
 }

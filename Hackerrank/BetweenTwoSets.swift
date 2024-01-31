@@ -12,7 +12,7 @@ import Foundation
 struct BetweenTwoSets {
     
     func solve() {
-        getTotalX(a: [2], b: [1])
+        print(getTotalX(a: [2], b: [1]))
     }
     
     func getTotalX(a: [Int], b: [Int]) -> Int {
