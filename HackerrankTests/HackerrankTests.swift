@@ -65,5 +65,18 @@ final class HackerrankTests: XCTestCase {
         result = betweenToSets.getTotalX(a: [2, 4], b: [16, 32, 96])
         XCTAssertEqual(result, 3)
     }
+    
+    func testSubarrayDivision() {
+        let subarrayDivision = SubarrayDivision()
+        
+        var result = subarrayDivision.birthday(s: [2, 2, 1, 3, 2], d: 4, m: 2)
+        XCTAssertEqual(result, 2)
+        
+        result = subarrayDivision.birthday(s: [1, 1, 1, 1, 1, 1], d: 3, m: 2)
+        XCTAssertEqual(result, 0)
+        
+        result = subarrayDivision.birthday(s: [4], d: 4, m: 1)
+        XCTAssertEqual(result, 1)
+    }
 
 }
