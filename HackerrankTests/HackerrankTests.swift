@@ -78,5 +78,27 @@ final class HackerrankTests: XCTestCase {
         result = subarrayDivision.birthday(s: [4], d: 4, m: 1)
         XCTAssertEqual(result, 1)
     }
+    
+    func testBalancedBrackets() {
+        let balancedBrackets = BalancedBrackets()
+        
+        var result = balancedBrackets.isBalanced(s: "{{[[(())]]}}")
+        XCTAssertEqual(result, "YES")
+        
+        result = balancedBrackets.isBalanced(s: "[(])")
+        XCTAssertEqual(result, "NO")
+        
+        result = balancedBrackets.isBalanced(s: "{}")
+        XCTAssertEqual(result, "YES")
+        
+        result = balancedBrackets.isBalanced(s: "{}()()()[]")
+        XCTAssertEqual(result, "YES")
+        
+        result = balancedBrackets.isBalanced(s: "{[()]}")
+        XCTAssertEqual(result, "YES")
+        
+        result = balancedBrackets.isBalanced(s: "{")
+        XCTAssertEqual(result, "NO")
+    }
 
 }

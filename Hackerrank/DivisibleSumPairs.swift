@@ -8,11 +8,11 @@
 import Foundation
 
 struct DivisibleSumPairs {
-    
+
     func solve() {
         print(divisibleSumPairs(n: 6, k: 5, ar: [1, 2, 3, 4, 5, 6]))
     }
-    
+
     func divisibleSumPairs(n: Int, k: Int, ar: [Int]) -> Int {
         var res = 0
         for i in 0..<n-1 {
@@ -24,5 +24,5 @@ struct DivisibleSumPairs {
         }
         return res
     }
-    
+
 }

@@ -42,6 +42,8 @@
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
 		9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */; };
+		9EE0CECF2B6D52C000D27AFA /* BalancedBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CECE2B6D52C000D27AFA /* BalancedBrackets.swift */; };
+		9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CED22B6D542900D27AFA /* Stack.swift */; };
 		9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */; };
 		9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C632B6AB33400B69E9E /* Array+Extension.swift */; };
 /* End PBXBuildFile section */
@@ -95,6 +97,8 @@
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
 		9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDigitSum.swift; sourceTree = "<group>"; };
+		9EE0CECE2B6D52C000D27AFA /* BalancedBrackets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBrackets.swift; sourceTree = "<group>"; };
+		9EE0CED22B6D542900D27AFA /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		9EE31C632B6AB33400B69E9E /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,6 +153,7 @@
 				9E7890822B61A08B001F9FD6 /* TrackTour.swift */,
 				9E7890882B61AB52001F9FD6 /* PlusMinus.swift */,
 				9E78908C2B61EC7C001F9FD6 /* MiniMaxSum.swift */,
+				9EE0CECE2B6D52C000D27AFA /* BalancedBrackets.swift */,
 				9E78908E2B61EDCD001F9FD6 /* TimeConversion.swift */,
 				9E7890902B61EE57001F9FD6 /* BirthdayCakeCandles.swift */,
 				9E78908A2B61EA8C001F9FD6 /* Staircase.swift */,
@@ -160,6 +165,7 @@
 				9E663BF12B6302F300B9ACC5 /* DynamicArray.swift */,
 				9E663BF32B632A3400B9ACC5 /* LeftRotation.swift */,
 				9E663BF52B64188100B9ACC5 /* QueueUsingTwoStacks.swift */,
+				9EE0CED22B6D542900D27AFA /* Stack.swift */,
 				9E2B7D802B688C89005C84C7 /* AppleAndOrange.swift */,
 				9E2B7D822B691DCB005C84C7 /* ElectronicsShop.swift */,
 				9E663BF92B648FB300B9ACC5 /* BreakingRecords.swift */,
@@ -312,12 +318,14 @@
 				9E309CF32B602F7A00527807 /* NewYearChaos.swift in Sources */,
 				9E663BF02B62F2F300B9ACC5 /* GradingStudents.swift in Sources */,
 				9E78908B2B61EA8C001F9FD6 /* Staircase.swift in Sources */,
+				9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */,
 				9E7890912B61EE57001F9FD6 /* BirthdayCakeCandles.swift in Sources */,
 				9E1005212B59C0A70001F776 /* CaesarsCipher.swift in Sources */,
 				9E71B6E32B6BF28E0045A927 /* DivisibleSumPairs.swift in Sources */,
 				9E10051F2B59804D0001F776 /* FlippingTheMatrix.swift in Sources */,
 				9E10050B2B5980120001F776 /* AppDelegate.swift in Sources */,
 				9E663BF62B64188100B9ACC5 /* QueueUsingTwoStacks.swift in Sources */,
+				9EE0CECF2B6D52C000D27AFA /* BalancedBrackets.swift in Sources */,
 				9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */,
 				9E10050D2B5980120001F776 /* SceneDelegate.swift in Sources */,
 				9E2B7D812B688C89005C84C7 /* AppleAndOrange.swift in Sources */,
