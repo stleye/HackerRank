@@ -100,5 +100,23 @@ final class HackerrankTests: XCTestCase {
         result = balancedBrackets.isBalanced(s: "{")
         XCTAssertEqual(result, "NO")
     }
+    
+    func testMigratoryBirds() {
+        let migratoryBirds = MigratoryBirds()
+        
+        var result = migratoryBirds.migratoryBirds(arr: [1, 4, 4, 4, 5, 3])
+        XCTAssertEqual(result, 4)
+
+        result = migratoryBirds.migratoryBirds(arr: [1, 2, 3, 4, 5, 4, 3, 2, 1, 3, 4])
+        XCTAssertEqual(result, 3)
+        
+        result = migratoryBirds.migratoryBirds(arr: [1, 1, 1, 2, 2, 2])
+        XCTAssertEqual(result, 1)
+        
+        result = migratoryBirds.migratoryBirds(arr: [2, 2, 2, 1, 1, 1])
+        XCTAssertEqual(result, 1)
+        
+        
+    }
 
 }
