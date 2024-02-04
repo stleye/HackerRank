@@ -115,8 +115,37 @@ final class HackerrankTests: XCTestCase {
         
         result = migratoryBirds.migratoryBirds(arr: [2, 2, 2, 1, 1, 1])
         XCTAssertEqual(result, 1)
+    }
+
+    func testDrawingBook() {
+        let drawingBook = DrawingBook()
+
+        var result = drawingBook.pageCount(n: 6, p: 2)
+        XCTAssertEqual(result, 1)
         
+        result = drawingBook.pageCount(n: 1, p: 1)
+        XCTAssertEqual(result, 0)
         
+        result = drawingBook.pageCount(n: 2, p: 1)
+        XCTAssertEqual(result, 0)
+        
+        result = drawingBook.pageCount(n: 2, p: 2)
+        XCTAssertEqual(result, 0)
+        
+        result = drawingBook.pageCount(n: 3, p: 1)
+        XCTAssertEqual(result, 0)
+        
+        result = drawingBook.pageCount(n: 3, p: 2)
+        XCTAssertEqual(result, 0)
+        
+        result = drawingBook.pageCount(n: 3, p: 3)
+        XCTAssertEqual(result, 0)
+        
+        result = drawingBook.pageCount(n: 5, p: 4)
+        XCTAssertEqual(result, 0)
+        
+        result = drawingBook.pageCount(n: 5, p: 3)
+        XCTAssertEqual(result, 1)
     }
 
 }
