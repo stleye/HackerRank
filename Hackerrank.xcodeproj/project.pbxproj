@@ -46,6 +46,8 @@
 		9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CED22B6D542900D27AFA /* Stack.swift */; };
 		9EE0CED52B6E4D4200D27AFA /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CED42B6E4D4200D27AFA /* MigratoryBirds.swift */; };
 		9EE0CED92B6F1ACC00D27AFA /* BillDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CED82B6F1ACC00D27AFA /* BillDivision.swift */; };
+		9EE0CEDB2B6FA2ED00D27AFA /* FirstDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CEDA2B6FA2ED00D27AFA /* FirstDuplicate.swift */; };
+		9EE0CEE12B6FA4DE00D27AFA /* FirstNotRepeatingCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CEE02B6FA4DE00D27AFA /* FirstNotRepeatingCharacter.swift */; };
 		9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */; };
 		9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C632B6AB33400B69E9E /* Array+Extension.swift */; };
 /* End PBXBuildFile section */
@@ -103,6 +105,8 @@
 		9EE0CED22B6D542900D27AFA /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		9EE0CED42B6E4D4200D27AFA /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
 		9EE0CED82B6F1ACC00D27AFA /* BillDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDivision.swift; sourceTree = "<group>"; };
+		9EE0CEDA2B6FA2ED00D27AFA /* FirstDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDuplicate.swift; sourceTree = "<group>"; };
+		9EE0CEE02B6FA4DE00D27AFA /* FirstNotRepeatingCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNotRepeatingCharacter.swift; sourceTree = "<group>"; };
 		9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		9EE31C632B6AB33400B69E9E /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,8 +150,38 @@
 		9E1005092B5980120001F776 /* Hackerrank */ = {
 			isa = PBXGroup;
 			children = (
-				9EE0CED22B6D542900D27AFA /* Stack.swift */,
+				9EE0CEDF2B6FA49800D27AFA /* DataStructures */,
 				9EE31C622B6AB31D00B69E9E /* Extensions */,
+				9EE0CEDE2B6FA47A00D27AFA /* HackerRank */,
+				9EE0CEDD2B6FA46C00D27AFA /* CodeSignal */,
+				9E1005102B5980120001F776 /* Main.storyboard */,
+				9E1005132B5980130001F776 /* Assets.xcassets */,
+				9E1005152B5980130001F776 /* LaunchScreen.storyboard */,
+				9E1005182B5980130001F776 /* Info.plist */,
+			);
+			path = Hackerrank;
+			sourceTree = "<group>";
+		};
+		9E2B7D892B692028005C84C7 /* HackerrankTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E2B7D8A2B692028005C84C7 /* HackerrankTests.swift */,
+			);
+			path = HackerrankTests;
+			sourceTree = "<group>";
+		};
+		9EE0CEDD2B6FA46C00D27AFA /* CodeSignal */ = {
+			isa = PBXGroup;
+			children = (
+				9EE0CEDA2B6FA2ED00D27AFA /* FirstDuplicate.swift */,
+				9EE0CEE02B6FA4DE00D27AFA /* FirstNotRepeatingCharacter.swift */,
+			);
+			path = CodeSignal;
+			sourceTree = "<group>";
+		};
+		9EE0CEDE2B6FA47A00D27AFA /* HackerRank */ = {
+			isa = PBXGroup;
+			children = (
 				9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */,
 				9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */,
 				9E10050A2B5980120001F776 /* AppDelegate.swift */,
@@ -182,20 +216,16 @@
 				9E663BEF2B62F2F300B9ACC5 /* GradingStudents.swift */,
 				9E772DC42B69743A00074446 /* MinimumAbsoluteDifference.swift */,
 				9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */,
-				9E1005102B5980120001F776 /* Main.storyboard */,
-				9E1005132B5980130001F776 /* Assets.xcassets */,
-				9E1005152B5980130001F776 /* LaunchScreen.storyboard */,
-				9E1005182B5980130001F776 /* Info.plist */,
 			);
-			path = Hackerrank;
+			path = HackerRank;
 			sourceTree = "<group>";
 		};
-		9E2B7D892B692028005C84C7 /* HackerrankTests */ = {
+		9EE0CEDF2B6FA49800D27AFA /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
-				9E2B7D8A2B692028005C84C7 /* HackerrankTests.swift */,
+				9EE0CED22B6D542900D27AFA /* Stack.swift */,
 			);
-			path = HackerrankTests;
+			path = DataStructures;
 			sourceTree = "<group>";
 		};
 		9EE31C622B6AB31D00B69E9E /* Extensions */ = {
@@ -327,6 +357,7 @@
 				9EE0CED92B6F1ACC00D27AFA /* BillDivision.swift in Sources */,
 				9E78908B2B61EA8C001F9FD6 /* Staircase.swift in Sources */,
 				9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */,
+				9EE0CEDB2B6FA2ED00D27AFA /* FirstDuplicate.swift in Sources */,
 				9E7890912B61EE57001F9FD6 /* BirthdayCakeCandles.swift in Sources */,
 				9E1005212B59C0A70001F776 /* CaesarsCipher.swift in Sources */,
 				9E71B6E32B6BF28E0045A927 /* DivisibleSumPairs.swift in Sources */,
@@ -336,6 +367,7 @@
 				9EE0CECF2B6D52C000D27AFA /* BalancedBrackets.swift in Sources */,
 				9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */,
 				9E10050D2B5980120001F776 /* SceneDelegate.swift in Sources */,
+				9EE0CEE12B6FA4DE00D27AFA /* FirstNotRepeatingCharacter.swift in Sources */,
 				9E2B7D812B688C89005C84C7 /* AppleAndOrange.swift in Sources */,
 				9E78908D2B61EC7C001F9FD6 /* MiniMaxSum.swift in Sources */,
 				9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */,
