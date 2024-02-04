@@ -45,6 +45,7 @@
 		9EE0CECF2B6D52C000D27AFA /* BalancedBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CECE2B6D52C000D27AFA /* BalancedBrackets.swift */; };
 		9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CED22B6D542900D27AFA /* Stack.swift */; };
 		9EE0CED52B6E4D4200D27AFA /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CED42B6E4D4200D27AFA /* MigratoryBirds.swift */; };
+		9EE0CED92B6F1ACC00D27AFA /* BillDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CED82B6F1ACC00D27AFA /* BillDivision.swift */; };
 		9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */; };
 		9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C632B6AB33400B69E9E /* Array+Extension.swift */; };
 /* End PBXBuildFile section */
@@ -101,6 +102,7 @@
 		9EE0CECE2B6D52C000D27AFA /* BalancedBrackets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBrackets.swift; sourceTree = "<group>"; };
 		9EE0CED22B6D542900D27AFA /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		9EE0CED42B6E4D4200D27AFA /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
+		9EE0CED82B6F1ACC00D27AFA /* BillDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDivision.swift; sourceTree = "<group>"; };
 		9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		9EE31C632B6AB33400B69E9E /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +146,7 @@
 		9E1005092B5980120001F776 /* Hackerrank */ = {
 			isa = PBXGroup;
 			children = (
+				9EE0CED22B6D542900D27AFA /* Stack.swift */,
 				9EE31C622B6AB31D00B69E9E /* Extensions */,
 				9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */,
 				9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */,
@@ -157,6 +160,7 @@
 				9E78908C2B61EC7C001F9FD6 /* MiniMaxSum.swift */,
 				9EE0CECE2B6D52C000D27AFA /* BalancedBrackets.swift */,
 				9EE0CED42B6E4D4200D27AFA /* MigratoryBirds.swift */,
+				9EE0CED82B6F1ACC00D27AFA /* BillDivision.swift */,
 				9E78908E2B61EDCD001F9FD6 /* TimeConversion.swift */,
 				9E7890902B61EE57001F9FD6 /* BirthdayCakeCandles.swift */,
 				9E78908A2B61EA8C001F9FD6 /* Staircase.swift */,
@@ -168,7 +172,6 @@
 				9E663BF12B6302F300B9ACC5 /* DynamicArray.swift */,
 				9E663BF32B632A3400B9ACC5 /* LeftRotation.swift */,
 				9E663BF52B64188100B9ACC5 /* QueueUsingTwoStacks.swift */,
-				9EE0CED22B6D542900D27AFA /* Stack.swift */,
 				9E2B7D802B688C89005C84C7 /* AppleAndOrange.swift */,
 				9E2B7D822B691DCB005C84C7 /* ElectronicsShop.swift */,
 				9E663BF92B648FB300B9ACC5 /* BreakingRecords.swift */,
@@ -321,6 +324,7 @@
 				9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */,
 				9E309CF32B602F7A00527807 /* NewYearChaos.swift in Sources */,
 				9E663BF02B62F2F300B9ACC5 /* GradingStudents.swift in Sources */,
+				9EE0CED92B6F1ACC00D27AFA /* BillDivision.swift in Sources */,
 				9E78908B2B61EA8C001F9FD6 /* Staircase.swift in Sources */,
 				9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */,
 				9E7890912B61EE57001F9FD6 /* BirthdayCakeCandles.swift in Sources */,
