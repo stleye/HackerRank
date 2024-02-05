@@ -44,6 +44,7 @@
 		9E7890912B61EE57001F9FD6 /* BirthdayCakeCandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7890902B61EE57001F9FD6 /* BirthdayCakeCandles.swift */; };
 		9E833DF52B712908006222DB /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833DF42B712908006222DB /* LinkedList.swift */; };
 		9E833DF72B712B3F006222DB /* MergeTwoSortedLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833DF62B712B3F006222DB /* MergeTwoSortedLinkedLists.swift */; };
+		9E833DF92B7133BF006222DB /* Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833DF82B7133BF006222DB /* Pairs.swift */; };
 		9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
@@ -113,6 +114,7 @@
 		9E7890902B61EE57001F9FD6 /* BirthdayCakeCandles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCakeCandles.swift; sourceTree = "<group>"; };
 		9E833DF42B712908006222DB /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		9E833DF62B712B3F006222DB /* MergeTwoSortedLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLinkedLists.swift; sourceTree = "<group>"; };
+		9E833DF82B7133BF006222DB /* Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pairs.swift; sourceTree = "<group>"; };
 		9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				9E145FBE2B70444200801FC7 /* Encryption.swift */,
 				9E145FC22B707EE200801FC7 /* CountingValleys.swift */,
 				9E833DF62B712B3F006222DB /* MergeTwoSortedLinkedLists.swift */,
+				9E833DF82B7133BF006222DB /* Pairs.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -413,6 +416,7 @@
 				9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */,
 				9E7890832B61A08B001F9FD6 /* TrackTour.swift in Sources */,
 				9E145FBB2B6FF94200801FC7 /* DrawingBook.swift in Sources */,
+				9E833DF92B7133BF006222DB /* Pairs.swift in Sources */,
 				9E7890892B61AB52001F9FD6 /* PlusMinus.swift in Sources */,
 				9E2B7D832B691DCB005C84C7 /* ElectronicsShop.swift in Sources */,
 				9E71B6E12B6BEB200045A927 /* SubarrayDivision.swift in Sources */,
