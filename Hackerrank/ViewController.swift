@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         //FlippingTheMatrix().solve()
-        //BiggerIsGreater().solve()
+        CountingValleys().solve()
         
         
     }
