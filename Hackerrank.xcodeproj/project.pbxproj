@@ -46,6 +46,7 @@
 		9E833DF72B712B3F006222DB /* MergeTwoSortedLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833DF62B712B3F006222DB /* MergeTwoSortedLinkedLists.swift */; };
 		9E833DF92B7133BF006222DB /* Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833DF82B7133BF006222DB /* Pairs.swift */; };
 		9E833DFB2B714197006222DB /* IsCryptSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833DFA2B714197006222DB /* IsCryptSolution.swift */; };
+		9E833DFF2B717356006222DB /* CatsAndAMouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833DFE2B717356006222DB /* CatsAndAMouse.swift */; };
 		9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
@@ -117,6 +118,7 @@
 		9E833DF62B712B3F006222DB /* MergeTwoSortedLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLinkedLists.swift; sourceTree = "<group>"; };
 		9E833DF82B7133BF006222DB /* Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pairs.swift; sourceTree = "<group>"; };
 		9E833DFA2B714197006222DB /* IsCryptSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsCryptSolution.swift; sourceTree = "<group>"; };
+		9E833DFE2B717356006222DB /* CatsAndAMouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndAMouse.swift; sourceTree = "<group>"; };
 		9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				9E145FC22B707EE200801FC7 /* CountingValleys.swift */,
 				9E833DF62B712B3F006222DB /* MergeTwoSortedLinkedLists.swift */,
 				9E833DF82B7133BF006222DB /* Pairs.swift */,
+				9E833DFE2B717356006222DB /* CatsAndAMouse.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */,
 				9E10050D2B5980120001F776 /* SceneDelegate.swift in Sources */,
 				9EE0CEE12B6FA4DE00D27AFA /* FirstNotRepeatingCharacter.swift in Sources */,
+				9E833DFF2B717356006222DB /* CatsAndAMouse.swift in Sources */,
 				9E833DFB2B714197006222DB /* IsCryptSolution.swift in Sources */,
 				9E2B7D812B688C89005C84C7 /* AppleAndOrange.swift in Sources */,
 				9E78908D2B61EC7C001F9FD6 /* MiniMaxSum.swift in Sources */,
