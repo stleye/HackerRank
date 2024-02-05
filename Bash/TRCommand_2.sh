@@ -2,4 +2,4 @@
 
 #https://www.hackerrank.com/challenges/text-processing-tr-1/problem
 
-cat $1 | tr '(' '[' | tr ')' ']'
+cat $1 | tr -d 'abcdefghijklmnopqrstuvwxyz'
