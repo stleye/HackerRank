@@ -147,5 +147,24 @@ final class HackerrankTests: XCTestCase {
         result = drawingBook.pageCount(n: 5, p: 3)
         XCTAssertEqual(result, 1)
     }
+    
+//    func testBiggerIsGreater() {
+//        let biggerIsGreater = BiggerIsGreater()
+//        
+//        var result = biggerIsGreater.biggerIsGreater(w: "ab")
+//        XCTAssertEqual(result, "ba")
+//        
+//        result = biggerIsGreater.biggerIsGreater(w: "bb")
+//        XCTAssertEqual(result, "no answer")
+//        
+//        result = biggerIsGreater.biggerIsGreater(w: "hefg")
+//        XCTAssertEqual(result, "hegf")
+//        
+//        result = biggerIsGreater.biggerIsGreater(w: "dhck")
+//        XCTAssertEqual(result, "dhkc")
+//        
+//        result = biggerIsGreater.biggerIsGreater(w: "dkhc")
+//        XCTAssertEqual(result, "hcdk")
+//    }
 
 }

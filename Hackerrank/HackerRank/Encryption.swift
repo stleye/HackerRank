@@ -16,7 +16,7 @@ struct Encryption {
     }
     
     func encryption(s: String) -> String {
-        var s = s.filter { $0 != " " }
+        let s = s.filter { $0 != " " }
         let L = s.count
         let sqrtL = sqrt(Double(L))
         
