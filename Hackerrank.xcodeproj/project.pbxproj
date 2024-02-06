@@ -50,6 +50,7 @@
 		9E833E032B71C225006222DB /* RemoveKFromList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E022B71C225006222DB /* RemoveKFromList.swift */; };
 		9E833E072B726D81006222DB /* LonelyInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E062B726D81006222DB /* LonelyInteger.swift */; };
 		9E833E092B726E88006222DB /* MaximizingXOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E082B726E88006222DB /* MaximizingXOR.swift */; };
+		9E833E0D2B72895A006222DB /* IsListPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E0C2B72895A006222DB /* IsListPalindrome.swift */; };
 		9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
@@ -125,6 +126,7 @@
 		9E833E022B71C225006222DB /* RemoveKFromList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveKFromList.swift; sourceTree = "<group>"; };
 		9E833E062B726D81006222DB /* LonelyInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LonelyInteger.swift; sourceTree = "<group>"; };
 		9E833E082B726E88006222DB /* MaximizingXOR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximizingXOR.swift; sourceTree = "<group>"; };
+		9E833E0C2B72895A006222DB /* IsListPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsListPalindrome.swift; sourceTree = "<group>"; };
 		9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				9E145FBC2B703C9000801FC7 /* Sudoku2.swift */,
 				9E833DFA2B714197006222DB /* IsCryptSolution.swift */,
 				9E833E022B71C225006222DB /* RemoveKFromList.swift */,
+				9E833E0C2B72895A006222DB /* IsListPalindrome.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */,
 				9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */,
 				9EE0CEE52B6FA92D00D27AFA /* CheckPalindrome.swift in Sources */,
+				9E833E0D2B72895A006222DB /* IsListPalindrome.swift in Sources */,
 				9E78908F2B61EDCD001F9FD6 /* TimeConversion.swift in Sources */,
 				9E7890852B61A925001F9FD6 /* AVeryBigSum.swift in Sources */,
 				9E145FBD2B703C9000801FC7 /* Sudoku2.swift in Sources */,
