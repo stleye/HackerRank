@@ -51,6 +51,7 @@
 		9E833E072B726D81006222DB /* LonelyInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E062B726D81006222DB /* LonelyInteger.swift */; };
 		9E833E092B726E88006222DB /* MaximizingXOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E082B726E88006222DB /* MaximizingXOR.swift */; };
 		9E833E0D2B72895A006222DB /* IsListPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E0C2B72895A006222DB /* IsListPalindrome.swift */; };
+		9E833E0F2B729D9C006222DB /* UtopianTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E0E2B729D9C006222DB /* UtopianTree.swift */; };
 		9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
@@ -127,6 +128,7 @@
 		9E833E062B726D81006222DB /* LonelyInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LonelyInteger.swift; sourceTree = "<group>"; };
 		9E833E082B726E88006222DB /* MaximizingXOR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximizingXOR.swift; sourceTree = "<group>"; };
 		9E833E0C2B72895A006222DB /* IsListPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsListPalindrome.swift; sourceTree = "<group>"; };
+		9E833E0E2B729D9C006222DB /* UtopianTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtopianTree.swift; sourceTree = "<group>"; };
 		9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				9E833DFE2B717356006222DB /* CatsAndAMouse.swift */,
 				9E833E062B726D81006222DB /* LonelyInteger.swift */,
 				9E833E082B726E88006222DB /* MaximizingXOR.swift */,
+				9E833E0E2B729D9C006222DB /* UtopianTree.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				9E833DF72B712B3F006222DB /* MergeTwoSortedLinkedLists.swift in Sources */,
 				9E833E032B71C225006222DB /* RemoveKFromList.swift in Sources */,
 				9E663BF22B6302F300B9ACC5 /* DynamicArray.swift in Sources */,
+				9E833E0F2B729D9C006222DB /* UtopianTree.swift in Sources */,
 				9E7890872B61AA64001F9FD6 /* CompareTheTriplets.swift in Sources */,
 				9E10050F2B5980120001F776 /* ViewController.swift in Sources */,
 				9E64B50D2B5C22EF004A062A /* TowerBreakers.swift in Sources */,
