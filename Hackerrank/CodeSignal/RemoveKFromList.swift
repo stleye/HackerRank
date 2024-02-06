@@ -10,11 +10,7 @@ import Foundation
 struct RemoveKFromList {
     
     func solve() {
-        
-        
-        
-        var l = ListNode(1)
-        
+        let l = ListNode(1)
         l.next = ListNode(1)
         l.next?.next = ListNode(1)
         l.next?.next?.next = ListNode(1)
@@ -25,6 +21,7 @@ struct RemoveKFromList {
         solution(l: l, k: 10)
     }
     
+    @discardableResult
     func solution(l: ListNode<Int>?, k: Int) -> ListNode<Int>? {
         var l = l
         var current = l
@@ -44,7 +41,7 @@ struct RemoveKFromList {
         
         return l
     }
-    
+
     public class ListNode<T> {
         public var value: T
         public var next: ListNode<T>?
@@ -53,5 +50,5 @@ struct RemoveKFromList {
             self.next = nil
         }
     }
-    
+
 }
