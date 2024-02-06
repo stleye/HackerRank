@@ -49,6 +49,7 @@
 		9E833DFF2B717356006222DB /* CatsAndAMouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833DFE2B717356006222DB /* CatsAndAMouse.swift */; };
 		9E833E032B71C225006222DB /* RemoveKFromList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E022B71C225006222DB /* RemoveKFromList.swift */; };
 		9E833E072B726D81006222DB /* LonelyInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E062B726D81006222DB /* LonelyInteger.swift */; };
+		9E833E092B726E88006222DB /* MaximizingXOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E082B726E88006222DB /* MaximizingXOR.swift */; };
 		9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
@@ -123,6 +124,7 @@
 		9E833DFE2B717356006222DB /* CatsAndAMouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndAMouse.swift; sourceTree = "<group>"; };
 		9E833E022B71C225006222DB /* RemoveKFromList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveKFromList.swift; sourceTree = "<group>"; };
 		9E833E062B726D81006222DB /* LonelyInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LonelyInteger.swift; sourceTree = "<group>"; };
+		9E833E082B726E88006222DB /* MaximizingXOR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximizingXOR.swift; sourceTree = "<group>"; };
 		9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 				9E833DF82B7133BF006222DB /* Pairs.swift */,
 				9E833DFE2B717356006222DB /* CatsAndAMouse.swift */,
 				9E833E062B726D81006222DB /* LonelyInteger.swift */,
+				9E833E082B726E88006222DB /* MaximizingXOR.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				9E833DFB2B714197006222DB /* IsCryptSolution.swift in Sources */,
 				9E2B7D812B688C89005C84C7 /* AppleAndOrange.swift in Sources */,
 				9E78908D2B61EC7C001F9FD6 /* MiniMaxSum.swift in Sources */,
+				9E833E092B726E88006222DB /* MaximizingXOR.swift in Sources */,
 				9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */,
 				9E772DC52B69743A00074446 /* MinimumAbsoluteDifference.swift in Sources */,
 				9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */,
