@@ -148,23 +148,18 @@ final class HackerrankTests: XCTestCase {
         XCTAssertEqual(result, 1)
     }
     
-//    func testBiggerIsGreater() {
-//        let biggerIsGreater = BiggerIsGreater()
-//        
-//        var result = biggerIsGreater.biggerIsGreater(w: "ab")
-//        XCTAssertEqual(result, "ba")
-//        
-//        result = biggerIsGreater.biggerIsGreater(w: "bb")
-//        XCTAssertEqual(result, "no answer")
-//        
-//        result = biggerIsGreater.biggerIsGreater(w: "hefg")
-//        XCTAssertEqual(result, "hegf")
-//        
-//        result = biggerIsGreater.biggerIsGreater(w: "dhck")
-//        XCTAssertEqual(result, "dhkc")
-//        
-//        result = biggerIsGreater.biggerIsGreater(w: "dkhc")
-//        XCTAssertEqual(result, "hcdk")
-//    }
+    func testQueensAttack2() {
+        let queensAttack2 = QueensAttack2()
+        let obstacles = [[1, 7], [2, 6], [4, 1], [4, 6], [4, 7], [4, 8], [7, 1], [7, 7], [8, 8], [6, 2], [2, 8]]
+        
+        var result = queensAttack2.queensAttack(n: 8, k: 8, r_q: 8, c_q: 6, obstacles: obstacles)
+        XCTAssertEqual(result, 14)
+        
+        result = queensAttack2.queensAttack(n: 8, k: 8, r_q: 8, c_q: 7, obstacles: obstacles)
+        XCTAssertEqual(result, 13)
+        
+        result = queensAttack2.queensAttack(n: 8, k: 8, r_q: 7, c_q: 8, obstacles: obstacles)
+        XCTAssertEqual(result, 9)
+    }
 
 }
