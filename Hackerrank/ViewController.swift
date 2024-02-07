@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         //FlippingTheMatrix().solve()
-        QueensAttack2().solve()
+        HurdleRace().solve()
 
     }
 
