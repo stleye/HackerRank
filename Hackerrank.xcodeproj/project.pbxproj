@@ -25,6 +25,7 @@
 		9E2B7D8B2B692028005C84C7 /* HackerrankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2B7D8A2B692028005C84C7 /* HackerrankTests.swift */; };
 		9E309CF32B602F7A00527807 /* NewYearChaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E309CF22B602F7A00527807 /* NewYearChaos.swift */; };
 		9E5F160F2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F160E2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift */; };
+		9E5F16112B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F16102B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift */; };
 		9E64B50D2B5C22EF004A062A /* TowerBreakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64B50C2B5C22EF004A062A /* TowerBreakers.swift */; };
 		9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64B50E2B5C7063004A062A /* PalindromeIndex.swift */; };
 		9E663BF02B62F2F300B9ACC5 /* GradingStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E663BEF2B62F2F300B9ACC5 /* GradingStudents.swift */; };
@@ -107,6 +108,7 @@
 		9E2B7D8A2B692028005C84C7 /* HackerrankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerrankTests.swift; sourceTree = "<group>"; };
 		9E309CF22B602F7A00527807 /* NewYearChaos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearChaos.swift; sourceTree = "<group>"; };
 		9E5F160E2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoLinkedLists.swift; sourceTree = "<group>"; };
+		9E5F16102B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulDaysAtTheMovies.swift; sourceTree = "<group>"; };
 		9E64B50C2B5C22EF004A062A /* TowerBreakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerBreakers.swift; sourceTree = "<group>"; };
 		9E64B50E2B5C7063004A062A /* PalindromeIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeIndex.swift; sourceTree = "<group>"; };
 		9E663BEF2B62F2F300B9ACC5 /* GradingStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradingStudents.swift; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 				9E833E102B72ADC4006222DB /* QueensAttack2.swift */,
 				9E833E122B731D96006222DB /* HurdleRace.swift */,
 				9E833E142B73A2CF006222DB /* AngryProfessor.swift */,
+				9E5F16102B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */,
 				9E309CF32B602F7A00527807 /* NewYearChaos.swift in Sources */,
 				9E663BF02B62F2F300B9ACC5 /* GradingStudents.swift in Sources */,
+				9E5F16112B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift in Sources */,
 				9EE0CED92B6F1ACC00D27AFA /* BillDivision.swift in Sources */,
 				9E78908B2B61EA8C001F9FD6 /* Staircase.swift in Sources */,
 				9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */,
