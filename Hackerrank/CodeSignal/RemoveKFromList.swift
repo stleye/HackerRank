@@ -7,6 +7,8 @@
 
 import Foundation
 
+//https://app.codesignal.com/interview-practice/question/gX7NXPBrYThXZuanm/description
+
 struct RemoveKFromList {
     
     func solve() {

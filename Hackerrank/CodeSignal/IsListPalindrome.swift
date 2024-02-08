@@ -7,6 +7,8 @@
 
 import Foundation
 
+//https://app.codesignal.com/interview-practice/question/HmNvEkfFShPhREMn4/description
+
 struct IsListPalindrome {
     
     func solve() {

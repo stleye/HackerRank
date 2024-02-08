@@ -7,6 +7,8 @@
 
 import Foundation
 
+//https://app.codesignal.com/interview-practice/question/yM4uWYeQTHzYewW9H/description
+
 struct IsCryptSolution {
     
     func solve() {
