@@ -56,6 +56,7 @@
 		9E833E132B731D96006222DB /* HurdleRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E122B731D96006222DB /* HurdleRace.swift */; };
 		9E833E152B73A2CF006222DB /* AngryProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E142B73A2CF006222DB /* AngryProfessor.swift */; };
 		9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */; };
+		9EA1CAD12B73E8A300B32BB7 /* AddTwoHugeNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1CAD02B73E8A300B32BB7 /* AddTwoHugeNumbers.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
 		9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */; };
@@ -136,6 +137,7 @@
 		9E833E122B731D96006222DB /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
 		9E833E142B73A2CF006222DB /* AngryProfessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryProfessor.swift; sourceTree = "<group>"; };
 		9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
+		9EA1CAD02B73E8A300B32BB7 /* AddTwoHugeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoHugeNumbers.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
 		9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDigitSum.swift; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				9E833DFA2B714197006222DB /* IsCryptSolution.swift */,
 				9E833E022B71C225006222DB /* RemoveKFromList.swift */,
 				9E833E0C2B72895A006222DB /* IsListPalindrome.swift */,
+				9EA1CAD02B73E8A300B32BB7 /* AddTwoHugeNumbers.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				9E71B6E32B6BF28E0045A927 /* DivisibleSumPairs.swift in Sources */,
 				9E10051F2B59804D0001F776 /* FlippingTheMatrix.swift in Sources */,
 				9E10050B2B5980120001F776 /* AppDelegate.swift in Sources */,
+				9EA1CAD12B73E8A300B32BB7 /* AddTwoHugeNumbers.swift in Sources */,
 				9E663BF62B64188100B9ACC5 /* QueueUsingTwoStacks.swift in Sources */,
 				9EE0CEE72B6FAD9D00D27AFA /* SalesByMatch.swift in Sources */,
 				9E833E112B72ADC4006222DB /* QueensAttack2.swift in Sources */,

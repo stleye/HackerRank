@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         //FlippingTheMatrix().solve()
-        AngryProfessor().solve()
+        AddTwoHugeNumbers().solve()
 
     }
 
