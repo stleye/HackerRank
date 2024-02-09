@@ -127,21 +127,20 @@ struct CircularArrayRotation {
         var res = [Int]()
         let n = a.count
         for query in queries {
-            res.append(a[(query-k).mod(n)])
+            res.append(a[(query-k) %% n])
         }
         return res
     }
-    
+
 }
+
+infix operator %%
 
 extension Int {
     
-    func mod(_ a: Int) -> Int {
-        var r = self % a
-        while r < 0 {
-            r += a
-        }
-        return r
+    static func %% (lhs: Int, rhs: Int) -> Int {
+        let r = lhs % rhs
+        return r < 0 ? r + rhs : r
     }
 
 }
