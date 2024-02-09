@@ -37,6 +37,7 @@
 		9E663BFA2B648FB300B9ACC5 /* BreakingRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E663BF92B648FB300B9ACC5 /* BreakingRecords.swift */; };
 		9E6DBD462B764B3100BFDEA6 /* CircularArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6DBD452B764B3100BFDEA6 /* CircularArrayRotation.swift */; };
 		9E6DBD492B76886600BFDEA6 /* GoodVsEvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6DBD482B76886600BFDEA6 /* GoodVsEvil.swift */; };
+		9E6DBD4B2B76CAD800BFDEA6 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6DBD4A2B76CAD800BFDEA6 /* TwoSum.swift */; };
 		9E71B6E12B6BEB200045A927 /* SubarrayDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71B6E02B6BEB200045A927 /* SubarrayDivision.swift */; };
 		9E71B6E32B6BF28E0045A927 /* DivisibleSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71B6E22B6BF28E0045A927 /* DivisibleSumPairs.swift */; };
 		9E772DC52B69743A00074446 /* MinimumAbsoluteDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E772DC42B69743A00074446 /* MinimumAbsoluteDifference.swift */; };
@@ -124,6 +125,7 @@
 		9E663BF92B648FB300B9ACC5 /* BreakingRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingRecords.swift; sourceTree = "<group>"; };
 		9E6DBD452B764B3100BFDEA6 /* CircularArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayRotation.swift; sourceTree = "<group>"; };
 		9E6DBD482B76886600BFDEA6 /* GoodVsEvil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodVsEvil.swift; sourceTree = "<group>"; };
+		9E6DBD4A2B76CAD800BFDEA6 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		9E71B6E02B6BEB200045A927 /* SubarrayDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarrayDivision.swift; sourceTree = "<group>"; };
 		9E71B6E22B6BF28E0045A927 /* DivisibleSumPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisibleSumPairs.swift; sourceTree = "<group>"; };
 		9E772DC42B69743A00074446 /* MinimumAbsoluteDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumAbsoluteDifference.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				9E6DBD482B76886600BFDEA6 /* GoodVsEvil.swift */,
+				9E6DBD4A2B76CAD800BFDEA6 /* TwoSum.swift */,
 			);
 			path = CodeWars;
 			sourceTree = "<group>";
@@ -492,6 +495,7 @@
 				9E7890832B61A08B001F9FD6 /* TrackTour.swift in Sources */,
 				9E145FBB2B6FF94200801FC7 /* DrawingBook.swift in Sources */,
 				9E833DF92B7133BF006222DB /* Pairs.swift in Sources */,
+				9E6DBD4B2B76CAD800BFDEA6 /* TwoSum.swift in Sources */,
 				9E7890892B61AB52001F9FD6 /* PlusMinus.swift in Sources */,
 				9E2B7D832B691DCB005C84C7 /* ElectronicsShop.swift in Sources */,
 				9E71B6E12B6BEB200045A927 /* SubarrayDivision.swift in Sources */,
