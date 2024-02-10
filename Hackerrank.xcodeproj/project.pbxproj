@@ -71,6 +71,8 @@
 		9EAF9E672B77DF010079764C /* DigitalRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E662B77DF010079764C /* DigitalRoot.swift */; };
 		9EAF9E6B2B77E1080079764C /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E6A2B77E1080079764C /* Int+Extension.swift */; };
 		9EAF9E6D2B77E27A0079764C /* SumOfTwoSmallestIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E6C2B77E27A0079764C /* SumOfTwoSmallestIntegers.swift */; };
+		9EAF9E6F2B77FA7B0079764C /* AdjacentElementsProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E6E2B77FA7B0079764C /* AdjacentElementsProduct.swift */; };
+		9EAF9E712B77FB200079764C /* ShapeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E702B77FB200079764C /* ShapeArea.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
 		9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */; };
@@ -166,6 +168,8 @@
 		9EAF9E662B77DF010079764C /* DigitalRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalRoot.swift; sourceTree = "<group>"; };
 		9EAF9E6A2B77E1080079764C /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		9EAF9E6C2B77E27A0079764C /* SumOfTwoSmallestIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoSmallestIntegers.swift; sourceTree = "<group>"; };
+		9EAF9E6E2B77FA7B0079764C /* AdjacentElementsProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacentElementsProduct.swift; sourceTree = "<group>"; };
+		9EAF9E702B77FB200079764C /* ShapeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeArea.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
 		9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDigitSum.swift; sourceTree = "<group>"; };
@@ -271,6 +275,8 @@
 				9E5F160E2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift */,
 				9EAF9E622B77CAF30079764C /* NewRoadSystem.swift */,
 				9EAF9E642B77DBEE0079764C /* RoadsBuilding.swift */,
+				9EAF9E6E2B77FA7B0079764C /* AdjacentElementsProduct.swift */,
+				9EAF9E702B77FB200079764C /* ShapeArea.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -477,6 +483,7 @@
 				9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */,
 				9EE0CEE52B6FA92D00D27AFA /* CheckPalindrome.swift in Sources */,
 				9E833E0D2B72895A006222DB /* IsListPalindrome.swift in Sources */,
+				9EAF9E712B77FB200079764C /* ShapeArea.swift in Sources */,
 				9EAF9E652B77DBEE0079764C /* RoadsBuilding.swift in Sources */,
 				9E6DBD4F2B76EC3300BFDEA6 /* ListNode.swift in Sources */,
 				9E78908F2B61EDCD001F9FD6 /* TimeConversion.swift in Sources */,
@@ -490,6 +497,7 @@
 				9E5F16112B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift in Sources */,
 				9EE0CED92B6F1ACC00D27AFA /* BillDivision.swift in Sources */,
 				9E78908B2B61EA8C001F9FD6 /* Staircase.swift in Sources */,
+				9EAF9E6F2B77FA7B0079764C /* AdjacentElementsProduct.swift in Sources */,
 				9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */,
 				9EE0CEDB2B6FA2ED00D27AFA /* FirstDuplicate.swift in Sources */,
 				9EAF9E612B77A4880079764C /* SequenceEquation.swift in Sources */,
