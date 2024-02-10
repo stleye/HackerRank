@@ -75,6 +75,7 @@
 		9EAF9E712B77FB200079764C /* ShapeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E702B77FB200079764C /* ShapeArea.swift */; };
 		9EAF9E732B77FE300079764C /* MakeArrayConsecutive2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E722B77FE300079764C /* MakeArrayConsecutive2.swift */; };
 		9EAF9E752B77FF800079764C /* AlmostIncreasingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E742B77FF800079764C /* AlmostIncreasingSequence.swift */; };
+		9EAF9E772B7804A70079764C /* MatrixElementsSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E762B7804A70079764C /* MatrixElementsSum.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
 		9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */; };
@@ -174,6 +175,7 @@
 		9EAF9E702B77FB200079764C /* ShapeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeArea.swift; sourceTree = "<group>"; };
 		9EAF9E722B77FE300079764C /* MakeArrayConsecutive2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeArrayConsecutive2.swift; sourceTree = "<group>"; };
 		9EAF9E742B77FF800079764C /* AlmostIncreasingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmostIncreasingSequence.swift; sourceTree = "<group>"; };
+		9EAF9E762B7804A70079764C /* MatrixElementsSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixElementsSum.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
 		9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDigitSum.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 				9EAF9E702B77FB200079764C /* ShapeArea.swift */,
 				9EAF9E722B77FE300079764C /* MakeArrayConsecutive2.swift */,
 				9EAF9E742B77FF800079764C /* AlmostIncreasingSequence.swift */,
+				9EAF9E762B7804A70079764C /* MatrixElementsSum.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -475,6 +478,7 @@
 				9E5F160F2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift in Sources */,
 				9EAF9E6B2B77E1080079764C /* Int+Extension.swift in Sources */,
 				9E10050F2B5980120001F776 /* ViewController.swift in Sources */,
+				9EAF9E772B7804A70079764C /* MatrixElementsSum.swift in Sources */,
 				9E64B50D2B5C22EF004A062A /* TowerBreakers.swift in Sources */,
 				9E1005912B5BE4F20001F776 /* String+Extension.swift in Sources */,
 				9E663BFA2B648FB300B9ACC5 /* BreakingRecords.swift in Sources */,
