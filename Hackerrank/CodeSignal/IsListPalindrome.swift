@@ -62,14 +62,4 @@ struct IsListPalindrome {
         return true
         
     }
-    
-    // Singly-linked lists are already defined with this interface:
-    public class ListNode<T> {
-        public var value: T
-        public var next: ListNode<T>?
-        public init(_ x: T) {
-            self.value = x
-            self.next = nil
-        }
-    }
 }

@@ -38,13 +38,4 @@ struct MergeTwoLinkedLists {
         }
     }
     
-    public class ListNode<T> {
-        public var value: T
-        public var next: ListNode<T>?
-        public init(_ x: T) {
-            self.value = x
-            self.next = nil
-        }
-    }
-
 }
