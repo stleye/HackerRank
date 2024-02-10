@@ -12,7 +12,7 @@ import Foundation
 struct ElectronicsShop {
 
     func solve() {
-        getMoneySpent(keyboards: [40, 50, 60], drives: [5, 8, 12], b: 60)
+        print(getMoneySpent(keyboards: [40, 50, 60], drives: [5, 8, 12], b: 60))
     }
 
     func getMoneySpent(keyboards: [Int], drives: [Int], b: Int) -> Int {

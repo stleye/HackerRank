@@ -21,10 +21,9 @@ struct MergeTwoLinkedLists {
         b.next = ListNode(3)
         b.next?.next = ListNode(5)
 
-        var r = solution(l1: a, l2: b)
-        print(r)
+        print(solution(l1: a, l2: b))
     }
-    
+
     func solution(l1: ListNode<Int>?, l2: ListNode<Int>?) -> ListNode<Int>? {
         guard let l1 = l1 else { return l2 }
         guard let l2 = l2 else { return l1 }

@@ -20,7 +20,7 @@ struct FirstDuplicate {
         
         for i in 0..<a.count {
             let elem = a[i]
-            if let value = dict[elem] {
+            if dict[elem] != nil {
                 return elem
             } else {
                 dict[elem] = 1
