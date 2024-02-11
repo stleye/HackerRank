@@ -86,6 +86,7 @@
 		9EAF9E872B78E8180079764C /* AnythingButANewLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E862B78E8180079764C /* AnythingButANewLine.swift */; };
 		9EAF9E8A2B78E84C0079764C /* RegexProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E892B78E84C0079764C /* RegexProblem.swift */; };
 		9EAF9E8C2B78F6F20079764C /* DigitsAndNonDigitsCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E8B2B78F6F20079764C /* DigitsAndNonDigitsCharacters.swift */; };
+		9EAF9E8E2B78F9000079764C /* WhitespaceAndNonWhitespaceCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E8D2B78F9000079764C /* WhitespaceAndNonWhitespaceCharacter.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
 		9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */; };
@@ -196,6 +197,7 @@
 		9EAF9E862B78E8180079764C /* AnythingButANewLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnythingButANewLine.swift; sourceTree = "<group>"; };
 		9EAF9E892B78E84C0079764C /* RegexProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexProblem.swift; sourceTree = "<group>"; };
 		9EAF9E8B2B78F6F20079764C /* DigitsAndNonDigitsCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitsAndNonDigitsCharacters.swift; sourceTree = "<group>"; };
+		9EAF9E8D2B78F9000079764C /* WhitespaceAndNonWhitespaceCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitespaceAndNonWhitespaceCharacter.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
 		9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDigitSum.swift; sourceTree = "<group>"; };
@@ -289,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				9EAF9E862B78E8180079764C /* AnythingButANewLine.swift */,
+				9EAF9E8D2B78F9000079764C /* WhitespaceAndNonWhitespaceCharacter.swift */,
 				9EAF9E8B2B78F6F20079764C /* DigitsAndNonDigitsCharacters.swift */,
 				9EAF9E892B78E84C0079764C /* RegexProblem.swift */,
 			);
@@ -517,6 +520,7 @@
 				9EAF9E6B2B77E1080079764C /* Int+Extension.swift in Sources */,
 				9E10050F2B5980120001F776 /* ViewController.swift in Sources */,
 				9EAF9E772B7804A70079764C /* MatrixElementsSum.swift in Sources */,
+				9EAF9E8E2B78F9000079764C /* WhitespaceAndNonWhitespaceCharacter.swift in Sources */,
 				9E64B50D2B5C22EF004A062A /* TowerBreakers.swift in Sources */,
 				9E1005912B5BE4F20001F776 /* String+Extension.swift in Sources */,
 				9E663BFA2B648FB300B9ACC5 /* BreakingRecords.swift in Sources */,
