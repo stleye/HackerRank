@@ -83,8 +83,9 @@
 		9EAF9E812B784AD50079764C /* ReverseInParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E802B784AD50079764C /* ReverseInParentheses.swift */; };
 		9EAF9E832B78503C0079764C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E822B78503C0079764C /* Queue.swift */; };
 		9EAF9E852B78E1260079764C /* NSRegularExpression+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E842B78E1260079764C /* NSRegularExpression+Extension.swift */; };
-		9EAF9E872B78E8180079764C /* MatchingAnythingButANewLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E862B78E8180079764C /* MatchingAnythingButANewLine.swift */; };
+		9EAF9E872B78E8180079764C /* AnythingButANewLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E862B78E8180079764C /* AnythingButANewLine.swift */; };
 		9EAF9E8A2B78E84C0079764C /* RegexProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E892B78E84C0079764C /* RegexProblem.swift */; };
+		9EAF9E8C2B78F6F20079764C /* DigitsAndNonDigitsCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E8B2B78F6F20079764C /* DigitsAndNonDigitsCharacters.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
 		9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */; };
@@ -192,8 +193,9 @@
 		9EAF9E802B784AD50079764C /* ReverseInParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInParentheses.swift; sourceTree = "<group>"; };
 		9EAF9E822B78503C0079764C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		9EAF9E842B78E1260079764C /* NSRegularExpression+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+Extension.swift"; sourceTree = "<group>"; };
-		9EAF9E862B78E8180079764C /* MatchingAnythingButANewLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingAnythingButANewLine.swift; sourceTree = "<group>"; };
+		9EAF9E862B78E8180079764C /* AnythingButANewLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnythingButANewLine.swift; sourceTree = "<group>"; };
 		9EAF9E892B78E84C0079764C /* RegexProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexProblem.swift; sourceTree = "<group>"; };
+		9EAF9E8B2B78F6F20079764C /* DigitsAndNonDigitsCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitsAndNonDigitsCharacters.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
 		9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDigitSum.swift; sourceTree = "<group>"; };
@@ -286,7 +288,8 @@
 		9EAF9E882B78E8300079764C /* Regex */ = {
 			isa = PBXGroup;
 			children = (
-				9EAF9E862B78E8180079764C /* MatchingAnythingButANewLine.swift */,
+				9EAF9E862B78E8180079764C /* AnythingButANewLine.swift */,
+				9EAF9E8B2B78F6F20079764C /* DigitsAndNonDigitsCharacters.swift */,
 				9EAF9E892B78E84C0079764C /* RegexProblem.swift */,
 			);
 			path = Regex;
@@ -551,6 +554,7 @@
 				9EE0CEDB2B6FA2ED00D27AFA /* FirstDuplicate.swift in Sources */,
 				9EAF9E612B77A4880079764C /* SequenceEquation.swift in Sources */,
 				9EAF9E812B784AD50079764C /* ReverseInParentheses.swift in Sources */,
+				9EAF9E8C2B78F6F20079764C /* DigitsAndNonDigitsCharacters.swift in Sources */,
 				9E833E072B726D81006222DB /* LonelyInteger.swift in Sources */,
 				9E7890912B61EE57001F9FD6 /* BirthdayCakeCandles.swift in Sources */,
 				9E1005212B59C0A70001F776 /* CaesarsCipher.swift in Sources */,
@@ -565,7 +569,7 @@
 				9EAF9E852B78E1260079764C /* NSRegularExpression+Extension.swift in Sources */,
 				9E833DF52B712908006222DB /* LinkedList.swift in Sources */,
 				9E145FC32B707EE200801FC7 /* CountingValleys.swift in Sources */,
-				9EAF9E872B78E8180079764C /* MatchingAnythingButANewLine.swift in Sources */,
+				9EAF9E872B78E8180079764C /* AnythingButANewLine.swift in Sources */,
 				9EAF9E732B77FE300079764C /* MakeArrayConsecutive2.swift in Sources */,
 				9E6DBD492B76886600BFDEA6 /* GoodVsEvil.swift in Sources */,
 				9EE0CECF2B6D52C000D27AFA /* BalancedBrackets.swift in Sources */,

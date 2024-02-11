@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct MatchingAnythingButANewLine: RegexProblem {
+//https://www.hackerrank.com/challenges/matching-anything-but-new-line/problem
+
+struct AnythingButANewLine: RegexProblem {
 
     var regex: String {
         #"^...\....\....\....$"#
