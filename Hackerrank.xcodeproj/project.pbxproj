@@ -95,6 +95,7 @@
 		9EAF9E9A2B790DF70079764C /* AddBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E992B790DF70079764C /* AddBorder.swift */; };
 		9EAF9E9E2B7916740079764C /* ExcludingSpecificCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E9D2B7916740079764C /* ExcludingSpecificCharacters.swift */; };
 		9EAF9EA02B791BD40079764C /* CharacterRanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E9F2B791BD40079764C /* CharacterRanges.swift */; };
+		9EAF9EA22B79211E0079764C /* MatchingXRepetitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9EA12B79211E0079764C /* MatchingXRepetitions.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
 		9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */; };
@@ -214,6 +215,7 @@
 		9EAF9E992B790DF70079764C /* AddBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBorder.swift; sourceTree = "<group>"; };
 		9EAF9E9D2B7916740079764C /* ExcludingSpecificCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcludingSpecificCharacters.swift; sourceTree = "<group>"; };
 		9EAF9E9F2B791BD40079764C /* CharacterRanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRanges.swift; sourceTree = "<group>"; };
+		9EAF9EA12B79211E0079764C /* MatchingXRepetitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingXRepetitions.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
 		9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDigitSum.swift; sourceTree = "<group>"; };
@@ -315,6 +317,7 @@
 				9EAF9E932B78FBE60079764C /* SpecificCharacters.swift */,
 				9EAF9E9D2B7916740079764C /* ExcludingSpecificCharacters.swift */,
 				9EAF9E9F2B791BD40079764C /* CharacterRanges.swift */,
+				9EAF9EA12B79211E0079764C /* MatchingXRepetitions.swift */,
 			);
 			path = Regex;
 			sourceTree = "<group>";
@@ -552,6 +555,7 @@
 				9E833E132B731D96006222DB /* HurdleRace.swift in Sources */,
 				9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */,
 				9EAF9E982B790CB60079764C /* AlternatingSums.swift in Sources */,
+				9EAF9EA22B79211E0079764C /* MatchingXRepetitions.swift in Sources */,
 				9EE0CED52B6E4D4200D27AFA /* MigratoryBirds.swift in Sources */,
 				9E663BF42B632A3400B9ACC5 /* LeftRotation.swift in Sources */,
 				9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */,
