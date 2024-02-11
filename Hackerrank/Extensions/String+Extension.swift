@@ -13,6 +13,18 @@ extension String {
         return self[self.index(startIndex, offsetBy: index)]
     }
 
+    subscript (bounds: CountableClosedRange<Int>) -> String {
+        let start = index(startIndex, offsetBy: bounds.lowerBound)
+        let end = index(startIndex, offsetBy: bounds.upperBound)
+        return String(self[start...end])
+    }
+
+    subscript (bounds: CountableRange<Int>) -> String {
+        let start = index(startIndex, offsetBy: bounds.lowerBound)
+        let end = index(startIndex, offsetBy: bounds.upperBound)
+        return String(self[start..<end])
+    }
+
     func firstIndex(of element: Self.Element) -> Int? {
         guard let index: String.Index = firstIndex(of: element) else { return nil }
         return self.distance(from: self.startIndex, to: index)

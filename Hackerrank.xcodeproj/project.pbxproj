@@ -80,6 +80,8 @@
 		9EAF9E7B2B7833DA0079764C /* CommonCharacterCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E7A2B7833DA0079764C /* CommonCharacterCount.swift */; };
 		9EAF9E7D2B78437A0079764C /* IsLucky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E7C2B78437A0079764C /* IsLucky.swift */; };
 		9EAF9E7F2B7846130079764C /* SortByHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E7E2B7846130079764C /* SortByHeight.swift */; };
+		9EAF9E812B784AD50079764C /* ReverseInParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E802B784AD50079764C /* ReverseInParentheses.swift */; };
+		9EAF9E832B78503C0079764C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E822B78503C0079764C /* Queue.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
 		9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */; };
@@ -184,6 +186,8 @@
 		9EAF9E7A2B7833DA0079764C /* CommonCharacterCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCharacterCount.swift; sourceTree = "<group>"; };
 		9EAF9E7C2B78437A0079764C /* IsLucky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsLucky.swift; sourceTree = "<group>"; };
 		9EAF9E7E2B7846130079764C /* SortByHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SortByHeight.swift; path = Hackerrank/CodeSignal/SortByHeight.swift; sourceTree = SOURCE_ROOT; };
+		9EAF9E802B784AD50079764C /* ReverseInParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInParentheses.swift; sourceTree = "<group>"; };
+		9EAF9E822B78503C0079764C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
 		9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDigitSum.swift; sourceTree = "<group>"; };
@@ -297,6 +301,7 @@
 				9EAF9E782B7806FB0079764C /* AllLongestStrings.swift */,
 				9EAF9E7A2B7833DA0079764C /* CommonCharacterCount.swift */,
 				9EAF9E7C2B78437A0079764C /* IsLucky.swift */,
+				9EAF9E802B784AD50079764C /* ReverseInParentheses.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -363,6 +368,7 @@
 			isa = PBXGroup;
 			children = (
 				9EE0CED22B6D542900D27AFA /* Stack.swift */,
+				9EAF9E822B78503C0079764C /* Queue.swift */,
 				9E833DF42B712908006222DB /* LinkedList.swift */,
 				9E6DBD4E2B76EC3300BFDEA6 /* ListNode.swift */,
 			);
@@ -508,6 +514,7 @@
 				9EE0CEE52B6FA92D00D27AFA /* CheckPalindrome.swift in Sources */,
 				9EAF9E7F2B7846130079764C /* SortByHeight.swift in Sources */,
 				9E833E0D2B72895A006222DB /* IsListPalindrome.swift in Sources */,
+				9EAF9E832B78503C0079764C /* Queue.swift in Sources */,
 				9EAF9E712B77FB200079764C /* ShapeArea.swift in Sources */,
 				9EAF9E652B77DBEE0079764C /* RoadsBuilding.swift in Sources */,
 				9E6DBD4F2B76EC3300BFDEA6 /* ListNode.swift in Sources */,
@@ -526,6 +533,7 @@
 				9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */,
 				9EE0CEDB2B6FA2ED00D27AFA /* FirstDuplicate.swift in Sources */,
 				9EAF9E612B77A4880079764C /* SequenceEquation.swift in Sources */,
+				9EAF9E812B784AD50079764C /* ReverseInParentheses.swift in Sources */,
 				9E833E072B726D81006222DB /* LonelyInteger.swift in Sources */,
 				9E7890912B61EE57001F9FD6 /* BirthdayCakeCandles.swift in Sources */,
 				9E1005212B59C0A70001F776 /* CaesarsCipher.swift in Sources */,

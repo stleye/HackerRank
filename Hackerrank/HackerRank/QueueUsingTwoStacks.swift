@@ -30,6 +30,35 @@ struct QueueUsingTwoStacks {
 
         print(q.front())
     }
+    
+    struct Queue<T> {
+        var stack1 = Stack<T>()
+        var stack2 = Stack<T>()
+
+        mutating func enqueue(_ t: T) {
+            stack1.push(t)
+        }
+
+        @discardableResult
+        mutating func dequeue() -> T? {
+            moveAllToSecondStack()
+            return stack2.pop()
+        }
+
+        mutating func front() -> T? {
+            moveAllToSecondStack()
+            return stack2.front()
+        }
+
+        mutating private func moveAllToSecondStack() {
+            if stack2.count == 0 {
+                while stack1.isNotEmpty {
+                    stack2.push(stack1.pop()!)
+                }
+            }
+        }
+
+    }
 
 //HackerRank does not provide a parser in this case so I have to implemented myself
 
@@ -62,32 +91,3 @@ struct QueueUsingTwoStacks {
 
 }
 
-struct Queue<T> {
-    var stack1 = Stack<T>()
-    var stack2 = Stack<T>()
-
-    mutating func enqueue(_ t: T) {
-        stack1.push(t)
-    }
-
-    @discardableResult
-    mutating func dequeue() -> T? {
-        moveAllToSecondStack()
-        return stack2.pop()
-    }
-
-    mutating func front() -> T? {
-        moveAllToSecondStack()
-        return stack2.front()
-    }
-
-    mutating private func moveAllToSecondStack() {
-        if stack2.count == 0 {
-            while stack1.isNotEmpty {
-                stack2.push(stack1.pop()!)
-            }
-        }
-    }
-
-
-}
