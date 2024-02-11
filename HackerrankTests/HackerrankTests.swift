@@ -161,5 +161,20 @@ final class HackerrankTests: XCTestCase {
         result = queensAttack2.queensAttack(n: 8, k: 8, r_q: 7, c_q: 8, obstacles: obstacles)
         XCTAssertEqual(result, 9)
     }
+    
+    func testExcludingSpecificCharacters() {
+        let excludingSpecificCharacters = ExcludingSpecificCharacters()
+
+        XCTAssertTrue(excludingSpecificCharacters.solve(input: "dddddd"))
+        XCTAssertFalse(excludingSpecificCharacters.solve(input: "ddddd."))
+        XCTAssertFalse(excludingSpecificCharacters.solve(input: "ddddd,"))
+        XCTAssertFalse(excludingSpecificCharacters.solve(input: "0ddddd"))
+        XCTAssertFalse(excludingSpecificCharacters.solve(input: "2ddddd"))
+        XCTAssertFalse(excludingSpecificCharacters.solve(input: "ddddddd"))
+        XCTAssertFalse(excludingSpecificCharacters.solve(input: "dadddd"))
+        XCTAssertFalse(excludingSpecificCharacters.solve(input: "ddDddd"))
+        XCTAssertFalse(excludingSpecificCharacters.solve(input: "ddd dd"))
+        XCTAssertFalse(excludingSpecificCharacters.solve(input: "ddddAd"))
+    }
 
 }
