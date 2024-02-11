@@ -98,6 +98,9 @@
 		9EAF9EA22B79211E0079764C /* MatchingXRepetitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9EA12B79211E0079764C /* MatchingXRepetitions.swift */; };
 		9EAF9EA42B7928860079764C /* MatchingXYRepetitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9EA32B7928860079764C /* MatchingXYRepetitions.swift */; };
 		9EAF9EA62B792A140079764C /* ZeroOrMoreRepetitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9EA52B792A140079764C /* ZeroOrMoreRepetitions.swift */; };
+		9EAF9EA82B7941520079764C /* OneOrMoreRepetitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9EA72B7941520079764C /* OneOrMoreRepetitions.swift */; };
+		9EAF9EAA2B7942330079764C /* EndingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9EA92B7942330079764C /* EndingItems.swift */; };
+		9EAF9EAC2B7943790079764C /* SplitThePhoneNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9EAB2B7943790079764C /* SplitThePhoneNumbers.swift */; };
 		9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */; };
 		9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */; };
 		9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */; };
@@ -220,6 +223,9 @@
 		9EAF9EA12B79211E0079764C /* MatchingXRepetitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingXRepetitions.swift; sourceTree = "<group>"; };
 		9EAF9EA32B7928860079764C /* MatchingXYRepetitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingXYRepetitions.swift; sourceTree = "<group>"; };
 		9EAF9EA52B792A140079764C /* ZeroOrMoreRepetitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroOrMoreRepetitions.swift; sourceTree = "<group>"; };
+		9EAF9EA72B7941520079764C /* OneOrMoreRepetitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneOrMoreRepetitions.swift; sourceTree = "<group>"; };
+		9EAF9EA92B7942330079764C /* EndingItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndingItems.swift; sourceTree = "<group>"; };
+		9EAF9EAB2B7943790079764C /* SplitThePhoneNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitThePhoneNumbers.swift; sourceTree = "<group>"; };
 		9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChallenge.swift; sourceTree = "<group>"; };
 		9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDigitSum.swift; sourceTree = "<group>"; };
@@ -312,6 +318,15 @@
 		9EAF9E882B78E8300079764C /* Regex */ = {
 			isa = PBXGroup;
 			children = (
+				9EAF9EAD2B79438C0079764C /* Matching */,
+				9EAF9EAB2B7943790079764C /* SplitThePhoneNumbers.swift */,
+			);
+			path = Regex;
+			sourceTree = "<group>";
+		};
+		9EAF9EAD2B79438C0079764C /* Matching */ = {
+			isa = PBXGroup;
+			children = (
 				9EAF9E862B78E8180079764C /* AnythingButANewLine.swift */,
 				9EAF9E8D2B78F9000079764C /* WhitespaceAndNonWhitespaceCharacter.swift */,
 				9EAF9E8F2B78F9C40079764C /* WordAndNonWordCharacter.swift */,
@@ -324,8 +339,10 @@
 				9EAF9EA12B79211E0079764C /* MatchingXRepetitions.swift */,
 				9EAF9EA32B7928860079764C /* MatchingXYRepetitions.swift */,
 				9EAF9EA52B792A140079764C /* ZeroOrMoreRepetitions.swift */,
+				9EAF9EA72B7941520079764C /* OneOrMoreRepetitions.swift */,
+				9EAF9EA92B7942330079764C /* EndingItems.swift */,
 			);
-			path = Regex;
+			path = Matching;
 			sourceTree = "<group>";
 		};
 		9EE0CEDD2B6FA46C00D27AFA /* CodeSignal */ = {
@@ -572,6 +589,7 @@
 				9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */,
 				9EAF9E792B7806FB0079764C /* AllLongestStrings.swift in Sources */,
 				9EE0CEE52B6FA92D00D27AFA /* CheckPalindrome.swift in Sources */,
+				9EAF9EAC2B7943790079764C /* SplitThePhoneNumbers.swift in Sources */,
 				9EAF9E7F2B7846130079764C /* SortByHeight.swift in Sources */,
 				9E833E0D2B72895A006222DB /* IsListPalindrome.swift in Sources */,
 				9EAF9E832B78503C0079764C /* Queue.swift in Sources */,
@@ -594,6 +612,7 @@
 				9EAF9E6F2B77FA7B0079764C /* AdjacentElementsProduct.swift in Sources */,
 				9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */,
 				9EE0CEDB2B6FA2ED00D27AFA /* FirstDuplicate.swift in Sources */,
+				9EAF9EAA2B7942330079764C /* EndingItems.swift in Sources */,
 				9EAF9E612B77A4880079764C /* SequenceEquation.swift in Sources */,
 				9EAF9E812B784AD50079764C /* ReverseInParentheses.swift in Sources */,
 				9EAF9E9A2B790DF70079764C /* AddBorder.swift in Sources */,
@@ -632,6 +651,7 @@
 				9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */,
 				9E772DC52B69743A00074446 /* MinimumAbsoluteDifference.swift in Sources */,
 				9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */,
+				9EAF9EA82B7941520079764C /* OneOrMoreRepetitions.swift in Sources */,
 				9E7890832B61A08B001F9FD6 /* TrackTour.swift in Sources */,
 				9EAF9E8A2B78E84C0079764C /* RegexProblem.swift in Sources */,
 				9EAF9E752B77FF800079764C /* AlmostIncreasingSequence.swift in Sources */,
