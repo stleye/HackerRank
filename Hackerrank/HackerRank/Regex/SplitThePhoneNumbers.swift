@@ -31,7 +31,7 @@ struct SplitThePhoneNumbers: RegexProblem {
 
         return "CountryCode=\(countryCode),LocalAreaCode=\(localAreaCode),Number=\(number)"
     }
-    
+
     func parseInput() {
         let stdout = ProcessInfo.processInfo.environment["OUTPUT_PATH"]!
         FileManager.default.createFile(atPath: stdout, contents: nil, attributes: nil)
