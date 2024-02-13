@@ -27,10 +27,12 @@
 		9E2738C82B7AF60C0082116E /* SameTextAgainAndAgain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2738C72B7AF60C0082116E /* SameTextAgainAndAgain.swift */; };
 		9E2738CA2B7AFA730082116E /* BackreferencesToFailedGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2738C92B7AFA730082116E /* BackreferencesToFailedGroups.swift */; };
 		9E2738CC2B7AFCB00082116E /* BranchResetGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2738CB2B7AFCAF0082116E /* BranchResetGroups.swift */; };
+		9E2738CE2B7AFE0D0082116E /* ForwardReferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2738CD2B7AFE0D0082116E /* ForwardReferences.swift */; };
 		9E2B7D812B688C89005C84C7 /* AppleAndOrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2B7D802B688C89005C84C7 /* AppleAndOrange.swift */; };
 		9E2B7D832B691DCB005C84C7 /* ElectronicsShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2B7D822B691DCB005C84C7 /* ElectronicsShop.swift */; };
 		9E2B7D8B2B692028005C84C7 /* HackerrankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2B7D8A2B692028005C84C7 /* HackerrankTests.swift */; };
 		9E309CF32B602F7A00527807 /* NewYearChaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E309CF22B602F7A00527807 /* NewYearChaos.swift */; };
+		9E5241102B7BD0F60023C5D8 /* DesignerPDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E52410F2B7BD0F60023C5D8 /* DesignerPDFViewer.swift */; };
 		9E5F160F2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F160E2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift */; };
 		9E5F16112B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F16102B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift */; };
 		9E5F16132B7549AF00C0F29A /* FindDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F16122B7549AF00C0F29A /* FindDigits.swift */; };
@@ -162,11 +164,13 @@
 		9E2738C72B7AF60C0082116E /* SameTextAgainAndAgain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameTextAgainAndAgain.swift; sourceTree = "<group>"; };
 		9E2738C92B7AFA730082116E /* BackreferencesToFailedGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackreferencesToFailedGroups.swift; sourceTree = "<group>"; };
 		9E2738CB2B7AFCAF0082116E /* BranchResetGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchResetGroups.swift; sourceTree = "<group>"; };
+		9E2738CD2B7AFE0D0082116E /* ForwardReferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardReferences.swift; sourceTree = "<group>"; };
 		9E2B7D802B688C89005C84C7 /* AppleAndOrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAndOrange.swift; sourceTree = "<group>"; };
 		9E2B7D822B691DCB005C84C7 /* ElectronicsShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsShop.swift; sourceTree = "<group>"; };
 		9E2B7D882B692028005C84C7 /* HackerrankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerrankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2B7D8A2B692028005C84C7 /* HackerrankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerrankTests.swift; sourceTree = "<group>"; };
 		9E309CF22B602F7A00527807 /* NewYearChaos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearChaos.swift; sourceTree = "<group>"; };
+		9E52410F2B7BD0F60023C5D8 /* DesignerPDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerPDFViewer.swift; sourceTree = "<group>"; };
 		9E5F160E2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoLinkedLists.swift; sourceTree = "<group>"; };
 		9E5F16102B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulDaysAtTheMovies.swift; sourceTree = "<group>"; };
 		9E5F16122B7549AF00C0F29A /* FindDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDigits.swift; sourceTree = "<group>"; };
@@ -361,6 +365,7 @@
 				9E2738C72B7AF60C0082116E /* SameTextAgainAndAgain.swift */,
 				9E2738C92B7AFA730082116E /* BackreferencesToFailedGroups.swift */,
 				9E2738CB2B7AFCAF0082116E /* BranchResetGroups.swift */,
+				9E2738CD2B7AFE0D0082116E /* ForwardReferences.swift */,
 			);
 			path = Regex;
 			sourceTree = "<group>";
@@ -458,6 +463,7 @@
 				9EAF9E952B78FDCD0079764C /* DayOfTheProgrammer.swift */,
 				9EAF9E882B78E8300079764C /* Regex */,
 				9E6D05AF2B7A94460057A5CB /* PickingNumbers.swift */,
+				9E52410F2B7BD0F60023C5D8 /* DesignerPDFViewer.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -629,6 +635,7 @@
 				9EAF9EB32B79A31A0079764C /* CapturingAndNonCapturingGroups.swift in Sources */,
 				9EAF9E9E2B7916740079764C /* ExcludingSpecificCharacters.swift in Sources */,
 				9E7890852B61A925001F9FD6 /* AVeryBigSum.swift in Sources */,
+				9E2738CE2B7AFE0D0082116E /* ForwardReferences.swift in Sources */,
 				9E145FBD2B703C9000801FC7 /* Sudoku2.swift in Sources */,
 				9E6DBD462B764B3100BFDEA6 /* CircularArrayRotation.swift in Sources */,
 				9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */,
@@ -681,6 +688,7 @@
 				9E833DFF2B717356006222DB /* CatsAndAMouse.swift in Sources */,
 				9EAF9E632B77CAF30079764C /* NewRoadSystem.swift in Sources */,
 				9E833DFB2B714197006222DB /* IsCryptSolution.swift in Sources */,
+				9E5241102B7BD0F60023C5D8 /* DesignerPDFViewer.swift in Sources */,
 				9E2B7D812B688C89005C84C7 /* AppleAndOrange.swift in Sources */,
 				9E78908D2B61EC7C001F9FD6 /* MiniMaxSum.swift in Sources */,
 				9E833E092B726E88006222DB /* MaximizingXOR.swift in Sources */,
