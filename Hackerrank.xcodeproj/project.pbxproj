@@ -36,6 +36,8 @@
 		9E5241122B7BD3F00023C5D8 /* FormingAMagicSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5241112B7BD3F00023C5D8 /* FormingAMagicSquare.swift */; };
 		9E5241142B7BE3C00023C5D8 /* ArrayMaximalAdjacentDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5241132B7BE3C00023C5D8 /* ArrayMaximalAdjacentDifference.swift */; };
 		9E5241162B7BE4970023C5D8 /* IsIPV4Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5241152B7BE4970023C5D8 /* IsIPV4Address.swift */; };
+		9E5241182B7BF10B0023C5D8 /* SecurityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5241172B7BF10B0023C5D8 /* SecurityFunctions.swift */; };
+		9E52411B2B7BF2170023C5D8 /* SecurityFunctionsII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E52411A2B7BF2170023C5D8 /* SecurityFunctionsII.swift */; };
 		9E5F160F2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F160E2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift */; };
 		9E5F16112B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F16102B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift */; };
 		9E5F16132B7549AF00C0F29A /* FindDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F16122B7549AF00C0F29A /* FindDigits.swift */; };
@@ -78,6 +80,7 @@
 		9E833E132B731D96006222DB /* HurdleRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E122B731D96006222DB /* HurdleRace.swift */; };
 		9E833E152B73A2CF006222DB /* AngryProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E142B73A2CF006222DB /* AngryProfessor.swift */; };
 		9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */; };
+		9EA022ED2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA022EC2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift */; };
 		9EA1CAD12B73E8A300B32BB7 /* AddTwoHugeNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1CAD02B73E8A300B32BB7 /* AddTwoHugeNumbers.swift */; };
 		9EAF9E612B77A4880079764C /* SequenceEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E602B77A4880079764C /* SequenceEquation.swift */; };
 		9EAF9E632B77CAF30079764C /* NewRoadSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF9E622B77CAF30079764C /* NewRoadSystem.swift */; };
@@ -177,6 +180,8 @@
 		9E5241112B7BD3F00023C5D8 /* FormingAMagicSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormingAMagicSquare.swift; sourceTree = "<group>"; };
 		9E5241132B7BE3C00023C5D8 /* ArrayMaximalAdjacentDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayMaximalAdjacentDifference.swift; sourceTree = "<group>"; };
 		9E5241152B7BE4970023C5D8 /* IsIPV4Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsIPV4Address.swift; sourceTree = "<group>"; };
+		9E5241172B7BF10B0023C5D8 /* SecurityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityFunctions.swift; sourceTree = "<group>"; };
+		9E52411A2B7BF2170023C5D8 /* SecurityFunctionsII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityFunctionsII.swift; sourceTree = "<group>"; };
 		9E5F160E2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoLinkedLists.swift; sourceTree = "<group>"; };
 		9E5F16102B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulDaysAtTheMovies.swift; sourceTree = "<group>"; };
 		9E5F16122B7549AF00C0F29A /* FindDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDigits.swift; sourceTree = "<group>"; };
@@ -219,6 +224,7 @@
 		9E833E122B731D96006222DB /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
 		9E833E142B73A2CF006222DB /* AngryProfessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryProfessor.swift; sourceTree = "<group>"; };
 		9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
+		9EA022EC2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityBijectiveFunctions.swift; sourceTree = "<group>"; };
 		9EA1CAD02B73E8A300B32BB7 /* AddTwoHugeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoHugeNumbers.swift; sourceTree = "<group>"; };
 		9EAF9E602B77A4880079764C /* SequenceEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceEquation.swift; sourceTree = "<group>"; };
 		9EAF9E622B77CAF30079764C /* NewRoadSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRoadSystem.swift; sourceTree = "<group>"; };
@@ -334,6 +340,16 @@
 				9E2B7D8A2B692028005C84C7 /* HackerrankTests.swift */,
 			);
 			path = HackerrankTests;
+			sourceTree = "<group>";
+		};
+		9E5241192B7BF13C0023C5D8 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				9E5241172B7BF10B0023C5D8 /* SecurityFunctions.swift */,
+				9E52411A2B7BF2170023C5D8 /* SecurityFunctionsII.swift */,
+				9EA022EC2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift */,
+			);
+			path = Security;
 			sourceTree = "<group>";
 		};
 		9E6DBD472B76885400BFDEA6 /* CodeWars */ = {
@@ -473,6 +489,7 @@
 				9E6D05AF2B7A94460057A5CB /* PickingNumbers.swift */,
 				9E52410F2B7BD0F60023C5D8 /* DesignerPDFViewer.swift */,
 				9E5241112B7BD3F00023C5D8 /* FormingAMagicSquare.swift */,
+				9E5241192B7BF13C0023C5D8 /* Security */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -620,6 +637,7 @@
 				9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */,
 				9EAF9E982B790CB60079764C /* AlternatingSums.swift in Sources */,
 				9E2738C62B7AD2080082116E /* AreEquallyStrong.swift in Sources */,
+				9E52411B2B7BF2170023C5D8 /* SecurityFunctionsII.swift in Sources */,
 				9E5241142B7BE3C00023C5D8 /* ArrayMaximalAdjacentDifference.swift in Sources */,
 				9EAF9EA22B79211E0079764C /* MatchingXRepetitions.swift in Sources */,
 				9EE0CED52B6E4D4200D27AFA /* MigratoryBirds.swift in Sources */,
@@ -705,10 +723,12 @@
 				9E78908D2B61EC7C001F9FD6 /* MiniMaxSum.swift in Sources */,
 				9E833E092B726E88006222DB /* MaximizingXOR.swift in Sources */,
 				9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */,
+				9EA022ED2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift in Sources */,
 				9E772DC52B69743A00074446 /* MinimumAbsoluteDifference.swift in Sources */,
 				9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */,
 				9EAF9EA82B7941520079764C /* OneOrMoreRepetitions.swift in Sources */,
 				9E7890832B61A08B001F9FD6 /* TrackTour.swift in Sources */,
+				9E5241182B7BF10B0023C5D8 /* SecurityFunctions.swift in Sources */,
 				9EAF9E8A2B78E84C0079764C /* RegexProblem.swift in Sources */,
 				9EAF9E752B77FF800079764C /* AlmostIncreasingSequence.swift in Sources */,
 				9EAF9E922B78FAA70079764C /* StartAndEnd.swift in Sources */,

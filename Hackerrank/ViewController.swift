@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        IsIPV4Address().solve()
+        SecurityBijectiveFunctions().solve()
 
     }
 
