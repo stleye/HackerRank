@@ -12,7 +12,7 @@ import Foundation
 struct ForwardReferences: RegexProblem {
     
     var regex: String {
-        #""#
+        #"^(\2tic|(tac))+$"#
     }
     
     func solve() {
