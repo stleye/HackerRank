@@ -144,6 +144,7 @@
 		9EEC741C2B7DA1C9005AC64D /* PositiveLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */; };
 		9EEC741E2B7DA2F0005AC64D /* NegativeLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */; };
 		9EEC74202B7DA687005AC64D /* PositiveLookbehind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */; };
+		9EEC74222B7DA785005AC64D /* NegativeLookbehind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC74212B7DA785005AC64D /* NegativeLookbehind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -297,6 +298,7 @@
 		9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookahead.swift; sourceTree = "<group>"; };
 		9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeLookahead.swift; sourceTree = "<group>"; };
 		9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookbehind.swift; sourceTree = "<group>"; };
+		9EEC74212B7DA785005AC64D /* NegativeLookbehind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeLookbehind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -409,6 +411,7 @@
 				9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */,
 				9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */,
 				9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */,
+				9EEC74212B7DA785005AC64D /* NegativeLookbehind.swift */,
 			);
 			path = Regex;
 			sourceTree = "<group>";
@@ -703,6 +706,7 @@
 				9E5F16112B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift in Sources */,
 				9EA0230B2B7C3B3C008D3D12 /* BoxBlur.swift in Sources */,
 				9E2738C42B7AC8140082116E /* PalindromeRearranging.swift in Sources */,
+				9EEC74222B7DA785005AC64D /* NegativeLookbehind.swift in Sources */,
 				9EE0CED92B6F1ACC00D27AFA /* BillDivision.swift in Sources */,
 				9E2738C22B7AC5930082116E /* ArrayChange.swift in Sources */,
 				9E689B1B2B7D57D0003066A4 /* Minesweeper.swift in Sources */,
