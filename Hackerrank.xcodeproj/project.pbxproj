@@ -143,6 +143,7 @@
 		9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C632B6AB33400B69E9E /* Array+Extension.swift */; };
 		9EEC741C2B7DA1C9005AC64D /* PositiveLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */; };
 		9EEC741E2B7DA2F0005AC64D /* NegativeLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */; };
+		9EEC74202B7DA687005AC64D /* PositiveLookbehind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -295,6 +296,7 @@
 		9EE31C632B6AB33400B69E9E /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookahead.swift; sourceTree = "<group>"; };
 		9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeLookahead.swift; sourceTree = "<group>"; };
+		9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookbehind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -406,6 +408,7 @@
 				9E2738CD2B7AFE0D0082116E /* ForwardReferences.swift */,
 				9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */,
 				9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */,
+				9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */,
 			);
 			path = Regex;
 			sourceTree = "<group>";
@@ -691,6 +694,7 @@
 				9E7890852B61A925001F9FD6 /* AVeryBigSum.swift in Sources */,
 				9E2738CE2B7AFE0D0082116E /* ForwardReferences.swift in Sources */,
 				9E145FBD2B703C9000801FC7 /* Sudoku2.swift in Sources */,
+				9EEC74202B7DA687005AC64D /* PositiveLookbehind.swift in Sources */,
 				9E6DBD462B764B3100BFDEA6 /* CircularArrayRotation.swift in Sources */,
 				9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */,
 				9EAF9E672B77DF010079764C /* DigitalRoot.swift in Sources */,
