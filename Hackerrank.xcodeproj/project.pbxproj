@@ -50,6 +50,7 @@
 		9E663BF62B64188100B9ACC5 /* QueueUsingTwoStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E663BF52B64188100B9ACC5 /* QueueUsingTwoStacks.swift */; };
 		9E663BFA2B648FB300B9ACC5 /* BreakingRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E663BF92B648FB300B9ACC5 /* BreakingRecords.swift */; };
 		9E689B1B2B7D57D0003066A4 /* Minesweeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E689B1A2B7D57D0003066A4 /* Minesweeper.swift */; };
+		9E689B1D2B7D5C60003066A4 /* AddTwoDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E689B1C2B7D5C60003066A4 /* AddTwoDigits.swift */; };
 		9E6D05AE2B7A8F470057A5CB /* AlternativeMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D05AD2B7A8F470057A5CB /* AlternativeMatching.swift */; };
 		9E6D05B02B7A94460057A5CB /* PickingNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D05AF2B7A94460057A5CB /* PickingNumbers.swift */; };
 		9E6DBD462B764B3100BFDEA6 /* CircularArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6DBD452B764B3100BFDEA6 /* CircularArrayRotation.swift */; };
@@ -140,6 +141,8 @@
 		9EE0CEE92B6FCDE700D27AFA /* RotateMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CEE82B6FCDE700D27AFA /* RotateMatrix.swift */; };
 		9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */; };
 		9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C632B6AB33400B69E9E /* Array+Extension.swift */; };
+		9EEC741C2B7DA1C9005AC64D /* PositiveLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */; };
+		9EEC741E2B7DA2F0005AC64D /* NegativeLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +202,7 @@
 		9E663BF52B64188100B9ACC5 /* QueueUsingTwoStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueUsingTwoStacks.swift; sourceTree = "<group>"; };
 		9E663BF92B648FB300B9ACC5 /* BreakingRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingRecords.swift; sourceTree = "<group>"; };
 		9E689B1A2B7D57D0003066A4 /* Minesweeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minesweeper.swift; sourceTree = "<group>"; };
+		9E689B1C2B7D5C60003066A4 /* AddTwoDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoDigits.swift; sourceTree = "<group>"; };
 		9E6D05AD2B7A8F470057A5CB /* AlternativeMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeMatching.swift; sourceTree = "<group>"; };
 		9E6D05AF2B7A94460057A5CB /* PickingNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingNumbers.swift; sourceTree = "<group>"; };
 		9E6DBD452B764B3100BFDEA6 /* CircularArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayRotation.swift; sourceTree = "<group>"; };
@@ -289,6 +293,8 @@
 		9EE0CEE82B6FCDE700D27AFA /* RotateMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateMatrix.swift; sourceTree = "<group>"; };
 		9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		9EE31C632B6AB33400B69E9E /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookahead.swift; sourceTree = "<group>"; };
+		9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeLookahead.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -398,6 +404,8 @@
 				9E2738C92B7AFA730082116E /* BackreferencesToFailedGroups.swift */,
 				9E2738CB2B7AFCAF0082116E /* BranchResetGroups.swift */,
 				9E2738CD2B7AFE0D0082116E /* ForwardReferences.swift */,
+				9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */,
+				9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */,
 			);
 			path = Regex;
 			sourceTree = "<group>";
@@ -439,6 +447,7 @@
 				9EA023082B7C3696008D3D12 /* AvoidObstacles.swift */,
 				9EA0230A2B7C3B3C008D3D12 /* BoxBlur.swift */,
 				9E689B1A2B7D57D0003066A4 /* Minesweeper.swift */,
+				9E689B1C2B7D5C60003066A4 /* AddTwoDigits.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -700,6 +709,7 @@
 				9EE0CEDB2B6FA2ED00D27AFA /* FirstDuplicate.swift in Sources */,
 				9EAF9EAA2B7942330079764C /* EndingItems.swift in Sources */,
 				9EAF9E612B77A4880079764C /* SequenceEquation.swift in Sources */,
+				9E689B1D2B7D5C60003066A4 /* AddTwoDigits.swift in Sources */,
 				9EAF9E812B784AD50079764C /* ReverseInParentheses.swift in Sources */,
 				9EAF9E9A2B790DF70079764C /* AddBorder.swift in Sources */,
 				9EAF9E8C2B78F6F20079764C /* DigitsAndNonDigitsCharacters.swift in Sources */,
@@ -709,6 +719,7 @@
 				9E71B6E32B6BF28E0045A927 /* DivisibleSumPairs.swift in Sources */,
 				9E10051F2B59804D0001F776 /* FlippingTheMatrix.swift in Sources */,
 				9E10050B2B5980120001F776 /* AppDelegate.swift in Sources */,
+				9EEC741C2B7DA1C9005AC64D /* PositiveLookahead.swift in Sources */,
 				9E6D05B02B7A94460057A5CB /* PickingNumbers.swift in Sources */,
 				9EA1CAD12B73E8A300B32BB7 /* AddTwoHugeNumbers.swift in Sources */,
 				9E663BF62B64188100B9ACC5 /* QueueUsingTwoStacks.swift in Sources */,
@@ -743,6 +754,7 @@
 				9EA023092B7C3696008D3D12 /* AvoidObstacles.swift in Sources */,
 				9EA022ED2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift in Sources */,
 				9E772DC52B69743A00074446 /* MinimumAbsoluteDifference.swift in Sources */,
+				9EEC741E2B7DA2F0005AC64D /* NegativeLookahead.swift in Sources */,
 				9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */,
 				9EAF9EA82B7941520079764C /* OneOrMoreRepetitions.swift in Sources */,
 				9E7890832B61A08B001F9FD6 /* TrackTour.swift in Sources */,
