@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9E061C5F2B7EE9DA00C24CC2 /* JumpingOnClouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C5E2B7EE9DA00C24CC2 /* JumpingOnClouds.swift */; };
 		9E061C612B7EEA8D00C24CC2 /* SherlockAndSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */; };
+		9E061C632B7EF1A300C24CC2 /* ArrayReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */; };
+		9E061C652B7EF27700C24CC2 /* EvenDigitsOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C642B7EF27700C24CC2 /* EvenDigitsOnly.swift */; };
 		9E10050B2B5980120001F776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10050A2B5980120001F776 /* AppDelegate.swift */; };
 		9E10050D2B5980120001F776 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10050C2B5980120001F776 /* SceneDelegate.swift */; };
 		9E10050F2B5980120001F776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10050E2B5980120001F776 /* ViewController.swift */; };
@@ -141,6 +143,7 @@
 		9EE0CEE52B6FA92D00D27AFA /* CheckPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CEE42B6FA92D00D27AFA /* CheckPalindrome.swift */; };
 		9EE0CEE72B6FAD9D00D27AFA /* SalesByMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CEE62B6FAD9D00D27AFA /* SalesByMatch.swift */; };
 		9EE0CEE92B6FCDE700D27AFA /* RotateMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0CEE82B6FCDE700D27AFA /* RotateMatrix.swift */; };
+		9EE2344F2B7FD74500EBF20E /* VariableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2344E2B7FD74500EBF20E /* VariableName.swift */; };
 		9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */; };
 		9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C632B6AB33400B69E9E /* Array+Extension.swift */; };
 		9EEC741C2B7DA1C9005AC64D /* PositiveLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */; };
@@ -162,6 +165,8 @@
 /* Begin PBXFileReference section */
 		9E061C5E2B7EE9DA00C24CC2 /* JumpingOnClouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnClouds.swift; sourceTree = "<group>"; };
 		9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquares.swift; sourceTree = "<group>"; };
+		9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayReplace.swift; sourceTree = "<group>"; };
+		9E061C642B7EF27700C24CC2 /* EvenDigitsOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenDigitsOnly.swift; sourceTree = "<group>"; };
 		9E1005072B5980120001F776 /* Hackerrank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackerrank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E10050A2B5980120001F776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E10050C2B5980120001F776 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -297,6 +302,7 @@
 		9EE0CEE42B6FA92D00D27AFA /* CheckPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPalindrome.swift; sourceTree = "<group>"; };
 		9EE0CEE62B6FAD9D00D27AFA /* SalesByMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesByMatch.swift; sourceTree = "<group>"; };
 		9EE0CEE82B6FCDE700D27AFA /* RotateMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateMatrix.swift; sourceTree = "<group>"; };
+		9EE2344E2B7FD74500EBF20E /* VariableName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableName.swift; sourceTree = "<group>"; };
 		9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		9EE31C632B6AB33400B69E9E /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookahead.swift; sourceTree = "<group>"; };
@@ -458,6 +464,9 @@
 				9EA0230A2B7C3B3C008D3D12 /* BoxBlur.swift */,
 				9E689B1A2B7D57D0003066A4 /* Minesweeper.swift */,
 				9E689B1C2B7D5C60003066A4 /* AddTwoDigits.swift */,
+				9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */,
+				9E061C642B7EF27700C24CC2 /* EvenDigitsOnly.swift */,
+				9EE2344E2B7FD74500EBF20E /* VariableName.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -707,6 +716,7 @@
 				9E6DBD462B764B3100BFDEA6 /* CircularArrayRotation.swift in Sources */,
 				9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */,
 				9EAF9E672B77DF010079764C /* DigitalRoot.swift in Sources */,
+				9EE2344F2B7FD74500EBF20E /* VariableName.swift in Sources */,
 				9E309CF32B602F7A00527807 /* NewYearChaos.swift in Sources */,
 				9E663BF02B62F2F300B9ACC5 /* GradingStudents.swift in Sources */,
 				9E5F16112B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift in Sources */,
@@ -728,6 +738,7 @@
 				9EAF9E812B784AD50079764C /* ReverseInParentheses.swift in Sources */,
 				9EAF9E9A2B790DF70079764C /* AddBorder.swift in Sources */,
 				9EAF9E8C2B78F6F20079764C /* DigitsAndNonDigitsCharacters.swift in Sources */,
+				9E061C652B7EF27700C24CC2 /* EvenDigitsOnly.swift in Sources */,
 				9E833E072B726D81006222DB /* LonelyInteger.swift in Sources */,
 				9E7890912B61EE57001F9FD6 /* BirthdayCakeCandles.swift in Sources */,
 				9E1005212B59C0A70001F776 /* CaesarsCipher.swift in Sources */,
@@ -777,6 +788,7 @@
 				9E5241182B7BF10B0023C5D8 /* SecurityFunctions.swift in Sources */,
 				9EA0230F2B7C4FDC008D3D12 /* SaveThePrisoner.swift in Sources */,
 				9EAF9E8A2B78E84C0079764C /* RegexProblem.swift in Sources */,
+				9E061C632B7EF1A300C24CC2 /* ArrayReplace.swift in Sources */,
 				9EAF9E752B77FF800079764C /* AlmostIncreasingSequence.swift in Sources */,
 				9EAF9E922B78FAA70079764C /* StartAndEnd.swift in Sources */,
 				9E145FBB2B6FF94200801FC7 /* DrawingBook.swift in Sources */,
