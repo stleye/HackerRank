@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E061C5F2B7EE9DA00C24CC2 /* JumpingOnClouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C5E2B7EE9DA00C24CC2 /* JumpingOnClouds.swift */; };
+		9E061C612B7EEA8D00C24CC2 /* SherlockAndSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */; };
 		9E10050B2B5980120001F776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10050A2B5980120001F776 /* AppDelegate.swift */; };
 		9E10050D2B5980120001F776 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10050C2B5980120001F776 /* SceneDelegate.swift */; };
 		9E10050F2B5980120001F776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10050E2B5980120001F776 /* ViewController.swift */; };
@@ -158,6 +160,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E061C5E2B7EE9DA00C24CC2 /* JumpingOnClouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnClouds.swift; sourceTree = "<group>"; };
+		9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquares.swift; sourceTree = "<group>"; };
 		9E1005072B5980120001F776 /* Hackerrank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackerrank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E10050A2B5980120001F776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E10050C2B5980120001F776 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -520,6 +524,8 @@
 				9EA0230E2B7C4FDC008D3D12 /* SaveThePrisoner.swift */,
 				9EAF9E882B78E8300079764C /* Regex */,
 				9E5241192B7BF13C0023C5D8 /* Security */,
+				9E061C5E2B7EE9DA00C24CC2 /* JumpingOnClouds.swift */,
+				9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -708,6 +714,7 @@
 				9E2738C42B7AC8140082116E /* PalindromeRearranging.swift in Sources */,
 				9EEC74222B7DA785005AC64D /* NegativeLookbehind.swift in Sources */,
 				9EE0CED92B6F1ACC00D27AFA /* BillDivision.swift in Sources */,
+				9E061C612B7EEA8D00C24CC2 /* SherlockAndSquares.swift in Sources */,
 				9E2738C22B7AC5930082116E /* ArrayChange.swift in Sources */,
 				9E689B1B2B7D57D0003066A4 /* Minesweeper.swift in Sources */,
 				9E78908B2B61EA8C001F9FD6 /* Staircase.swift in Sources */,
@@ -747,6 +754,7 @@
 				9EE0CECF2B6D52C000D27AFA /* BalancedBrackets.swift in Sources */,
 				9EAF9EA02B791BD40079764C /* CharacterRanges.swift in Sources */,
 				9EE0CEE92B6FCDE700D27AFA /* RotateMatrix.swift in Sources */,
+				9E061C5F2B7EE9DA00C24CC2 /* JumpingOnClouds.swift in Sources */,
 				9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */,
 				9E10050D2B5980120001F776 /* SceneDelegate.swift in Sources */,
 				9EAF9E942B78FBE60079764C /* SpecificCharacters.swift in Sources */,
