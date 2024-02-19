@@ -154,6 +154,7 @@
 		9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */; };
 		9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C632B6AB33400B69E9E /* Array+Extension.swift */; };
 		9EE59ADF2B839D250095B729 /* CircleOfNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE59ADE2B839D250095B729 /* CircleOfNumbers.swift */; };
+		9EE59AE12B839F690095B729 /* HalloweenSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE59AE02B839F690095B729 /* HalloweenSale.swift */; };
 		9EEC741C2B7DA1C9005AC64D /* PositiveLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */; };
 		9EEC741E2B7DA2F0005AC64D /* NegativeLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */; };
 		9EEC74202B7DA687005AC64D /* PositiveLookbehind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */; };
@@ -321,6 +322,7 @@
 		9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		9EE31C632B6AB33400B69E9E /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		9EE59ADE2B839D250095B729 /* CircleOfNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleOfNumbers.swift; sourceTree = "<group>"; };
+		9EE59AE02B839F690095B729 /* HalloweenSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenSale.swift; sourceTree = "<group>"; };
 		9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookahead.swift; sourceTree = "<group>"; };
 		9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeLookahead.swift; sourceTree = "<group>"; };
 		9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookbehind.swift; sourceTree = "<group>"; };
@@ -557,6 +559,7 @@
 				9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */,
 				9EE234522B7FDBA700EBF20E /* BeautifulTriplets.swift */,
 				9EE234562B81690100EBF20E /* LibraryFines.swift */,
+				9EE59AE02B839F690095B729 /* HalloweenSale.swift */,
 				9EAF9E882B78E8300079764C /* Regex */,
 				9E5241192B7BF13C0023C5D8 /* Security */,
 			);
@@ -732,6 +735,7 @@
 				9EAF9E712B77FB200079764C /* ShapeArea.swift in Sources */,
 				9EAF9E652B77DBEE0079764C /* RoadsBuilding.swift in Sources */,
 				9E6DBD4F2B76EC3300BFDEA6 /* ListNode.swift in Sources */,
+				9EE59AE12B839F690095B729 /* HalloweenSale.swift in Sources */,
 				9E5241162B7BE4970023C5D8 /* IsIPV4Address.swift in Sources */,
 				9E78908F2B61EDCD001F9FD6 /* TimeConversion.swift in Sources */,
 				9EAF9EB32B79A31A0079764C /* CapturingAndNonCapturingGroups.swift in Sources */,
