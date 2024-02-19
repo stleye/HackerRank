@@ -43,6 +43,7 @@
 		9E5241182B7BF10B0023C5D8 /* SecurityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5241172B7BF10B0023C5D8 /* SecurityFunctions.swift */; };
 		9E52411B2B7BF2170023C5D8 /* SecurityFunctionsII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E52411A2B7BF2170023C5D8 /* SecurityFunctionsII.swift */; };
 		9E52B90F2B81875A00F6B601 /* ChessBoardCellColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E52B90E2B81875A00F6B601 /* ChessBoardCellColor.swift */; };
+		9E52B9112B82509900F6B601 /* DetectHTMLLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E52B9102B82509900F6B601 /* DetectHTMLLinks.swift */; };
 		9E5F160F2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F160E2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift */; };
 		9E5F16112B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F16102B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift */; };
 		9E5F16132B7549AF00C0F29A /* FindDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F16122B7549AF00C0F29A /* FindDigits.swift */; };
@@ -152,6 +153,7 @@
 		9EE234592B816AFD00EBF20E /* AlphabeticShift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE234582B816AFD00EBF20E /* AlphabeticShift.swift */; };
 		9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */; };
 		9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C632B6AB33400B69E9E /* Array+Extension.swift */; };
+		9EE59ADF2B839D250095B729 /* CircleOfNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE59ADE2B839D250095B729 /* CircleOfNumbers.swift */; };
 		9EEC741C2B7DA1C9005AC64D /* PositiveLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */; };
 		9EEC741E2B7DA2F0005AC64D /* NegativeLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */; };
 		9EEC74202B7DA687005AC64D /* PositiveLookbehind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */; };
@@ -208,6 +210,7 @@
 		9E5241172B7BF10B0023C5D8 /* SecurityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityFunctions.swift; sourceTree = "<group>"; };
 		9E52411A2B7BF2170023C5D8 /* SecurityFunctionsII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityFunctionsII.swift; sourceTree = "<group>"; };
 		9E52B90E2B81875A00F6B601 /* ChessBoardCellColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoardCellColor.swift; sourceTree = "<group>"; };
+		9E52B9102B82509900F6B601 /* DetectHTMLLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectHTMLLinks.swift; sourceTree = "<group>"; };
 		9E5F160E2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoLinkedLists.swift; sourceTree = "<group>"; };
 		9E5F16102B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulDaysAtTheMovies.swift; sourceTree = "<group>"; };
 		9E5F16122B7549AF00C0F29A /* FindDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDigits.swift; sourceTree = "<group>"; };
@@ -317,6 +320,7 @@
 		9EE234582B816AFD00EBF20E /* AlphabeticShift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabeticShift.swift; sourceTree = "<group>"; };
 		9EE31C602B6AB04A00B69E9E /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		9EE31C632B6AB33400B69E9E /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		9EE59ADE2B839D250095B729 /* CircleOfNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleOfNumbers.swift; sourceTree = "<group>"; };
 		9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookahead.swift; sourceTree = "<group>"; };
 		9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeLookahead.swift; sourceTree = "<group>"; };
 		9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookbehind.swift; sourceTree = "<group>"; };
@@ -435,6 +439,7 @@
 				9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */,
 				9EEC74212B7DA785005AC64D /* NegativeLookbehind.swift */,
 				9EE234542B804A6500EBF20E /* DetectHTMLTags.swift */,
+				9E52B9102B82509900F6B601 /* DetectHTMLLinks.swift */,
 			);
 			path = Regex;
 			sourceTree = "<group>";
@@ -482,6 +487,7 @@
 				9EE2344E2B7FD74500EBF20E /* VariableName.swift */,
 				9EE234582B816AFD00EBF20E /* AlphabeticShift.swift */,
 				9E52B90E2B81875A00F6B601 /* ChessBoardCellColor.swift */,
+				9EE59ADE2B839D250095B729 /* CircleOfNumbers.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -693,6 +699,7 @@
 				9EAF9E8E2B78F9000079764C /* WhitespaceAndNonWhitespaceCharacter.swift in Sources */,
 				9E2738CC2B7AFCB00082116E /* BranchResetGroups.swift in Sources */,
 				9EAF9E962B78FDCD0079764C /* DayOfTheProgrammer.swift in Sources */,
+				9EE59ADF2B839D250095B729 /* CircleOfNumbers.swift in Sources */,
 				9E64B50D2B5C22EF004A062A /* TowerBreakers.swift in Sources */,
 				9E1005912B5BE4F20001F776 /* String+Extension.swift in Sources */,
 				9E663BFA2B648FB300B9ACC5 /* BreakingRecords.swift in Sources */,
@@ -803,6 +810,7 @@
 				9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */,
 				9EA023092B7C3696008D3D12 /* AvoidObstacles.swift in Sources */,
 				9EA022ED2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift in Sources */,
+				9E52B9112B82509900F6B601 /* DetectHTMLLinks.swift in Sources */,
 				9E772DC52B69743A00074446 /* MinimumAbsoluteDifference.swift in Sources */,
 				9EEC741E2B7DA2F0005AC64D /* NegativeLookahead.swift in Sources */,
 				9EE31C612B6AB04A00B69E9E /* BetweenTwoSets.swift in Sources */,
