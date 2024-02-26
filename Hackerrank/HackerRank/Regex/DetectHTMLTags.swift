@@ -11,23 +11,57 @@ import Foundation
 
 struct DetectHTMLTags {
     
-    func solve() {
-        print(parse(inputString: #"<p><a href="http://www.quackit.com/html/tutorial/html_links.cfm">Example Link</a></p>"#))
+    var pattern: String {
+        #"(<\/\s*[^>]*\s*>)|<(\s*[^>\s]+)[^>]*\s*\/>"#
     }
 
-    func parse(inputString: String) -> String {
-        let pattern = #"<\s*[^>]\s*>"#
+    func solve() {
+        //print(tags(from: #"<p><a href="http://www.quackit.com/html/tutorial/html_links.cfm">Example Link</a></p>"#))
+        parseInput()
+    }
+
+    func tags(from inputString: String) -> Set<String> {
         let regex = try! NSRegularExpression(pattern: pattern)
         let matches = regex.matches(in: inputString, range: NSRange(inputString.startIndex..., in: inputString))
-        var res = ""
+        var tags = Set<String>()
 
         for match in matches {
-            let g1 = String(inputString[Range(match.range(at: 1), in: inputString)!])
-            let g2 = String(inputString[Range(match.range(at: 2), in: inputString)!])
-            res += "\(g1),\(g2)\n"
+            if let range1 = Range(match.range(at: 1), in: inputString) {
+                let g1 = String(inputString[range1])
+                let s1 = g1.replacingOccurrences(of: "/", with: "")
+                let s2 = s1.replacingOccurrences(of: "<", with: "")
+                let s3 = s2.replacingOccurrences(of: ">", with: "")
+                tags.insert("\(s3)")
+            }
+            if let range2 = Range(match.range(at: 2), in: inputString) {
+                let g2 = String(inputString[range2])
+                tags.insert("\(g2)")
+            }
         }
-        
-        return String(res.dropLast())
+
+        return tags
+    }
+    
+    func parseInput() {
+        let stdout = ProcessInfo.processInfo.environment["OUTPUT_PATH"]!
+        FileManager.default.createFile(atPath: stdout, contents: nil, attributes: nil)
+        let fileHandle = FileHandle(forWritingAtPath: stdout)!
+
+        guard let n = Int(readLine() ?? "") else { fatalError("Bad input") }
+
+        var res = Set<String>()
+
+        for _ in 1...n {
+            guard let line = readLine() else { fatalError("Bad input") }
+            res.formUnion(tags(from: line))
+        }
+
+        let resStr = res.sorted().joined(separator: ";")
+
+        if !resStr.isEmpty {
+            fileHandle.write(resStr.data(using: .utf8)!)
+            fileHandle.write("\n".data(using: .utf8)!)
+        }
     }
     
 }
