@@ -90,6 +90,7 @@
 		9E833E132B731D96006222DB /* HurdleRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E122B731D96006222DB /* HurdleRace.swift */; };
 		9E833E152B73A2CF006222DB /* AngryProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E142B73A2CF006222DB /* AngryProfessor.swift */; };
 		9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */; };
+		9E9CB1402B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CB13F2B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift */; };
 		9EA022ED2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA022EC2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift */; };
 		9EA023092B7C3696008D3D12 /* AvoidObstacles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA023082B7C3696008D3D12 /* AvoidObstacles.swift */; };
 		9EA0230B2B7C3B3C008D3D12 /* BoxBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0230A2B7C3B3C008D3D12 /* BoxBlur.swift */; };
@@ -262,6 +263,7 @@
 		9E833E122B731D96006222DB /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
 		9E833E142B73A2CF006222DB /* AngryProfessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryProfessor.swift; sourceTree = "<group>"; };
 		9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
+		9E9CB13F2B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenZerosAndOddOnes.swift; sourceTree = "<group>"; };
 		9EA022EC2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityBijectiveFunctions.swift; sourceTree = "<group>"; };
 		9EA023082B7C3696008D3D12 /* AvoidObstacles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidObstacles.swift; sourceTree = "<group>"; };
 		9EA0230A2B7C3B3C008D3D12 /* BoxBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxBlur.swift; sourceTree = "<group>"; };
@@ -451,6 +453,7 @@
 				9EE234542B804A6500EBF20E /* DetectHTMLTags.swift */,
 				9E52B9102B82509900F6B601 /* DetectHTMLLinks.swift */,
 				9EA2AB492B8C022C00F49CEB /* AlienUsername.swift */,
+				9E9CB13F2B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift */,
 			);
 			path = Regex;
 			sourceTree = "<group>";
@@ -777,6 +780,7 @@
 				9E78908B2B61EA8C001F9FD6 /* Staircase.swift in Sources */,
 				9EAF9E902B78F9C40079764C /* WordAndNonWordCharacter.swift in Sources */,
 				9EAF9E6F2B77FA7B0079764C /* AdjacentElementsProduct.swift in Sources */,
+				9E9CB1402B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift in Sources */,
 				9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */,
 				9EE0CEDB2B6FA2ED00D27AFA /* FirstDuplicate.swift in Sources */,
 				9EAF9EAA2B7942330079764C /* EndingItems.swift in Sources */,

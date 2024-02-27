@@ -12,19 +12,20 @@ import Foundation
 struct AbsoluteValuesSumMinimization {
     
     func solve() {
-        print(solution(a: [2, 3]))
+        print(solution(a: [5, 7, 8, 100, 100000, 100001]))
     }
     
     func solution(a: [Int]) -> Int {
-        let sum = a.reduce(0, +)
         var min = Int.max
-        let n = a.count
+        var minElem = Int.max
         for e in a {
-            if abs(n*e - sum) < min {
-                min = e
+            let diff = a.reduce(0) { $0 + abs($1 - e) }
+            if diff < min {
+                min = diff
+                minElem = e
             }
         }
-        return min
+        return minElem
     }
     
 }

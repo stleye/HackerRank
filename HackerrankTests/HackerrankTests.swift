@@ -176,5 +176,34 @@ final class HackerrankTests: XCTestCase {
         XCTAssertFalse(excludingSpecificCharacters.solve(input: "ddd dd"))
         XCTAssertFalse(excludingSpecificCharacters.solve(input: "ddddAd"))
     }
+    
+    func testEvenZerosAndOddOnes() {
+        let evenZerosAndOddOnes = EvenZerosAndOddOnes()
+
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "1101"))    // 2 zeros, 3 ones
+        XCTAssertTrue(evenZerosAndOddOnes.solve(input: "100"))     // 2 zeros, 1 one
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "1010"))   // 2 zeros, 2 ones
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "1111"))   // 0 zeros, 4 ones
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "000"))     // 3 zeros, 0 ones
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: ""))        // Empty string
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "10"))       // 1 zero, 1 one
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "01"))      // 1 zero, 1 one
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "0110"))    // 2 zeros, 2 ones
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "00000"))   // 5 zeros, 0 ones
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "111111")) // 0 zeros, 6 ones
+        XCTAssertTrue(evenZerosAndOddOnes.solve(input: "1111111")) // 0 zeros, 6 ones
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "0001"))    // 3 zeros, 1 one
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "11110"))   // 1 zero, 4 ones
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "010101"))  // 3 zeros, 3 ones
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "000000")) // 6 zeros, 0 ones
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "1010101")) // 4 zeros, 4 ones
+        XCTAssertTrue(evenZerosAndOddOnes.solve(input: "0101010"))// 3 zeros, 4 ones
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "001100")) // 4 zeros, 2 ones
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "00000000"))// 8 zeros, 0 ones
+        XCTAssertTrue(evenZerosAndOddOnes.solve(input: "001000000"))// 8 zeros, 0 ones
+        XCTAssertFalse(evenZerosAndOddOnes.solve(input: "11111111"))// 0 zeros, 8 ones
+        XCTAssertTrue(evenZerosAndOddOnes.solve(input: "101010101"))// 5 zeros, 5 ones
+        XCTAssertTrue(evenZerosAndOddOnes.solve(input: "100000000"))// 8 zeros, 1 one
+    }
 
 }
