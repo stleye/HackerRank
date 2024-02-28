@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E0442912B8E725700D7CB14 /* AppendAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442902B8E725700D7CB14 /* AppendAndDelete.swift */; };
+		9E0442B32B8F7A0B00D7CB14 /* StringsRearrangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442B22B8F7A0B00D7CB14 /* StringsRearrangement.swift */; };
+		9E0442BE2B8FC73400D7CB14 /* DetectEmailAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442BD2B8FC73400D7CB14 /* DetectEmailAddresses.swift */; };
 		9E061C5F2B7EE9DA00C24CC2 /* JumpingOnClouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C5E2B7EE9DA00C24CC2 /* JumpingOnClouds.swift */; };
 		9E061C612B7EEA8D00C24CC2 /* SherlockAndSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */; };
 		9E061C632B7EF1A300C24CC2 /* ArrayReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */; };
@@ -177,6 +180,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E0442902B8E725700D7CB14 /* AppendAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendAndDelete.swift; sourceTree = "<group>"; };
+		9E0442B22B8F7A0B00D7CB14 /* StringsRearrangement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsRearrangement.swift; sourceTree = "<group>"; };
+		9E0442BD2B8FC73400D7CB14 /* DetectEmailAddresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectEmailAddresses.swift; sourceTree = "<group>"; };
 		9E061C5E2B7EE9DA00C24CC2 /* JumpingOnClouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnClouds.swift; sourceTree = "<group>"; };
 		9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquares.swift; sourceTree = "<group>"; };
 		9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayReplace.swift; sourceTree = "<group>"; };
@@ -454,6 +460,7 @@
 				9E52B9102B82509900F6B601 /* DetectHTMLLinks.swift */,
 				9EA2AB492B8C022C00F49CEB /* AlienUsername.swift */,
 				9E9CB13F2B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift */,
+				9E0442BD2B8FC73400D7CB14 /* DetectEmailAddresses.swift */,
 			);
 			path = Regex;
 			sourceTree = "<group>";
@@ -504,6 +511,7 @@
 				9EE59ADE2B839D250095B729 /* CircleOfNumbers.swift */,
 				9E4827B22B84D9E70095F74C /* DepositProfile.swift */,
 				9EA2AB472B86A3C800F49CEB /* AbsoluteValuesSumMinimization.swift */,
+				9E0442B22B8F7A0B00D7CB14 /* StringsRearrangement.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -577,6 +585,7 @@
 				9EAF9E882B78E8300079764C /* Regex */,
 				9E5241192B7BF13C0023C5D8 /* Security */,
 				9E4827B02B84D6840095F74C /* MinimumDistances.swift */,
+				9E0442902B8E725700D7CB14 /* AppendAndDelete.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -704,6 +713,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E0442912B8E725700D7CB14 /* AppendAndDelete.swift in Sources */,
 				9E145FBF2B70444200801FC7 /* Encryption.swift in Sources */,
 				9E833DF72B712B3F006222DB /* MergeTwoSortedLinkedLists.swift in Sources */,
 				9E833E032B71C225006222DB /* RemoveKFromList.swift in Sources */,
@@ -780,6 +790,7 @@
 				9E78908B2B61EA8C001F9FD6 /* Staircase.swift in Sources */,
 				9EAF9E902B78F9C40079764C /* WordAndNonWordCharacter.swift in Sources */,
 				9EAF9E6F2B77FA7B0079764C /* AdjacentElementsProduct.swift in Sources */,
+				9E0442BE2B8FC73400D7CB14 /* DetectEmailAddresses.swift in Sources */,
 				9E9CB1402B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift in Sources */,
 				9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */,
 				9EE0CEDB2B6FA2ED00D27AFA /* FirstDuplicate.swift in Sources */,
@@ -851,6 +862,7 @@
 				9EAF9EA62B792A140079764C /* ZeroOrMoreRepetitions.swift in Sources */,
 				9E833DF92B7133BF006222DB /* Pairs.swift in Sources */,
 				9E6DBD4B2B76CAD800BFDEA6 /* TwoSum.swift in Sources */,
+				9E0442B32B8F7A0B00D7CB14 /* StringsRearrangement.swift in Sources */,
 				9E7890892B61AB52001F9FD6 /* PlusMinus.swift in Sources */,
 				9E2B7D832B691DCB005C84C7 /* ElectronicsShop.swift in Sources */,
 				9E71B6E12B6BEB200045A927 /* SubarrayDivision.swift in Sources */,
