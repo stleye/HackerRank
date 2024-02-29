@@ -294,5 +294,14 @@ final class HackerrankTests: XCTestCase {
         XCTAssertEqual(res1, output1)
         XCTAssertEqual(res2, output2)
     }
+    
+    func testBiggerIsGreater() {
+        
+        let biggerIsGreater = BiggerIsGreater()
+        
+        let input = "ehdegnmorgafrjxvksc"
+        
+        XCTAssertEqual(biggerIsGreater.biggerIsGreater(w: input), "ehdegnmorgafrjxvsck")
+    }
 
 }

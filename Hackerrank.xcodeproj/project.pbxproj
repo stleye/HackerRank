@@ -10,6 +10,8 @@
 		9E0442912B8E725700D7CB14 /* AppendAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442902B8E725700D7CB14 /* AppendAndDelete.swift */; };
 		9E0442B32B8F7A0B00D7CB14 /* StringsRearrangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442B22B8F7A0B00D7CB14 /* StringsRearrangement.swift */; };
 		9E0442BE2B8FC73400D7CB14 /* DetectEmailAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442BD2B8FC73400D7CB14 /* DetectEmailAddresses.swift */; };
+		9E0442C02B900D8500D7CB14 /* BiggerIsGreater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442BF2B900D8500D7CB14 /* BiggerIsGreater.swift */; };
+		9E0442EB2B9133DE00D7CB14 /* ChocolateFeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442EA2B9133DE00D7CB14 /* ChocolateFeast.swift */; };
 		9E061C5F2B7EE9DA00C24CC2 /* JumpingOnClouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C5E2B7EE9DA00C24CC2 /* JumpingOnClouds.swift */; };
 		9E061C612B7EEA8D00C24CC2 /* SherlockAndSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */; };
 		9E061C632B7EF1A300C24CC2 /* ArrayReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */; };
@@ -183,6 +185,8 @@
 		9E0442902B8E725700D7CB14 /* AppendAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendAndDelete.swift; sourceTree = "<group>"; };
 		9E0442B22B8F7A0B00D7CB14 /* StringsRearrangement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsRearrangement.swift; sourceTree = "<group>"; };
 		9E0442BD2B8FC73400D7CB14 /* DetectEmailAddresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectEmailAddresses.swift; sourceTree = "<group>"; };
+		9E0442BF2B900D8500D7CB14 /* BiggerIsGreater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiggerIsGreater.swift; sourceTree = "<group>"; };
+		9E0442EA2B9133DE00D7CB14 /* ChocolateFeast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateFeast.swift; sourceTree = "<group>"; };
 		9E061C5E2B7EE9DA00C24CC2 /* JumpingOnClouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnClouds.swift; sourceTree = "<group>"; };
 		9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquares.swift; sourceTree = "<group>"; };
 		9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayReplace.swift; sourceTree = "<group>"; };
@@ -582,10 +586,12 @@
 				9EE234522B7FDBA700EBF20E /* BeautifulTriplets.swift */,
 				9EE234562B81690100EBF20E /* LibraryFines.swift */,
 				9EE59AE02B839F690095B729 /* HalloweenSale.swift */,
+				9E0442BF2B900D8500D7CB14 /* BiggerIsGreater.swift */,
 				9EAF9E882B78E8300079764C /* Regex */,
 				9E5241192B7BF13C0023C5D8 /* Security */,
 				9E4827B02B84D6840095F74C /* MinimumDistances.swift */,
 				9E0442902B8E725700D7CB14 /* AppendAndDelete.swift */,
+				9E0442EA2B9133DE00D7CB14 /* ChocolateFeast.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -753,6 +759,7 @@
 				9EAF9E792B7806FB0079764C /* AllLongestStrings.swift in Sources */,
 				9EE0CEE52B6FA92D00D27AFA /* CheckPalindrome.swift in Sources */,
 				9E52B90F2B81875A00F6B601 /* ChessBoardCellColor.swift in Sources */,
+				9E0442EB2B9133DE00D7CB14 /* ChocolateFeast.swift in Sources */,
 				9EAF9EAC2B7943790079764C /* SplitThePhoneNumbers.swift in Sources */,
 				9EAF9E7F2B7846130079764C /* SortByHeight.swift in Sources */,
 				9E833E0D2B72895A006222DB /* IsListPalindrome.swift in Sources */,
@@ -858,6 +865,7 @@
 				9E061C632B7EF1A300C24CC2 /* ArrayReplace.swift in Sources */,
 				9EAF9E752B77FF800079764C /* AlmostIncreasingSequence.swift in Sources */,
 				9EAF9E922B78FAA70079764C /* StartAndEnd.swift in Sources */,
+				9E0442C02B900D8500D7CB14 /* BiggerIsGreater.swift in Sources */,
 				9E145FBB2B6FF94200801FC7 /* DrawingBook.swift in Sources */,
 				9EAF9EA62B792A140079764C /* ZeroOrMoreRepetitions.swift in Sources */,
 				9E833DF92B7133BF006222DB /* Pairs.swift in Sources */,
