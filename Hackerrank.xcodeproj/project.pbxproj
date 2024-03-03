@@ -14,6 +14,8 @@
 		9E0442EB2B9133DE00D7CB14 /* ChocolateFeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442EA2B9133DE00D7CB14 /* ChocolateFeast.swift */; };
 		9E0442F42B94023500D7CB14 /* ExtractEachKth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442F32B94023500D7CB14 /* ExtractEachKth.swift */; };
 		9E0442F62B94038E00D7CB14 /* FirstDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442F52B94038E00D7CB14 /* FirstDigit.swift */; };
+		9E0442F82B9406BA00D7CB14 /* DifferentSymbolsNaive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442F72B9406BA00D7CB14 /* DifferentSymbolsNaive.swift */; };
+		9E0442FA2B9407E700D7CB14 /* ArrayMaxConsecutiveSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442F92B9407E700D7CB14 /* ArrayMaxConsecutiveSum.swift */; };
 		9E061C5F2B7EE9DA00C24CC2 /* JumpingOnClouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C5E2B7EE9DA00C24CC2 /* JumpingOnClouds.swift */; };
 		9E061C612B7EEA8D00C24CC2 /* SherlockAndSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */; };
 		9E061C632B7EF1A300C24CC2 /* ArrayReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */; };
@@ -191,6 +193,8 @@
 		9E0442EA2B9133DE00D7CB14 /* ChocolateFeast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateFeast.swift; sourceTree = "<group>"; };
 		9E0442F32B94023500D7CB14 /* ExtractEachKth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractEachKth.swift; sourceTree = "<group>"; };
 		9E0442F52B94038E00D7CB14 /* FirstDigit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDigit.swift; sourceTree = "<group>"; };
+		9E0442F72B9406BA00D7CB14 /* DifferentSymbolsNaive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentSymbolsNaive.swift; sourceTree = "<group>"; };
+		9E0442F92B9407E700D7CB14 /* ArrayMaxConsecutiveSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayMaxConsecutiveSum.swift; sourceTree = "<group>"; };
 		9E061C5E2B7EE9DA00C24CC2 /* JumpingOnClouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnClouds.swift; sourceTree = "<group>"; };
 		9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquares.swift; sourceTree = "<group>"; };
 		9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayReplace.swift; sourceTree = "<group>"; };
@@ -522,6 +526,8 @@
 				9E0442B22B8F7A0B00D7CB14 /* StringsRearrangement.swift */,
 				9E0442F32B94023500D7CB14 /* ExtractEachKth.swift */,
 				9E0442F52B94038E00D7CB14 /* FirstDigit.swift */,
+				9E0442F72B9406BA00D7CB14 /* DifferentSymbolsNaive.swift */,
+				9E0442F92B9407E700D7CB14 /* ArrayMaxConsecutiveSum.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -783,12 +789,14 @@
 				9E4827B32B84D9E70095F74C /* DepositProfile.swift in Sources */,
 				9EAF9E9E2B7916740079764C /* ExcludingSpecificCharacters.swift in Sources */,
 				9E7890852B61A925001F9FD6 /* AVeryBigSum.swift in Sources */,
+				9E0442F82B9406BA00D7CB14 /* DifferentSymbolsNaive.swift in Sources */,
 				9E2738CE2B7AFE0D0082116E /* ForwardReferences.swift in Sources */,
 				9E145FBD2B703C9000801FC7 /* Sudoku2.swift in Sources */,
 				9E4827B12B84D6840095F74C /* MinimumDistances.swift in Sources */,
 				9EEC74202B7DA687005AC64D /* PositiveLookbehind.swift in Sources */,
 				9E6DBD462B764B3100BFDEA6 /* CircularArrayRotation.swift in Sources */,
 				9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */,
+				9E0442FA2B9407E700D7CB14 /* ArrayMaxConsecutiveSum.swift in Sources */,
 				9EAF9E672B77DF010079764C /* DigitalRoot.swift in Sources */,
 				9EE2344F2B7FD74500EBF20E /* VariableName.swift in Sources */,
 				9E309CF32B602F7A00527807 /* NewYearChaos.swift in Sources */,
