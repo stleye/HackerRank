@@ -12,6 +12,8 @@
 		9E0442BE2B8FC73400D7CB14 /* DetectEmailAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442BD2B8FC73400D7CB14 /* DetectEmailAddresses.swift */; };
 		9E0442C02B900D8500D7CB14 /* BiggerIsGreater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442BF2B900D8500D7CB14 /* BiggerIsGreater.swift */; };
 		9E0442EB2B9133DE00D7CB14 /* ChocolateFeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442EA2B9133DE00D7CB14 /* ChocolateFeast.swift */; };
+		9E0442F42B94023500D7CB14 /* ExtractEachKth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442F32B94023500D7CB14 /* ExtractEachKth.swift */; };
+		9E0442F62B94038E00D7CB14 /* FirstDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442F52B94038E00D7CB14 /* FirstDigit.swift */; };
 		9E061C5F2B7EE9DA00C24CC2 /* JumpingOnClouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C5E2B7EE9DA00C24CC2 /* JumpingOnClouds.swift */; };
 		9E061C612B7EEA8D00C24CC2 /* SherlockAndSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */; };
 		9E061C632B7EF1A300C24CC2 /* ArrayReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */; };
@@ -187,6 +189,8 @@
 		9E0442BD2B8FC73400D7CB14 /* DetectEmailAddresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectEmailAddresses.swift; sourceTree = "<group>"; };
 		9E0442BF2B900D8500D7CB14 /* BiggerIsGreater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiggerIsGreater.swift; sourceTree = "<group>"; };
 		9E0442EA2B9133DE00D7CB14 /* ChocolateFeast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateFeast.swift; sourceTree = "<group>"; };
+		9E0442F32B94023500D7CB14 /* ExtractEachKth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractEachKth.swift; sourceTree = "<group>"; };
+		9E0442F52B94038E00D7CB14 /* FirstDigit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDigit.swift; sourceTree = "<group>"; };
 		9E061C5E2B7EE9DA00C24CC2 /* JumpingOnClouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnClouds.swift; sourceTree = "<group>"; };
 		9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquares.swift; sourceTree = "<group>"; };
 		9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayReplace.swift; sourceTree = "<group>"; };
@@ -516,6 +520,8 @@
 				9E4827B22B84D9E70095F74C /* DepositProfile.swift */,
 				9EA2AB472B86A3C800F49CEB /* AbsoluteValuesSumMinimization.swift */,
 				9E0442B22B8F7A0B00D7CB14 /* StringsRearrangement.swift */,
+				9E0442F32B94023500D7CB14 /* ExtractEachKth.swift */,
+				9E0442F52B94038E00D7CB14 /* FirstDigit.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -723,6 +729,7 @@
 				9E145FBF2B70444200801FC7 /* Encryption.swift in Sources */,
 				9E833DF72B712B3F006222DB /* MergeTwoSortedLinkedLists.swift in Sources */,
 				9E833E032B71C225006222DB /* RemoveKFromList.swift in Sources */,
+				9E0442F62B94038E00D7CB14 /* FirstDigit.swift in Sources */,
 				9E663BF22B6302F300B9ACC5 /* DynamicArray.swift in Sources */,
 				9E833E0F2B729D9C006222DB /* UtopianTree.swift in Sources */,
 				9E7890872B61AA64001F9FD6 /* CompareTheTriplets.swift in Sources */,
@@ -812,6 +819,7 @@
 				9E833E072B726D81006222DB /* LonelyInteger.swift in Sources */,
 				9E7890912B61EE57001F9FD6 /* BirthdayCakeCandles.swift in Sources */,
 				9E1005212B59C0A70001F776 /* CaesarsCipher.swift in Sources */,
+				9E0442F42B94023500D7CB14 /* ExtractEachKth.swift in Sources */,
 				9E71B6E32B6BF28E0045A927 /* DivisibleSumPairs.swift in Sources */,
 				9E10051F2B59804D0001F776 /* FlippingTheMatrix.swift in Sources */,
 				9E10050B2B5980120001F776 /* AppDelegate.swift in Sources */,
