@@ -99,6 +99,7 @@
 		9E833E132B731D96006222DB /* HurdleRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E122B731D96006222DB /* HurdleRace.swift */; };
 		9E833E152B73A2CF006222DB /* AngryProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E142B73A2CF006222DB /* AngryProfessor.swift */; };
 		9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */; };
+		9E94EF162B94B6F20046E481 /* GrowingPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E94EF152B94B6F20046E481 /* GrowingPlant.swift */; };
 		9E9CB1402B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CB13F2B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift */; };
 		9EA022ED2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA022EC2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift */; };
 		9EA023092B7C3696008D3D12 /* AvoidObstacles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA023082B7C3696008D3D12 /* AvoidObstacles.swift */; };
@@ -169,6 +170,7 @@
 		9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE31C632B6AB33400B69E9E /* Array+Extension.swift */; };
 		9EE59ADF2B839D250095B729 /* CircleOfNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE59ADE2B839D250095B729 /* CircleOfNumbers.swift */; };
 		9EE59AE12B839F690095B729 /* HalloweenSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE59AE02B839F690095B729 /* HalloweenSale.swift */; };
+		9EE914D32B94B9EE0000D8CF /* ClimbingTheLeaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE914D22B94B9EE0000D8CF /* ClimbingTheLeaderboard.swift */; };
 		9EEC741C2B7DA1C9005AC64D /* PositiveLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */; };
 		9EEC741E2B7DA2F0005AC64D /* NegativeLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */; };
 		9EEC74202B7DA687005AC64D /* PositiveLookbehind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */; };
@@ -281,6 +283,7 @@
 		9E833E122B731D96006222DB /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
 		9E833E142B73A2CF006222DB /* AngryProfessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryProfessor.swift; sourceTree = "<group>"; };
 		9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
+		9E94EF152B94B6F20046E481 /* GrowingPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingPlant.swift; sourceTree = "<group>"; };
 		9E9CB13F2B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenZerosAndOddOnes.swift; sourceTree = "<group>"; };
 		9EA022EC2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityBijectiveFunctions.swift; sourceTree = "<group>"; };
 		9EA023082B7C3696008D3D12 /* AvoidObstacles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidObstacles.swift; sourceTree = "<group>"; };
@@ -351,6 +354,7 @@
 		9EE31C632B6AB33400B69E9E /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		9EE59ADE2B839D250095B729 /* CircleOfNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleOfNumbers.swift; sourceTree = "<group>"; };
 		9EE59AE02B839F690095B729 /* HalloweenSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenSale.swift; sourceTree = "<group>"; };
+		9EE914D22B94B9EE0000D8CF /* ClimbingTheLeaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingTheLeaderboard.swift; sourceTree = "<group>"; };
 		9EEC741B2B7DA1C9005AC64D /* PositiveLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookahead.swift; sourceTree = "<group>"; };
 		9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeLookahead.swift; sourceTree = "<group>"; };
 		9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookbehind.swift; sourceTree = "<group>"; };
@@ -528,6 +532,7 @@
 				9E0442F52B94038E00D7CB14 /* FirstDigit.swift */,
 				9E0442F72B9406BA00D7CB14 /* DifferentSymbolsNaive.swift */,
 				9E0442F92B9407E700D7CB14 /* ArrayMaxConsecutiveSum.swift */,
+				9E94EF152B94B6F20046E481 /* GrowingPlant.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -604,6 +609,7 @@
 				9E4827B02B84D6840095F74C /* MinimumDistances.swift */,
 				9E0442902B8E725700D7CB14 /* AppendAndDelete.swift */,
 				9E0442EA2B9133DE00D7CB14 /* ChocolateFeast.swift */,
+				9EE914D22B94B9EE0000D8CF /* ClimbingTheLeaderboard.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -761,6 +767,7 @@
 				9E663BF42B632A3400B9ACC5 /* LeftRotation.swift in Sources */,
 				9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */,
 				9EAF9E6D2B77E27A0079764C /* SumOfTwoSmallestIntegers.swift in Sources */,
+				9E94EF162B94B6F20046E481 /* GrowingPlant.swift in Sources */,
 				9E5F16152B754AAD00C0F29A /* CutTheSticks.swift in Sources */,
 				9EAF9E7D2B78437A0079764C /* IsLucky.swift in Sources */,
 				9E5F16132B7549AF00C0F29A /* FindDigits.swift in Sources */,
@@ -876,6 +883,7 @@
 				9EAF9EA82B7941520079764C /* OneOrMoreRepetitions.swift in Sources */,
 				9E7890832B61A08B001F9FD6 /* TrackTour.swift in Sources */,
 				9E5241182B7BF10B0023C5D8 /* SecurityFunctions.swift in Sources */,
+				9EE914D32B94B9EE0000D8CF /* ClimbingTheLeaderboard.swift in Sources */,
 				9EA0230F2B7C4FDC008D3D12 /* SaveThePrisoner.swift in Sources */,
 				9EAF9E8A2B78E84C0079764C /* RegexProblem.swift in Sources */,
 				9E061C632B7EF1A300C24CC2 /* ArrayReplace.swift in Sources */,
