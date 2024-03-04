@@ -21,6 +21,7 @@
 		9E061C632B7EF1A300C24CC2 /* ArrayReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */; };
 		9E061C652B7EF27700C24CC2 /* EvenDigitsOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C642B7EF27700C24CC2 /* EvenDigitsOnly.swift */; };
 		9E0843932B95DD3C004C8A54 /* KnapsackLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0843922B95DD3C004C8A54 /* KnapsackLight.swift */; };
+		9E0843952B95E1CA004C8A54 /* LongestDigitPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0843942B95E1CA004C8A54 /* LongestDigitPrefix.swift */; };
 		9E10050B2B5980120001F776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10050A2B5980120001F776 /* AppDelegate.swift */; };
 		9E10050D2B5980120001F776 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10050C2B5980120001F776 /* SceneDelegate.swift */; };
 		9E10050F2B5980120001F776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10050E2B5980120001F776 /* ViewController.swift */; };
@@ -203,6 +204,7 @@
 		9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayReplace.swift; sourceTree = "<group>"; };
 		9E061C642B7EF27700C24CC2 /* EvenDigitsOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenDigitsOnly.swift; sourceTree = "<group>"; };
 		9E0843922B95DD3C004C8A54 /* KnapsackLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnapsackLight.swift; sourceTree = "<group>"; };
+		9E0843942B95E1CA004C8A54 /* LongestDigitPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestDigitPrefix.swift; sourceTree = "<group>"; };
 		9E1005072B5980120001F776 /* Hackerrank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackerrank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E10050A2B5980120001F776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E10050C2B5980120001F776 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -536,6 +538,7 @@
 				9E0442F92B9407E700D7CB14 /* ArrayMaxConsecutiveSum.swift */,
 				9E94EF152B94B6F20046E481 /* GrowingPlant.swift */,
 				9E0843922B95DD3C004C8A54 /* KnapsackLight.swift */,
+				9E0843942B95E1CA004C8A54 /* LongestDigitPrefix.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -824,6 +827,7 @@
 				9EAF9E902B78F9C40079764C /* WordAndNonWordCharacter.swift in Sources */,
 				9EAF9E6F2B77FA7B0079764C /* AdjacentElementsProduct.swift in Sources */,
 				9E0442BE2B8FC73400D7CB14 /* DetectEmailAddresses.swift in Sources */,
+				9E0843952B95E1CA004C8A54 /* LongestDigitPrefix.swift in Sources */,
 				9E9CB1402B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift in Sources */,
 				9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */,
 				9EE0CEDB2B6FA2ED00D27AFA /* FirstDuplicate.swift in Sources */,
