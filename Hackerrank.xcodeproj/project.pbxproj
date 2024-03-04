@@ -20,6 +20,7 @@
 		9E061C612B7EEA8D00C24CC2 /* SherlockAndSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */; };
 		9E061C632B7EF1A300C24CC2 /* ArrayReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */; };
 		9E061C652B7EF27700C24CC2 /* EvenDigitsOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E061C642B7EF27700C24CC2 /* EvenDigitsOnly.swift */; };
+		9E0843932B95DD3C004C8A54 /* KnapsackLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0843922B95DD3C004C8A54 /* KnapsackLight.swift */; };
 		9E10050B2B5980120001F776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10050A2B5980120001F776 /* AppDelegate.swift */; };
 		9E10050D2B5980120001F776 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10050C2B5980120001F776 /* SceneDelegate.swift */; };
 		9E10050F2B5980120001F776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10050E2B5980120001F776 /* ViewController.swift */; };
@@ -201,6 +202,7 @@
 		9E061C602B7EEA8D00C24CC2 /* SherlockAndSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquares.swift; sourceTree = "<group>"; };
 		9E061C622B7EF1A300C24CC2 /* ArrayReplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayReplace.swift; sourceTree = "<group>"; };
 		9E061C642B7EF27700C24CC2 /* EvenDigitsOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenDigitsOnly.swift; sourceTree = "<group>"; };
+		9E0843922B95DD3C004C8A54 /* KnapsackLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnapsackLight.swift; sourceTree = "<group>"; };
 		9E1005072B5980120001F776 /* Hackerrank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackerrank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E10050A2B5980120001F776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E10050C2B5980120001F776 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -533,6 +535,7 @@
 				9E0442F72B9406BA00D7CB14 /* DifferentSymbolsNaive.swift */,
 				9E0442F92B9407E700D7CB14 /* ArrayMaxConsecutiveSum.swift */,
 				9E94EF152B94B6F20046E481 /* GrowingPlant.swift */,
+				9E0843922B95DD3C004C8A54 /* KnapsackLight.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -746,6 +749,7 @@
 				9E833E0F2B729D9C006222DB /* UtopianTree.swift in Sources */,
 				9E7890872B61AA64001F9FD6 /* CompareTheTriplets.swift in Sources */,
 				9E5F160F2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift in Sources */,
+				9E0843932B95DD3C004C8A54 /* KnapsackLight.swift in Sources */,
 				9EAF9E6B2B77E1080079764C /* Int+Extension.swift in Sources */,
 				9E10050F2B5980120001F776 /* ViewController.swift in Sources */,
 				9EAF9E772B7804A70079764C /* MatrixElementsSum.swift in Sources */,
