@@ -89,6 +89,7 @@
 		9E78908F2B61EDCD001F9FD6 /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78908E2B61EDCD001F9FD6 /* TimeConversion.swift */; };
 		9E7890912B61EE57001F9FD6 /* BirthdayCakeCandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7890902B61EE57001F9FD6 /* BirthdayCakeCandles.swift */; };
 		9E7CF9302B98806100038A94 /* BishopAndPawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7CF92F2B98806100038A94 /* BishopAndPawn.swift */; };
+		9E7CF9322B9883B300038A94 /* RepeatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7CF9312B9883B300038A94 /* RepeatedString.swift */; };
 		9E833DF52B712908006222DB /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833DF42B712908006222DB /* LinkedList.swift */; };
 		9E833DF72B712B3F006222DB /* MergeTwoSortedLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833DF62B712B3F006222DB /* MergeTwoSortedLinkedLists.swift */; };
 		9E833DF92B7133BF006222DB /* Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833DF82B7133BF006222DB /* Pairs.swift */; };
@@ -278,6 +279,7 @@
 		9E78908E2B61EDCD001F9FD6 /* TimeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
 		9E7890902B61EE57001F9FD6 /* BirthdayCakeCandles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCakeCandles.swift; sourceTree = "<group>"; };
 		9E7CF92F2B98806100038A94 /* BishopAndPawn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BishopAndPawn.swift; sourceTree = "<group>"; };
+		9E7CF9312B9883B300038A94 /* RepeatedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedString.swift; sourceTree = "<group>"; };
 		9E833DF42B712908006222DB /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		9E833DF62B712B3F006222DB /* MergeTwoSortedLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLinkedLists.swift; sourceTree = "<group>"; };
 		9E833DF82B7133BF006222DB /* Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pairs.swift; sourceTree = "<group>"; };
@@ -625,6 +627,7 @@
 				9E0442EA2B9133DE00D7CB14 /* ChocolateFeast.swift */,
 				9EE914D22B94B9EE0000D8CF /* ClimbingTheLeaderboard.swift */,
 				9E0843A32B9686C3004C8A54 /* ExtraLongFactorials.swift */,
+				9E7CF9312B9883B300038A94 /* RepeatedString.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -810,6 +813,7 @@
 				9E5241162B7BE4970023C5D8 /* IsIPV4Address.swift in Sources */,
 				9E78908F2B61EDCD001F9FD6 /* TimeConversion.swift in Sources */,
 				9EAF9EB32B79A31A0079764C /* CapturingAndNonCapturingGroups.swift in Sources */,
+				9E7CF9322B9883B300038A94 /* RepeatedString.swift in Sources */,
 				9E4827B32B84D9E70095F74C /* DepositProfile.swift in Sources */,
 				9EAF9E9E2B7916740079764C /* ExcludingSpecificCharacters.swift in Sources */,
 				9E7890852B61A925001F9FD6 /* AVeryBigSum.swift in Sources */,
