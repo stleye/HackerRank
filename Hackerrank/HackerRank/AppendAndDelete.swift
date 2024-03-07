@@ -23,9 +23,9 @@ struct AppendAndDelete {
         let totalOperations = s.count + t.count - 2 * commonLength
         
         if k >= s.count + t.count || (k >= totalOperations && (k - totalOperations) % 2 == 0) {
-            return "YES"
+            return "Yes"
         }
-        return "NO"
+        return "No"
     }
     
     
