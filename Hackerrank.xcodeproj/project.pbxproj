@@ -106,6 +106,7 @@
 		9E833E152B73A2CF006222DB /* AngryProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E142B73A2CF006222DB /* AngryProfessor.swift */; };
 		9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */; };
 		9E94EF162B94B6F20046E481 /* GrowingPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E94EF152B94B6F20046E481 /* GrowingPlant.swift */; };
+		9E9BE6552B9A8CA8008FE834 /* FindEmailDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BE6542B9A8CA8008FE834 /* FindEmailDomain.swift */; };
 		9E9CB1402B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CB13F2B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift */; };
 		9EA022ED2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA022EC2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift */; };
 		9EA023092B7C3696008D3D12 /* AvoidObstacles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA023082B7C3696008D3D12 /* AvoidObstacles.swift */; };
@@ -297,6 +298,7 @@
 		9E833E142B73A2CF006222DB /* AngryProfessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryProfessor.swift; sourceTree = "<group>"; };
 		9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
 		9E94EF152B94B6F20046E481 /* GrowingPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingPlant.swift; sourceTree = "<group>"; };
+		9E9BE6542B9A8CA8008FE834 /* FindEmailDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindEmailDomain.swift; sourceTree = "<group>"; };
 		9E9CB13F2B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenZerosAndOddOnes.swift; sourceTree = "<group>"; };
 		9EA022EC2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityBijectiveFunctions.swift; sourceTree = "<group>"; };
 		9EA023082B7C3696008D3D12 /* AvoidObstacles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidObstacles.swift; sourceTree = "<group>"; };
@@ -552,6 +554,7 @@
 				9EA0D33F2B978E2700F68045 /* DigitDegree.swift */,
 				9E7CF92F2B98806100038A94 /* BishopAndPawn.swift */,
 				9E4F2BBF2B99DA6100713473 /* IsBeautifulString.swift */,
+				9E9BE6542B9A8CA8008FE834 /* FindEmailDomain.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -759,6 +762,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E0442912B8E725700D7CB14 /* AppendAndDelete.swift in Sources */,
+				9E9BE6552B9A8CA8008FE834 /* FindEmailDomain.swift in Sources */,
 				9E145FBF2B70444200801FC7 /* Encryption.swift in Sources */,
 				9E833DF72B712B3F006222DB /* MergeTwoSortedLinkedLists.swift in Sources */,
 				9E833E032B71C225006222DB /* RemoveKFromList.swift in Sources */,
