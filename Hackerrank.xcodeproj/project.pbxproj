@@ -48,6 +48,7 @@
 		9E2B7D832B691DCB005C84C7 /* ElectronicsShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2B7D822B691DCB005C84C7 /* ElectronicsShop.swift */; };
 		9E2B7D8B2B692028005C84C7 /* HackerrankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2B7D8A2B692028005C84C7 /* HackerrankTests.swift */; };
 		9E309CF32B602F7A00527807 /* NewYearChaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E309CF22B602F7A00527807 /* NewYearChaos.swift */; };
+		9E3251FE2B9B7E64001DF7B0 /* BuildPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3251FD2B9B7E64001DF7B0 /* BuildPalindrome.swift */; };
 		9E4827B12B84D6840095F74C /* MinimumDistances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4827B02B84D6840095F74C /* MinimumDistances.swift */; };
 		9E4827B32B84D9E70095F74C /* DepositProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4827B22B84D9E70095F74C /* DepositProfile.swift */; };
 		9E4F2BC02B99DA6100713473 /* IsBeautifulString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4F2BBF2B99DA6100713473 /* IsBeautifulString.swift */; };
@@ -107,6 +108,7 @@
 		9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */; };
 		9E94EF162B94B6F20046E481 /* GrowingPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E94EF152B94B6F20046E481 /* GrowingPlant.swift */; };
 		9E9BE6552B9A8CA8008FE834 /* FindEmailDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BE6542B9A8CA8008FE834 /* FindEmailDomain.swift */; };
+		9E9BE6572B9A8F3B008FE834 /* NonDivisibleSubset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BE6562B9A8F3B008FE834 /* NonDivisibleSubset.swift */; };
 		9E9CB1402B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CB13F2B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift */; };
 		9EA022ED2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA022EC2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift */; };
 		9EA023092B7C3696008D3D12 /* AvoidObstacles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA023082B7C3696008D3D12 /* AvoidObstacles.swift */; };
@@ -240,6 +242,7 @@
 		9E2B7D882B692028005C84C7 /* HackerrankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerrankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2B7D8A2B692028005C84C7 /* HackerrankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerrankTests.swift; sourceTree = "<group>"; };
 		9E309CF22B602F7A00527807 /* NewYearChaos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearChaos.swift; sourceTree = "<group>"; };
+		9E3251FD2B9B7E64001DF7B0 /* BuildPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildPalindrome.swift; sourceTree = "<group>"; };
 		9E4827B02B84D6840095F74C /* MinimumDistances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumDistances.swift; sourceTree = "<group>"; };
 		9E4827B22B84D9E70095F74C /* DepositProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositProfile.swift; sourceTree = "<group>"; };
 		9E4F2BBF2B99DA6100713473 /* IsBeautifulString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsBeautifulString.swift; sourceTree = "<group>"; };
@@ -299,6 +302,7 @@
 		9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
 		9E94EF152B94B6F20046E481 /* GrowingPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingPlant.swift; sourceTree = "<group>"; };
 		9E9BE6542B9A8CA8008FE834 /* FindEmailDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindEmailDomain.swift; sourceTree = "<group>"; };
+		9E9BE6562B9A8F3B008FE834 /* NonDivisibleSubset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonDivisibleSubset.swift; sourceTree = "<group>"; };
 		9E9CB13F2B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenZerosAndOddOnes.swift; sourceTree = "<group>"; };
 		9EA022EC2B7BF4A6008D3D12 /* SecurityBijectiveFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityBijectiveFunctions.swift; sourceTree = "<group>"; };
 		9EA023082B7C3696008D3D12 /* AvoidObstacles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidObstacles.swift; sourceTree = "<group>"; };
@@ -555,6 +559,7 @@
 				9E7CF92F2B98806100038A94 /* BishopAndPawn.swift */,
 				9E4F2BBF2B99DA6100713473 /* IsBeautifulString.swift */,
 				9E9BE6542B9A8CA8008FE834 /* FindEmailDomain.swift */,
+				9E3251FD2B9B7E64001DF7B0 /* BuildPalindrome.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -634,6 +639,7 @@
 				9EE914D22B94B9EE0000D8CF /* ClimbingTheLeaderboard.swift */,
 				9E0843A32B9686C3004C8A54 /* ExtraLongFactorials.swift */,
 				9E7CF9312B9883B300038A94 /* RepeatedString.swift */,
+				9E9BE6562B9A8F3B008FE834 /* NonDivisibleSubset.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -892,6 +898,7 @@
 				9E061C5F2B7EE9DA00C24CC2 /* JumpingOnClouds.swift in Sources */,
 				9EBE207B2B65E18100FA5C62 /* DiagonalDifference.swift in Sources */,
 				9E10050D2B5980120001F776 /* SceneDelegate.swift in Sources */,
+				9E9BE6572B9A8F3B008FE834 /* NonDivisibleSubset.swift in Sources */,
 				9EAF9E942B78FBE60079764C /* SpecificCharacters.swift in Sources */,
 				9EE0CEE12B6FA4DE00D27AFA /* FirstNotRepeatingCharacter.swift in Sources */,
 				9E833DFF2B717356006222DB /* CatsAndAMouse.swift in Sources */,
@@ -923,6 +930,7 @@
 				9EAF9E922B78FAA70079764C /* StartAndEnd.swift in Sources */,
 				9E0442C02B900D8500D7CB14 /* BiggerIsGreater.swift in Sources */,
 				9E145FBB2B6FF94200801FC7 /* DrawingBook.swift in Sources */,
+				9E3251FE2B9B7E64001DF7B0 /* BuildPalindrome.swift in Sources */,
 				9EAF9EA62B792A140079764C /* ZeroOrMoreRepetitions.swift in Sources */,
 				9E833DF92B7133BF006222DB /* Pairs.swift in Sources */,
 				9E6DBD4B2B76CAD800BFDEA6 /* TwoSum.swift in Sources */,
