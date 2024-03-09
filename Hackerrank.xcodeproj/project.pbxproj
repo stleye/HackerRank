@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E02452E2B9C73C0004B26F2 /* ElectionsWinners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E02452D2B9C73C0004B26F2 /* ElectionsWinners.swift */; };
 		9E0442912B8E725700D7CB14 /* AppendAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442902B8E725700D7CB14 /* AppendAndDelete.swift */; };
 		9E0442B32B8F7A0B00D7CB14 /* StringsRearrangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442B22B8F7A0B00D7CB14 /* StringsRearrangement.swift */; };
 		9E0442BE2B8FC73400D7CB14 /* DetectEmailAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442BD2B8FC73400D7CB14 /* DetectEmailAddresses.swift */; };
@@ -198,6 +199,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E02452D2B9C73C0004B26F2 /* ElectionsWinners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectionsWinners.swift; sourceTree = "<group>"; };
 		9E0442902B8E725700D7CB14 /* AppendAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendAndDelete.swift; sourceTree = "<group>"; };
 		9E0442B22B8F7A0B00D7CB14 /* StringsRearrangement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsRearrangement.swift; sourceTree = "<group>"; };
 		9E0442BD2B8FC73400D7CB14 /* DetectEmailAddresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectEmailAddresses.swift; sourceTree = "<group>"; };
@@ -560,6 +562,7 @@
 				9E4F2BBF2B99DA6100713473 /* IsBeautifulString.swift */,
 				9E9BE6542B9A8CA8008FE834 /* FindEmailDomain.swift */,
 				9E3251FD2B9B7E64001DF7B0 /* BuildPalindrome.swift */,
+				9E02452D2B9C73C0004B26F2 /* ElectionsWinners.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -885,6 +888,7 @@
 				9E833E112B72ADC4006222DB /* QueensAttack2.swift in Sources */,
 				9E2738CA2B7AFA730082116E /* BackreferencesToFailedGroups.swift in Sources */,
 				9EAF9E852B78E1260079764C /* NSRegularExpression+Extension.swift in Sources */,
+				9E02452E2B9C73C0004B26F2 /* ElectionsWinners.swift in Sources */,
 				9E833DF52B712908006222DB /* LinkedList.swift in Sources */,
 				9E145FC32B707EE200801FC7 /* CountingValleys.swift in Sources */,
 				9E2738C82B7AF60C0082116E /* SameTextAgainAndAgain.swift in Sources */,
