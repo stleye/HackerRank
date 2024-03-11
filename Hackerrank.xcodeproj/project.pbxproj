@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E02452E2B9C73C0004B26F2 /* ElectionsWinners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E02452D2B9C73C0004B26F2 /* ElectionsWinners.swift */; };
+		9E0245302B9F25DA004B26F2 /* IsMac48Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E02452F2B9F25DA004B26F2 /* IsMac48Address.swift */; };
 		9E0442912B8E725700D7CB14 /* AppendAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442902B8E725700D7CB14 /* AppendAndDelete.swift */; };
 		9E0442B32B8F7A0B00D7CB14 /* StringsRearrangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442B22B8F7A0B00D7CB14 /* StringsRearrangement.swift */; };
 		9E0442BE2B8FC73400D7CB14 /* DetectEmailAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0442BD2B8FC73400D7CB14 /* DetectEmailAddresses.swift */; };
@@ -200,6 +201,7 @@
 
 /* Begin PBXFileReference section */
 		9E02452D2B9C73C0004B26F2 /* ElectionsWinners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectionsWinners.swift; sourceTree = "<group>"; };
+		9E02452F2B9F25DA004B26F2 /* IsMac48Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsMac48Address.swift; sourceTree = "<group>"; };
 		9E0442902B8E725700D7CB14 /* AppendAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendAndDelete.swift; sourceTree = "<group>"; };
 		9E0442B22B8F7A0B00D7CB14 /* StringsRearrangement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsRearrangement.swift; sourceTree = "<group>"; };
 		9E0442BD2B8FC73400D7CB14 /* DetectEmailAddresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectEmailAddresses.swift; sourceTree = "<group>"; };
@@ -563,6 +565,7 @@
 				9E9BE6542B9A8CA8008FE834 /* FindEmailDomain.swift */,
 				9E3251FD2B9B7E64001DF7B0 /* BuildPalindrome.swift */,
 				9E02452D2B9C73C0004B26F2 /* ElectionsWinners.swift */,
+				9E02452F2B9F25DA004B26F2 /* IsMac48Address.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -880,6 +883,7 @@
 				9EEC741C2B7DA1C9005AC64D /* PositiveLookahead.swift in Sources */,
 				9E6D05B02B7A94460057A5CB /* PickingNumbers.swift in Sources */,
 				9EA1CAD12B73E8A300B32BB7 /* AddTwoHugeNumbers.swift in Sources */,
+				9E0245302B9F25DA004B26F2 /* IsMac48Address.swift in Sources */,
 				9E663BF62B64188100B9ACC5 /* QueueUsingTwoStacks.swift in Sources */,
 				9EE0CEE72B6FAD9D00D27AFA /* SalesByMatch.swift in Sources */,
 				9EAF9EA42B7928860079764C /* MatchingXYRepetitions.swift in Sources */,
