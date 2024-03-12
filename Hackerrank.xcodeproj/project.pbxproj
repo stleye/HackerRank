@@ -75,6 +75,7 @@
 		9E663BFA2B648FB300B9ACC5 /* BreakingRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E663BF92B648FB300B9ACC5 /* BreakingRecords.swift */; };
 		9E689B1B2B7D57D0003066A4 /* Minesweeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E689B1A2B7D57D0003066A4 /* Minesweeper.swift */; };
 		9E689B1D2B7D5C60003066A4 /* AddTwoDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E689B1C2B7D5C60003066A4 /* AddTwoDigits.swift */; };
+		9E6AC9A52BA0A1FF00258D58 /* IsDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6AC9A42BA0A1FF00258D58 /* IsDigit.swift */; };
 		9E6D05AE2B7A8F470057A5CB /* AlternativeMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D05AD2B7A8F470057A5CB /* AlternativeMatching.swift */; };
 		9E6D05B02B7A94460057A5CB /* PickingNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D05AF2B7A94460057A5CB /* PickingNumbers.swift */; };
 		9E6DBD462B764B3100BFDEA6 /* CircularArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6DBD452B764B3100BFDEA6 /* CircularArrayRotation.swift */; };
@@ -271,6 +272,7 @@
 		9E663BF92B648FB300B9ACC5 /* BreakingRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingRecords.swift; sourceTree = "<group>"; };
 		9E689B1A2B7D57D0003066A4 /* Minesweeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minesweeper.swift; sourceTree = "<group>"; };
 		9E689B1C2B7D5C60003066A4 /* AddTwoDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoDigits.swift; sourceTree = "<group>"; };
+		9E6AC9A42BA0A1FF00258D58 /* IsDigit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsDigit.swift; sourceTree = "<group>"; };
 		9E6D05AD2B7A8F470057A5CB /* AlternativeMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeMatching.swift; sourceTree = "<group>"; };
 		9E6D05AF2B7A94460057A5CB /* PickingNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingNumbers.swift; sourceTree = "<group>"; };
 		9E6DBD452B764B3100BFDEA6 /* CircularArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayRotation.swift; sourceTree = "<group>"; };
@@ -566,6 +568,7 @@
 				9E3251FD2B9B7E64001DF7B0 /* BuildPalindrome.swift */,
 				9E02452D2B9C73C0004B26F2 /* ElectionsWinners.swift */,
 				9E02452F2B9F25DA004B26F2 /* IsMac48Address.swift */,
+				9E6AC9A42BA0A1FF00258D58 /* IsDigit.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -852,6 +855,7 @@
 				9E5F16112B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift in Sources */,
 				9EA0230B2B7C3B3C008D3D12 /* BoxBlur.swift in Sources */,
 				9E2738C42B7AC8140082116E /* PalindromeRearranging.swift in Sources */,
+				9E6AC9A52BA0A1FF00258D58 /* IsDigit.swift in Sources */,
 				9EEC74222B7DA785005AC64D /* NegativeLookbehind.swift in Sources */,
 				9EE0CED92B6F1ACC00D27AFA /* BillDivision.swift in Sources */,
 				9E061C612B7EEA8D00C24CC2 /* SherlockAndSquares.swift in Sources */,
