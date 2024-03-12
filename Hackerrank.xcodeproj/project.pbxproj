@@ -76,6 +76,7 @@
 		9E689B1B2B7D57D0003066A4 /* Minesweeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E689B1A2B7D57D0003066A4 /* Minesweeper.swift */; };
 		9E689B1D2B7D5C60003066A4 /* AddTwoDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E689B1C2B7D5C60003066A4 /* AddTwoDigits.swift */; };
 		9E6AC9A52BA0A1FF00258D58 /* IsDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6AC9A42BA0A1FF00258D58 /* IsDigit.swift */; };
+		9E6AC9A72BA0A2A900258D58 /* JumpingOnTheClouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6AC9A62BA0A2A900258D58 /* JumpingOnTheClouds.swift */; };
 		9E6D05AE2B7A8F470057A5CB /* AlternativeMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D05AD2B7A8F470057A5CB /* AlternativeMatching.swift */; };
 		9E6D05B02B7A94460057A5CB /* PickingNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D05AF2B7A94460057A5CB /* PickingNumbers.swift */; };
 		9E6DBD462B764B3100BFDEA6 /* CircularArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6DBD452B764B3100BFDEA6 /* CircularArrayRotation.swift */; };
@@ -273,6 +274,7 @@
 		9E689B1A2B7D57D0003066A4 /* Minesweeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minesweeper.swift; sourceTree = "<group>"; };
 		9E689B1C2B7D5C60003066A4 /* AddTwoDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoDigits.swift; sourceTree = "<group>"; };
 		9E6AC9A42BA0A1FF00258D58 /* IsDigit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsDigit.swift; sourceTree = "<group>"; };
+		9E6AC9A62BA0A2A900258D58 /* JumpingOnTheClouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnTheClouds.swift; sourceTree = "<group>"; };
 		9E6D05AD2B7A8F470057A5CB /* AlternativeMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeMatching.swift; sourceTree = "<group>"; };
 		9E6D05AF2B7A94460057A5CB /* PickingNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingNumbers.swift; sourceTree = "<group>"; };
 		9E6DBD452B764B3100BFDEA6 /* CircularArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayRotation.swift; sourceTree = "<group>"; };
@@ -649,6 +651,7 @@
 				9E0843A32B9686C3004C8A54 /* ExtraLongFactorials.swift */,
 				9E7CF9312B9883B300038A94 /* RepeatedString.swift */,
 				9E9BE6562B9A8F3B008FE834 /* NonDivisibleSubset.swift */,
+				9E6AC9A62BA0A2A900258D58 /* JumpingOnTheClouds.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -805,6 +808,7 @@
 				9E52411B2B7BF2170023C5D8 /* SecurityFunctionsII.swift in Sources */,
 				9E5241142B7BE3C00023C5D8 /* ArrayMaximalAdjacentDifference.swift in Sources */,
 				9EAF9EA22B79211E0079764C /* MatchingXRepetitions.swift in Sources */,
+				9E6AC9A72BA0A2A900258D58 /* JumpingOnTheClouds.swift in Sources */,
 				9EE0CED52B6E4D4200D27AFA /* MigratoryBirds.swift in Sources */,
 				9E663BF42B632A3400B9ACC5 /* LeftRotation.swift in Sources */,
 				9EDE68C52B5FE06800BC50A3 /* RecursiveDigitSum.swift in Sources */,
