@@ -63,6 +63,8 @@
 		9E52B90F2B81875A00F6B601 /* ChessBoardCellColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E52B90E2B81875A00F6B601 /* ChessBoardCellColor.swift */; };
 		9E52B9112B82509900F6B601 /* DetectHTMLLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E52B9102B82509900F6B601 /* DetectHTMLLinks.swift */; };
 		9E52FE8B2BA212A20040458C /* LineEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E52FE8A2BA212A20040458C /* LineEncoding.swift */; };
+		9E5E75E22BA3828D00680855 /* ChessKnight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E75E12BA3828D00680855 /* ChessKnight.swift */; };
+		9E5E75E42BA384BE00680855 /* DeleteDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E75E32BA384BE00680855 /* DeleteDigit.swift */; };
 		9E5F160F2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F160E2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift */; };
 		9E5F16112B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F16102B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift */; };
 		9E5F16132B7549AF00C0F29A /* FindDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F16122B7549AF00C0F29A /* FindDigits.swift */; };
@@ -262,6 +264,8 @@
 		9E52B90E2B81875A00F6B601 /* ChessBoardCellColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoardCellColor.swift; sourceTree = "<group>"; };
 		9E52B9102B82509900F6B601 /* DetectHTMLLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectHTMLLinks.swift; sourceTree = "<group>"; };
 		9E52FE8A2BA212A20040458C /* LineEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineEncoding.swift; sourceTree = "<group>"; };
+		9E5E75E12BA3828D00680855 /* ChessKnight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessKnight.swift; sourceTree = "<group>"; };
+		9E5E75E32BA384BE00680855 /* DeleteDigit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDigit.swift; sourceTree = "<group>"; };
 		9E5F160E2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoLinkedLists.swift; sourceTree = "<group>"; };
 		9E5F16102B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulDaysAtTheMovies.swift; sourceTree = "<group>"; };
 		9E5F16122B7549AF00C0F29A /* FindDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDigits.swift; sourceTree = "<group>"; };
@@ -574,6 +578,8 @@
 				9E02452F2B9F25DA004B26F2 /* IsMac48Address.swift */,
 				9E6AC9A42BA0A1FF00258D58 /* IsDigit.swift */,
 				9E52FE8A2BA212A20040458C /* LineEncoding.swift */,
+				9E5E75E12BA3828D00680855 /* ChessKnight.swift */,
+				9E5E75E32BA384BE00680855 /* DeleteDigit.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -790,6 +796,7 @@
 				9E0442F62B94038E00D7CB14 /* FirstDigit.swift in Sources */,
 				9E663BF22B6302F300B9ACC5 /* DynamicArray.swift in Sources */,
 				9E833E0F2B729D9C006222DB /* UtopianTree.swift in Sources */,
+				9E5E75E42BA384BE00680855 /* DeleteDigit.swift in Sources */,
 				9E7890872B61AA64001F9FD6 /* CompareTheTriplets.swift in Sources */,
 				9E4F2BC02B99DA6100713473 /* IsBeautifulString.swift in Sources */,
 				9E5F160F2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift in Sources */,
@@ -853,6 +860,7 @@
 				9E145FBD2B703C9000801FC7 /* Sudoku2.swift in Sources */,
 				9E4827B12B84D6840095F74C /* MinimumDistances.swift in Sources */,
 				9EEC74202B7DA687005AC64D /* PositiveLookbehind.swift in Sources */,
+				9E5E75E22BA3828D00680855 /* ChessKnight.swift in Sources */,
 				9E6DBD462B764B3100BFDEA6 /* CircularArrayRotation.swift in Sources */,
 				9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */,
 				9E0442FA2B9407E700D7CB14 /* ArrayMaxConsecutiveSum.swift in Sources */,
