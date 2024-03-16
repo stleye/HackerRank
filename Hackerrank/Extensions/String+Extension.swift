@@ -49,4 +49,15 @@ extension String {
         return true
     }
     
+    func regexMatches(pattern: String) -> [String] {
+        let regex = try! NSRegularExpression(pattern: pattern)
+        let matches = regex.matches(in: self, range: NSRange(self.startIndex..., in: self))
+        var res: [String] = []
+        for match in matches {
+            let matchRange = Range(match.range, in: self)!
+            res.append(String(self[matchRange]))
+        }
+        return res
+    }
+
 }
