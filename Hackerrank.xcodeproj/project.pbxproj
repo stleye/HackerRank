@@ -53,6 +53,9 @@
 		9E3251FE2B9B7E64001DF7B0 /* BuildPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3251FD2B9B7E64001DF7B0 /* BuildPalindrome.swift */; };
 		9E3DA5BF2BA5C94F005944E7 /* ValidTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3DA5BE2BA5C94F005944E7 /* ValidTime.swift */; };
 		9E3DA5C12BA5CA29005944E7 /* SumUpNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3DA5C02BA5CA29005944E7 /* SumUpNumbers.swift */; };
+		9E3DA5C32BA5CCAD005944E7 /* DifferentSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3DA5C22BA5CCAD005944E7 /* DifferentSquares.swift */; };
+		9E3DA5C52BA5CEFD005944E7 /* DigitsProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3DA5C42BA5CEFD005944E7 /* DigitsProduct.swift */; };
+		9E3DA5F62BAA6406005944E7 /* FileNaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3DA5F52BAA6406005944E7 /* FileNaming.swift */; };
 		9E4827B12B84D6840095F74C /* MinimumDistances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4827B02B84D6840095F74C /* MinimumDistances.swift */; };
 		9E4827B32B84D9E70095F74C /* DepositProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4827B22B84D9E70095F74C /* DepositProfile.swift */; };
 		9E4F2BC02B99DA6100713473 /* IsBeautifulString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4F2BBF2B99DA6100713473 /* IsBeautifulString.swift */; };
@@ -257,6 +260,9 @@
 		9E3251FD2B9B7E64001DF7B0 /* BuildPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildPalindrome.swift; sourceTree = "<group>"; };
 		9E3DA5BE2BA5C94F005944E7 /* ValidTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidTime.swift; sourceTree = "<group>"; };
 		9E3DA5C02BA5CA29005944E7 /* SumUpNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumUpNumbers.swift; sourceTree = "<group>"; };
+		9E3DA5C22BA5CCAD005944E7 /* DifferentSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentSquares.swift; sourceTree = "<group>"; };
+		9E3DA5C42BA5CEFD005944E7 /* DigitsProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitsProduct.swift; sourceTree = "<group>"; };
+		9E3DA5F52BAA6406005944E7 /* FileNaming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNaming.swift; sourceTree = "<group>"; };
 		9E4827B02B84D6840095F74C /* MinimumDistances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumDistances.swift; sourceTree = "<group>"; };
 		9E4827B22B84D9E70095F74C /* DepositProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositProfile.swift; sourceTree = "<group>"; };
 		9E4F2BBF2B99DA6100713473 /* IsBeautifulString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsBeautifulString.swift; sourceTree = "<group>"; };
@@ -589,6 +595,9 @@
 				9E5E75E52BA475DD00680855 /* LongestWord.swift */,
 				9E3DA5BE2BA5C94F005944E7 /* ValidTime.swift */,
 				9E3DA5C02BA5CA29005944E7 /* SumUpNumbers.swift */,
+				9E3DA5C22BA5CCAD005944E7 /* DifferentSquares.swift */,
+				9E3DA5C42BA5CEFD005944E7 /* DigitsProduct.swift */,
+				9E3DA5F52BAA6406005944E7 /* FileNaming.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -821,8 +830,10 @@
 				9E64B50D2B5C22EF004A062A /* TowerBreakers.swift in Sources */,
 				9E1005912B5BE4F20001F776 /* String+Extension.swift in Sources */,
 				9E663BFA2B648FB300B9ACC5 /* BreakingRecords.swift in Sources */,
+				9E3DA5C32BA5CCAD005944E7 /* DifferentSquares.swift in Sources */,
 				9E833E132B731D96006222DB /* HurdleRace.swift in Sources */,
 				9E52FE8B2BA212A20040458C /* LineEncoding.swift in Sources */,
+				9E3DA5C52BA5CEFD005944E7 /* DigitsProduct.swift in Sources */,
 				9EDE68C32B5F0D8700BC50A3 /* GridChallenge.swift in Sources */,
 				9EAF9E982B790CB60079764C /* AlternatingSums.swift in Sources */,
 				9E2738C62B7AD2080082116E /* AreEquallyStrong.swift in Sources */,
@@ -840,6 +851,7 @@
 				9E5F16132B7549AF00C0F29A /* FindDigits.swift in Sources */,
 				9E2738C02B7AA9AA0082116E /* AreSimilar.swift in Sources */,
 				9E5241122B7BD3F00023C5D8 /* FormingAMagicSquare.swift in Sources */,
+				9E3DA5F62BAA6406005944E7 /* FileNaming.swift in Sources */,
 				9EE31C642B6AB33400B69E9E /* Array+Extension.swift in Sources */,
 				9EAF9EB12B799EC40079764C /* WordBoundaries.swift in Sources */,
 				9EE234572B81690100EBF20E /* LibraryFines.swift in Sources */,
