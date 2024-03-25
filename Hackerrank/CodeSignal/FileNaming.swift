@@ -16,27 +16,19 @@ struct FileNaming {
     }
     
     func solution(names: [String]) -> [String] {
-        var dict = [String: String]()
-        var res  = [String]()
-        for name in names {
-            dict[name] = (dict[name] ?? 0) + 1
-            if dict[name] == 1 {
-                res.append(name)
-            } else {
-                res.append("\(name)(\(dict[name]!-1))")
+        var result = [String]()
+        for i in 0..<names.count {
+            var count = 0
+            var name = names[i]
+            while result.contains(name) {
+                count += 1
+                name = names[i] + "(\(count))"
             }
-//            let count = (dict[name] ?? 1) + 1
-//            dict[name] = count
-//            
-//            if count > 1 {
-//                res.append("\(name)(\(count))")
-//            } else {
-//                res.append("\(name)")
-//            }
+            result.append(name)
         }
-
-        return res
+        return result
     }
+
 
     
 }

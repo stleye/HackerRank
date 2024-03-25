@@ -75,6 +75,7 @@
 		9E5F16112B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F16102B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift */; };
 		9E5F16132B7549AF00C0F29A /* FindDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F16122B7549AF00C0F29A /* FindDigits.swift */; };
 		9E5F16152B754AAD00C0F29A /* CutTheSticks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F16142B754AAD00C0F29A /* CutTheSticks.swift */; };
+		9E61AA9A2BB1E84A00E3F24C /* MessageFromBinaryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E61AA992BB1E84900E3F24C /* MessageFromBinaryCode.swift */; };
 		9E64B50D2B5C22EF004A062A /* TowerBreakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64B50C2B5C22EF004A062A /* TowerBreakers.swift */; };
 		9E64B50F2B5C7063004A062A /* PalindromeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64B50E2B5C7063004A062A /* PalindromeIndex.swift */; };
 		9E663BF02B62F2F300B9ACC5 /* GradingStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E663BEF2B62F2F300B9ACC5 /* GradingStudents.swift */; };
@@ -282,6 +283,7 @@
 		9E5F16102B74ECE900C0F29A /* BeautifulDaysAtTheMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulDaysAtTheMovies.swift; sourceTree = "<group>"; };
 		9E5F16122B7549AF00C0F29A /* FindDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDigits.swift; sourceTree = "<group>"; };
 		9E5F16142B754AAD00C0F29A /* CutTheSticks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutTheSticks.swift; sourceTree = "<group>"; };
+		9E61AA992BB1E84900E3F24C /* MessageFromBinaryCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageFromBinaryCode.swift; sourceTree = "<group>"; };
 		9E64B50C2B5C22EF004A062A /* TowerBreakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerBreakers.swift; sourceTree = "<group>"; };
 		9E64B50E2B5C7063004A062A /* PalindromeIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeIndex.swift; sourceTree = "<group>"; };
 		9E663BEF2B62F2F300B9ACC5 /* GradingStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradingStudents.swift; sourceTree = "<group>"; };
@@ -598,6 +600,7 @@
 				9E3DA5C22BA5CCAD005944E7 /* DifferentSquares.swift */,
 				9E3DA5C42BA5CEFD005944E7 /* DigitsProduct.swift */,
 				9E3DA5F52BAA6406005944E7 /* FileNaming.swift */,
+				9E61AA992BB1E84900E3F24C /* MessageFromBinaryCode.swift */,
 			);
 			path = CodeSignal;
 			sourceTree = "<group>";
@@ -917,6 +920,7 @@
 				9E061C652B7EF27700C24CC2 /* EvenDigitsOnly.swift in Sources */,
 				9E833E072B726D81006222DB /* LonelyInteger.swift in Sources */,
 				9E7890912B61EE57001F9FD6 /* BirthdayCakeCandles.swift in Sources */,
+				9E61AA9A2BB1E84A00E3F24C /* MessageFromBinaryCode.swift in Sources */,
 				9E1005212B59C0A70001F776 /* CaesarsCipher.swift in Sources */,
 				9E0442F42B94023500D7CB14 /* ExtractEachKth.swift in Sources */,
 				9E71B6E32B6BF28E0045A927 /* DivisibleSumPairs.swift in Sources */,
