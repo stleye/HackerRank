@@ -199,6 +199,7 @@
 		9EEC741E2B7DA2F0005AC64D /* NegativeLookahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */; };
 		9EEC74202B7DA687005AC64D /* PositiveLookbehind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */; };
 		9EEC74222B7DA785005AC64D /* NegativeLookbehind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC74212B7DA785005AC64D /* NegativeLookbehind.swift */; };
+		9EF51C6C2E16AF3900DAF9F2 /* AcmIcpcTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF51C6B2E16AF1100DAF9F2 /* AcmIcpcTeam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -407,6 +408,7 @@
 		9EEC741D2B7DA2F0005AC64D /* NegativeLookahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeLookahead.swift; sourceTree = "<group>"; };
 		9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookbehind.swift; sourceTree = "<group>"; };
 		9EEC74212B7DA785005AC64D /* NegativeLookbehind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeLookbehind.swift; sourceTree = "<group>"; };
+		9EF51C6B2E16AF1100DAF9F2 /* AcmIcpcTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcmIcpcTeam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -610,6 +612,7 @@
 			children = (
 				9EBE207A2B65E18100FA5C62 /* DiagonalDifference.swift */,
 				9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */,
+				9EF51C6B2E16AF1100DAF9F2 /* AcmIcpcTeam.swift */,
 				9E10050A2B5980120001F776 /* AppDelegate.swift */,
 				9E10050C2B5980120001F776 /* SceneDelegate.swift */,
 				9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */,
@@ -822,6 +825,7 @@
 				9E7890872B61AA64001F9FD6 /* CompareTheTriplets.swift in Sources */,
 				9E4F2BC02B99DA6100713473 /* IsBeautifulString.swift in Sources */,
 				9E5F160F2B74E4BF00C0F29A /* MergeTwoLinkedLists.swift in Sources */,
+				9EF51C6C2E16AF3900DAF9F2 /* AcmIcpcTeam.swift in Sources */,
 				9E0843932B95DD3C004C8A54 /* KnapsackLight.swift in Sources */,
 				9EAF9E6B2B77E1080079764C /* Int+Extension.swift in Sources */,
 				9E10050F2B5980120001F776 /* ViewController.swift in Sources */,
