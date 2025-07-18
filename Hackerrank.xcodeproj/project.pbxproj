@@ -121,6 +121,7 @@
 		9E833E152B73A2CF006222DB /* AngryProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E833E142B73A2CF006222DB /* AngryProfessor.swift */; };
 		9E84C5312B6966C100E5C6A4 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */; };
 		9E94EF162B94B6F20046E481 /* GrowingPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E94EF152B94B6F20046E481 /* GrowingPlant.swift */; };
+		9E9626052E2AC136002F2B3E /* TaumAndBDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9626042E2AC136002F2B3E /* TaumAndBDay.swift */; };
 		9E9BE6552B9A8CA8008FE834 /* FindEmailDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BE6542B9A8CA8008FE834 /* FindEmailDomain.swift */; };
 		9E9BE6572B9A8F3B008FE834 /* NonDivisibleSubset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BE6562B9A8F3B008FE834 /* NonDivisibleSubset.swift */; };
 		9E9CB1402B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CB13F2B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift */; };
@@ -330,6 +331,7 @@
 		9E833E142B73A2CF006222DB /* AngryProfessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryProfessor.swift; sourceTree = "<group>"; };
 		9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
 		9E94EF152B94B6F20046E481 /* GrowingPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingPlant.swift; sourceTree = "<group>"; };
+		9E9626042E2AC136002F2B3E /* TaumAndBDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaumAndBDay.swift; sourceTree = "<group>"; };
 		9E9BE6542B9A8CA8008FE834 /* FindEmailDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindEmailDomain.swift; sourceTree = "<group>"; };
 		9E9BE6562B9A8F3B008FE834 /* NonDivisibleSubset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonDivisibleSubset.swift; sourceTree = "<group>"; };
 		9E9CB13F2B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenZerosAndOddOnes.swift; sourceTree = "<group>"; };
@@ -618,6 +620,7 @@
 				9EDE68C22B5F0D8700BC50A3 /* GridChallenge.swift */,
 				9EDE68C42B5FE06800BC50A3 /* RecursiveDigitSum.swift */,
 				9E309CF22B602F7A00527807 /* NewYearChaos.swift */,
+				9E9626042E2AC136002F2B3E /* TaumAndBDay.swift */,
 				9E7890822B61A08B001F9FD6 /* TrackTour.swift */,
 				9E7890882B61AB52001F9FD6 /* PlusMinus.swift */,
 				9E78908C2B61EC7C001F9FD6 /* MiniMaxSum.swift */,
@@ -910,6 +913,7 @@
 				9EAF9E902B78F9C40079764C /* WordAndNonWordCharacter.swift in Sources */,
 				9EAF9E6F2B77FA7B0079764C /* AdjacentElementsProduct.swift in Sources */,
 				9E0442BE2B8FC73400D7CB14 /* DetectEmailAddresses.swift in Sources */,
+				9E9626052E2AC136002F2B3E /* TaumAndBDay.swift in Sources */,
 				9E0843952B95E1CA004C8A54 /* LongestDigitPrefix.swift in Sources */,
 				9E9CB1402B8E0BD2005E90FB /* EvenZerosAndOddOnes.swift in Sources */,
 				9EE0CED32B6D542900D27AFA /* Stack.swift in Sources */,
