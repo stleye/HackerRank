@@ -204,6 +204,7 @@
 		9EEC74202B7DA687005AC64D /* PositiveLookbehind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */; };
 		9EEC74222B7DA785005AC64D /* NegativeLookbehind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC74212B7DA785005AC64D /* NegativeLookbehind.swift */; };
 		9EF51C6C2E16AF3900DAF9F2 /* AcmIcpcTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF51C6B2E16AF1100DAF9F2 /* AcmIcpcTeam.swift */; };
+		9EFEABD62E3910EF005C9D85 /* ManasaAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFEABD52E3910EF005C9D85 /* ManasaAndStones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -417,6 +418,7 @@
 		9EEC741F2B7DA687005AC64D /* PositiveLookbehind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveLookbehind.swift; sourceTree = "<group>"; };
 		9EEC74212B7DA785005AC64D /* NegativeLookbehind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeLookbehind.swift; sourceTree = "<group>"; };
 		9EF51C6B2E16AF1100DAF9F2 /* AcmIcpcTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcmIcpcTeam.swift; sourceTree = "<group>"; };
+		9EFEABD52E3910EF005C9D85 /* ManasaAndStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManasaAndStones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -622,6 +624,7 @@
 				9E8538EB2E350E9500D4416B /* KaprekarNumbers.swift */,
 				9E8538ED2E368A2D00D4416B /* LisasWorkbook.swift */,
 				9E8538EF2E37BEB400D4416B /* HackerRankIsAString.swift */,
+				9EFEABD52E3910EF005C9D85 /* ManasaAndStones.swift */,
 				9E84C5302B6966C100E5C6A4 /* NumberLineJumps.swift */,
 				9EF51C6B2E16AF1100DAF9F2 /* AcmIcpcTeam.swift */,
 				9E10050A2B5980120001F776 /* AppDelegate.swift */,
@@ -896,6 +899,7 @@
 				9E7CF9322B9883B300038A94 /* RepeatedString.swift in Sources */,
 				9E4827B32B84D9E70095F74C /* DepositProfile.swift in Sources */,
 				9EAF9E9E2B7916740079764C /* ExcludingSpecificCharacters.swift in Sources */,
+				9EFEABD62E3910EF005C9D85 /* ManasaAndStones.swift in Sources */,
 				9E7890852B61A925001F9FD6 /* AVeryBigSum.swift in Sources */,
 				9E0442F82B9406BA00D7CB14 /* DifferentSymbolsNaive.swift in Sources */,
 				9E2738CE2B7AFE0D0082116E /* ForwardReferences.swift in Sources */,
