@@ -20,7 +20,7 @@ public:
 
 	Box(int length, int breadth, int height) : l(length), b(breadth), h(height) {}
 
-	Box(const Box& b) : l(b.l), b(b.b), h(b.h) {}
+	//Box(const Box& b) : l(b.l), b(b.b), h(b.h) {}
 
 	int getLength() {
 		return l;
